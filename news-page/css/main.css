@@ -1,6 +1,7 @@
 .main__title{
-    margin:130px auto 150px auto;
-    max-width: 1596px;
+    /*margin:130px auto 150px auto;*/
+    /*max-width: 1596px;*/
+    padding: 150px 162px 150px 162px;
     display: flex;
     flex-direction: column;
     gap: 20px;

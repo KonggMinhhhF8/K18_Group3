@@ -22,23 +22,19 @@
     width: 24px;
     height: 24px;
 }
-.header-fixed{
+
+.header__content{
     position: sticky;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 99;
-    background-color: #1A1A1A;
-    border-bottom: 1px solid #262626;
-}
-.header__content{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*border: 1px solid #262626;*/
-    padding: 24px 0;
-    max-width: 1596px;
-    margin: 0 auto;
+    border: 1px solid #262626;
+    padding: 24px 162px;
+    background-color: #1A1A1A;
 }
 .header__content--brand{
     display: flex;
