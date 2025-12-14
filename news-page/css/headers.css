@@ -1,3 +1,4 @@
+/*header*/
 #header-top{
     display: flex;
     justify-content: center;
@@ -71,6 +72,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    flex: 1;
 }
 .header__content--menu ul > li:nth-child(2){
     border: 1px solid #333333;
@@ -101,3 +103,4 @@
     text-decoration: none;
     cursor: pointer;
 }
+
