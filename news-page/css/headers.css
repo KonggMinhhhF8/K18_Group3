@@ -1,0 +1,103 @@
+#header-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 24px;
+    background-color: #141414;
+    border: #262626 1px solid;
+    gap: 10px;
+}
+#header-top a:first-child{
+    font-size: 18px;
+    font-weight: 400;
+    color: #98989A;
+    line-height: 150%;
+    text-decoration: none;
+}
+#header-top a:last-child{
+    background-image: url("../icons/arrow-up-right.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+}
+.header__content{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #262626;
+    background-color: #1A1A1A;
+    padding: 24px 162px;
+
+}
+.header__content--brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px
+}
+.brand--logo{
+    background-image: url("../images/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+.brand--name{
+    background-image: url("../images/name.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 112px;
+    height: 17px;
+}
+.header__content--menu ul{
+    display: flex;
+}
+.header__content--menu ul li a{
+    text-decoration: none;
+    color: #7E7E81;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 14px 24px;
+    border-radius: 10px;
+}
+.header__content--menu ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.header__content--menu ul > li:nth-child(2){
+    border: 1px solid #333333;
+}
+.header__content--menu ul > li:nth-child(2) > a{
+    color: white;
+    background-color: #141414;
+}
+.header__content--menu ul li a:hover{
+    color: white;
+    background-color: #141414;
+}
+.header__content--menu ul li:hover{
+    border: 1px solid #333333;
+}
+.header__content--action a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #141414;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    padding: 14px 20px;
+    background-color: #FFD11A;
+    border-radius: 10px;
+    gap: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
