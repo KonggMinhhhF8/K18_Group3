@@ -13,33 +13,54 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/headers.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
 <!--header-->
 <div id="header-top">
     <a href="#">Subscribe to our Newsletter For New & latest Blogs and Resources</a>
+    <a href="#">Subscribe to our Newsletter For Blogs and Resources</a>
     <a href="#"></a>
 </div>
-
-<header class="header__content">
-    <div class="header__content--brand">
-        <div class="brand--logo"></div>
-        <div class="brand--name"></div>
+<input type="checkbox" id="menu-toggle" hidden>
+<label for="menu-toggle" class="modal-overlay"></label>
+<div class="menu-form">
+    <div class="menu-heading">
+        <div></div>
+        <label for="menu-toggle" class="close-btn"></label>
     </div>
-    <div class="header__content--menu">
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Podcasts</a></li>
-                <li><a href="#">Resources</a></li>
-            </ul>
-        </nav>
+    <div class="menu-item">
+        <div><a href="#">Home</a></div>
+        <div><a href="#">Course</a></div>
+        <div><a href="#">About Us</a></div>
+        <div><a href="#">Pricing</a></div>
+        <div><a href="#">Contact</a></div>
     </div>
-    <div class="header__content--action"><a href="#">Contact Us</a></div>
+</div>
+<header class="header__fixed">
+    <div class="header__content container">
+        <div class="header__content--brand">
+            <div class="brand--logo"></div>
+            <div class="brand--name"></div>
+        </div>
+        <div class="header__content--menu">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Podcasts</a></li>
+                    <li><a href="#">Resources</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__content--action">
+            <a href="#">Contact Us</a>
+            <label for="menu-toggle" class="menu"></label>
+        </div>
+    </div>
 </header>
 <main>
-    <div class="main__title">
+    <div class="main__title container">
         <h1>Today's Headlines: Stay</h1>
         <div class="main__title--des">
             <p><strong>Informed</strong></p>
@@ -47,9 +68,9 @@
         </div>
     </div>
     <div class="featured__article">
-        <div class="featured__article__top">
-            <div class="bottom--item--img"></div>
-            <div class="bottom--item--des">
+        <div class="featured__article__top container">
+            <div class="top--item--img"></div>
+            <div class="top--item--des">
                 <p><b>Global Climate Summit Addresses Urgent Climat Action</b></p>
                 <p>World leaders gathered at the Global Climate Summit to discuss urgent climate action, emissions reductions, and renewable energy targets.</p>
                 <div class="meta-data">
@@ -78,12 +99,69 @@
                 </div>
             </div>
         </div>
-        <div class="featured__article__bottom">
+        <div class="featured__article__bottom container">
             <div class="featured__article__bottom--item">
-
+                <div class="bottom--item--img"></div>
+                <p>A Decisive Victory for Progressive Policies</p>
+                <p>Politics</p>
+                <div class="bottom--item--des">
+                    <div class="like-and-share">
+                        <div>
+                            <div></div>
+                            <p>2.2k</p>
+                        </div>
+                        <div>
+                            <div></div>
+                            <p>60</p>
+                        </div>
+                    </div>
+                    <a>
+                        <p>Read More</p>
+                        <div></div>
+                    </a>
+                </div>
             </div>
             <div class="featured__article__bottom--item">
-
+                <div class="bottom--item--img"></div>
+                <p>A Decisive Victory for Progressive Policies</p>
+                <p>Politics</p>
+                <div class="bottom--item--des">
+                    <div class="like-and-share">
+                        <div>
+                            <div></div>
+                            <p>2.2k</p>
+                        </div>
+                        <div>
+                            <div></div>
+                            <p>60</p>
+                        </div>
+                    </div>
+                    <a>
+                        <p>Read More</p>
+                        <div></div>
+                    </a>
+                </div>
+            </div>
+            <div class="featured__article__bottom--item">
+                <div class="bottom--item--img"></div>
+                <p>A Decisive Victory for Progressive Policies</p>
+                <p>Politics</p>
+                <div class="bottom--item--des">
+                    <div class="like-and-share">
+                        <div>
+                            <div></div>
+                            <p>2.2k</p>
+                        </div>
+                        <div>
+                            <div></div>
+                            <p>60</p>
+                        </div>
+                    </div>
+                    <a>
+                        <p>Read More</p>
+                        <div></div>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
