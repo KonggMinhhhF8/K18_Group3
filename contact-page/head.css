@@ -1,3 +1,24 @@
+/*noti*/
+.noti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 24px;
+    gap: 10px;
+    border: 1px solid #262626;
+    background-color:#141414;
 .noti-text{
     color: #98989A;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -3%;
 }
+.noti-logo{
+    background-image: url('./icons/arrow-up.svg');
+    background-repeat: no-repeat;
+    width: 16.5px;
+    height: 16.5px;
+    margin-left: 13.5px;
+}
+
+
