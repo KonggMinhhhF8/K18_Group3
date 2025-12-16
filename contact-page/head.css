@@ -173,3 +173,85 @@
     margin-left: 20px;
 }
 /*content*/
+.content{
+    display: flex;
+}
+.content-text{
+    gap: 50px;
+    padding: 258px 80px 256px 162px;
+}
+.content-text__logo{
+    background-image: url('./icons/Icon-round.svg');
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+}
+.content-text__big{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 130%;
+    letter-spacing: -3%;
+    margin-top: 58px;
+    width: 519px;
+}
+.content-form{
+    padding: 80px 0 80px 80px;
+}
+.content-name{
+    display: flex;
+}
+.content-text-name{
+    color:#FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0%;
+}
+.content-fill{
+    color:#666666;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0%;
+}
+.content-text-fill{
+    display: inline-flex;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #262626;
+    background-color:rgba(69, 68, 68, 0.3);
+    border-top: 16px;
+    min-width: 433.5px;
+    margin-top: 16px;
+}
+.content-first-name{
+    margin-right: 50px;
+}
+.content-detail{
+    margin-top: 50px;
+}
+.content-detail{
+    display: flex;
+}
+.country{
+    border-radius: 7px;
+    border: 1px solid #262626;
+    background-color:rgba(69, 68, 68, 0.3);
+    gap: 6px;
+    padding: 8px 18px;
+    margin-top: 16px;
+    display: inline-flex;
+}
+.image{
+    background-image: url('./logo/india.svg');
+    width: 34px;
+    height: 34px;
+    border-radius: 100px;
+    display:flex;
+}
+.arrow-down{
+    background-image: url('./icons/arrow-down.svg');
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
