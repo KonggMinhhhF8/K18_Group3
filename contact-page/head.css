@@ -239,7 +239,8 @@
     gap: 6px;
     padding: 8px 18px;
     margin-top: 16px;
-    display: inline-flex;
+    display: flex;
+    align-items: center;
 }
 .image{
     background-image: url('./logo/india.svg');
@@ -248,10 +249,91 @@
     border-radius: 100px;
     display:flex;
 }
+.content-phone-number__detail{
+    display: flex;
+}
 .arrow-down{
     background-image: url('./icons/arrow-down.svg');
     width: 24px;
     height: 24px;
     background-repeat: no-repeat;
     background-position: center;
+}
+.box-number{
+    display: flex;
+    color: #666666;
+    padding: 20px;
+    gap: 77px;
+    border-radius: 8px;
+    border: 1px solid #262626;
+    background-color: rgba(69, 68, 68, 0.3);
+    margin-top: 18px;
+    margin-left: 16px;
+    min-width: 317.5px;
+}
+.number{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0%;
+}
+.content-message{
+    gap: 16px;
+    margin-top: 50px;
+}
+.content-message__text{
+    color:#FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0%;
+}
+.content-box{
+    gap: 77px;
+    border-radius: 8px;
+    border: 1px solid #262626;
+    padding: 20px;
+    margin-top: 16px;
+    background-color: rgba(69, 68, 68, 0.3);
+}
+.content-message__content{
+    color: #666666;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0%;
+    min-height: 163px;
+}
+.content-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.content-policy{
+    display:flex;
+    align-items: center;
+}
+#policy{
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    border: 1px solid #262626;
+    background-color: rgba(69, 68, 68, 0.3);
+    color:rgba(69, 68, 68, 0.3);
+    margin-right: 10px;
+}
+.content-policy__text{
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0%;
+}
+.content-send{
+    border-radius: 8px;
+    padding: 18px 46px;
+    gap: 67px;
+    background-color:#FFD11A;
+    color:#141414;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    min-width: 137px;
 }
