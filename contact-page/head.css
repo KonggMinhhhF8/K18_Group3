@@ -1,3 +1,7 @@
+.container {
+    background-color: #141414;
+}
+
 /*noti*/
 .noti {
     display: flex;
@@ -73,20 +77,54 @@
 }
 /*infor*/
 .infor{
-    padding: 0 162px;
     gap: 50px;
+    display: flex;
+    border-bottom: 1px solid #262626;
+    justify-content: space-between;
+    width: 1596px;
+    margin: 0 auto;
 }
 .infor-general{
-    background-color
+    width: 20%;
+    border-right: 1px solid rgba(38, 38, 38, 0.45);
 }
 .infor-icons{
     background-image: url('./icons/arrow-up.svg');
     width: 24px;
     height: 24px;
     background-repeat: no-repeat;
-}
-.infor-general__sub{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infor-text{
+    color: #98989A;
+}
+.infor-general__email{
+    display: flex;
+    gap: 10px;
+    padding: 18px 24px;
+    border-radius: 8px;
+    border: 1px solid #262626;
+    max-width: 294px;
+    margin-top:50px;
+    margin-bottom: 15px;
+    background-color: rgba(69, 68, 68, 0.3);
+    margin-right:50px;
+}
+.infor-general__number{
+    display: inline-flex;
+    gap: 10px;
+    padding: 18px 24px;
+    border-radius: 8px;
+    border: 1px solid #262626;
+    min-width: 233px;
+    background-color: rgba(69, 68, 68, 0.3);
+    margin-bottom: 80px;
+}
+.infor-connect__icons{
+    display: flex;
+    margin-top: 50px;
 }
 .infor-general__head{
     font-weight: 500;
@@ -95,4 +133,54 @@
     line-height: 130%;
     letter-spacing: -3%;
     color:#FFFFFF;
+    margin-bottom: 25px;
+    margin-top: 80px;
+}
+.infor-general__address {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.infor-twitter{
+    background-color: rgba(69, 68, 68, 0.3);
+    border-radius: 6px;
+    border: 1px solid #262626;
+    gap: 10px;
+    padding: 18px 30px;
+    max-width: 84px;
+}
+.infor-twitter__image{
+    background-image: url('./logo/twitter.svg');
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+}
+.infor-dot__image{
+    background-image: url('./logo/dot.svg');
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+}
+.infor-dot{
+    background-color: rgba(69, 68, 68, 0.3);
+    border-radius: 6px;
+    border: 1px solid #262626;
+    gap: 10px;
+    padding: 18px 30px;
+    max-width: 84px;
+    margin-left: 20px;
+}
+.infor-linkedin__image{
+    background-image: url('./logo/linkdle.svg');
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+}
+.infor-linkedin{
+    background-color: rgba(69, 68, 68, 0.3);
+    border-radius: 6px;
+    border: 1px solid #262626;
+    gap: 10px;
+    padding: 18px 30px;
+    max-width: 84px;
+    margin-left: 20px;
 }
