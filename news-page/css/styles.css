@@ -11,3 +11,11 @@ body{
     max-width: 1596px;
     margin: auto;
 }
+hr{
+    background-color: #262626;
+    height: 1px;
+    border: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
