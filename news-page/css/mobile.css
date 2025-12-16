@@ -1,4 +1,17 @@
 @media screen and (max-width: 390px) {
+    .read-more-button{
+        width: fit-content;
+        padding: 14px 20px;
+        border-radius: 8px;
+        gap: 4px;
+    }
+    .read-more-button > p{
+        font-size: 14px;
+    }
+    .read-more-button > div{
+        width: 14px;
+        height: 14px;
+    }
     .container{
         max-width: 358px;
     }
@@ -229,5 +242,55 @@
     .bottom--item--des > a > div{
         width: 14px;
         height: 14px;
+    }
+
+    /*discover*/
+    .discover__top--content{
+        padding: 40px 0;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .discover__top--content > div{
+        gap: 10px;
+    }
+    .discover__top--content > div > div{
+        padding: 4px 8px;
+    }
+    .discover__top--content > div > div > p{
+        font-size: 14px;
+    }
+    .discover__top--content > div > h2{
+        font-size: 28px;
+    }
+    .discover__top--content > a{
+        width: 100%;
+    }
+    .discover__menu--content{
+        padding: 20px 0;
+        gap: 14px;
+    }
+    .discover__menu--content > button{
+        width: 152px;
+        border-radius: 7px;
+        padding: 18px 16px;
+        font-size: 14px;
+        /*flex: none;*/
+    }
+    .discover__bottom--item{
+        padding: 40px 0;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .discover__bottom--item--info > a{
+        display: block;
+    }
+    .info--des{
+        margin-right: 22px;
+    }
+    .discover__bottom--item--info{
+        display: flex;
+        /*justify-content: center;*/
+        align-items: center;
+        gap: 8px;
     }
 }

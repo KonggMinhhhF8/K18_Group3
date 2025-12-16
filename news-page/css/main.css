@@ -292,6 +292,9 @@
     align-items: center;
     gap: 16px;
 }
+.discover__bottom--item--info > a{
+    display: none;
+}
 .info--img{
     background-image: url("../images/discover-info-item-1.png");
     background-repeat: no-repeat;
