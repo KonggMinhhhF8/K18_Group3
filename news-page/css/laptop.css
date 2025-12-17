@@ -208,7 +208,11 @@
         font-size: 16px;
     }
     .discover__bottom--item--des{
+        width: 935px;
         gap: 40px;
+    }
+    .discover__bottom--item--des > div:first-child{
+        max-width: 720px;
     }
     .discover__bottom--item--des > div > p:nth-of-type(1){
         font-size: 18px;

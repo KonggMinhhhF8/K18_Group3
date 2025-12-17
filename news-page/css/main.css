@@ -163,6 +163,15 @@
     height: 222px;
     border-radius: 12px;
 }
+.bottom--item--img-1{
+    background-image: url("../images/bottom-item-img-1.svg");
+}
+.bottom--item--img-2{
+    background-image: url("../images/bottom-item-img-2.png");
+}
+.bottom--item--img-3{
+    background-image: url("../images/bottom-item-img-3.png");
+}
 .featured__article__bottom--item > p:nth-child(2){
     color: white;
     font-size: 20px;
@@ -304,13 +313,21 @@
     display: none;
 }
 .info--img{
-    background-image: url("../images/discover-info-item-1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 42px;
     width: 80px;
     height: 80px;
+}
+.info--img--1{
+    background-image: url("../images/discover-info-item-1.png");
+}
+.info--img--2{
+    background-image: url("../images/discover-info-item-2.png");
+}
+.info--img--3{
+    background-image: url("../images/discover-info-item-3.png");
 }
 .info--des{
     display: flex;
@@ -334,6 +351,10 @@
     justify-content: space-between;
     align-items: center;
     gap: 50px;
+    width: 1162px;
+}
+.discover__bottom--item--des > div:first-child{
+    max-width: 900px;
 }
 .discover__bottom--item--des > div > p:nth-of-type(1){
     color: #98989A;
@@ -401,4 +422,8 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 150%;
+}
+.discover__bottom > div:nth-of-type(2) .discover-like-and-share > div:first-child > div,
+.discover__bottom > div:nth-of-type(3) .discover-like-and-share > div:first-child > div{
+    background-image: url("../icons/love-icon.svg");
 }
