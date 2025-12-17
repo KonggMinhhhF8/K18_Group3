@@ -289,6 +289,14 @@
 .discover__bottom--item--info{
     display: flex;
     /*justify-content: center;*/
+    justify-content: space-between;
+    align-items: center;
+    /*max-width: ;*/
+    /*gap: 16px;*/
+}
+.discover__bottom--item--info > div:first-child{
+    display: flex;
+    /*justify-content: center;*/
     align-items: center;
     gap: 16px;
 }
