@@ -162,6 +162,123 @@
 
 }
 
+.icon-item span>img{
+    background-color: #141414;
+
+}
+
+.icon-item span{
+    color: #98989A;
+    height: auto;
+    /*margin: auto;*/
+    font-size: 14px;
+    font-weight: 400;
+    background-color: transparent;
+    position: relative;
+}
+
+.icon-item .icon-text{
+    position: relative;
+    top: -1.5px;
+}
+
+/*====title===============*/
+.main-content-heading-title{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #141414; /* bật lại */
+    padding: 80px 162px 80px 80px;
+    box-sizing: border-box;
+    border-top: 1px solid #262626;
+    gap: 50px;
+}
+
+
+
+/*===========title top*/
+.main-content-heading-title--top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+
+.title-top-item{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+
+}
+.title-top-item div{
+    margin-right: 20px;
+}
+
+.title-top-item div span{
+    display: flex;
+    flex-direction: row;
+    width: 210px;
+    margin-bottom: 10px;
+}
+.title-top-item div span:first-child{
+    color: #98989A;
+}
+
+
+
+/*titile bottom*/
+.main-content-heading-title-bottom {
+    max-width: 440px;
+    display: flex;
+    flex-direction: column;
+    /*background-color: #8f6824;*/
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.main-content-heading-title--bottom-list{
+    width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #1A1A1A;
+    gap: 20px;
+}
+.main-content-heading-title-bottom div:first-child{
+    color: #98989A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -3%;
+}
+
+.main-content-heading-title--bottom-list ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+}
+.main-content-heading-title--bottom-list ul li{
+    color: #FFFFFF;
+    margin-left: 20px;
+
+}
+
+.main-content-heading-title--bottom-list ul li a{
+    /*font-weight: 400;*/
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -3%;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
 
 
 
