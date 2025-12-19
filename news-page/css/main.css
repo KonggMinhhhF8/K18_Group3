@@ -438,8 +438,8 @@
     border-right: 1px solid #262626;
 }
 .visual__content--item{
-    padding: 80px 80px 80px 0;
-    border-right: 1px solid #262626;
+    /*padding: 80px 80px 80px 0;*/
+    /*border-right: 1px solid #262626;*/
     width: 50%;
 }
 .visual__content--card > div:nth-of-type(2){
@@ -499,29 +499,20 @@
             url(../images/visual-content-item-4.png);
 }
 .visual__content--item--img > button{
-    position: absolute;
-    left: 37px;
-    bottom: 37px;
-    width: 57px;
-    height: 57px;
-    border-radius: 50%;
-    background: rgba(255,255,255,0.85);
-    border: none;
-}
-.play-icon{
-    position: absolute;
-    background-image: url("../icons/play.svg");
+    background-image: url("../icons/pause-icon.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 25px;
-    height: 23px;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
 }
+
 .visual__content--item--img > p{
     position: absolute;
     right: 37px;

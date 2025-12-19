@@ -12,6 +12,17 @@
         width: 14px;
         height: 14px;
     }
+    .title-h2-content{
+        padding: 80px 0;
+        gap: 30px;
+    }
+    .title-h2-content > div > div > p{
+        font-size: 16px;
+    }
+    .title-h2-content > div > h2{
+        font-size: 44px;
+    }
+
     .container{
         max-width: 1280px;
     }
@@ -247,5 +258,41 @@
     }
     .discover-like-and-share > div > p{
         font-size: 14px;
+    }
+
+    /*Visual*/
+    .visual__content--card > div:nth-of-type(1){
+        padding: 60px 50px 60px 0;
+    }
+    .visual__content--card > div:nth-of-type(2){
+        padding: 60px 0 60px 50px;
+    }
+    .visual__content--item--img{
+        border-radius: 10px;
+        height: 331px;
+        padding: 30px;
+        gap: 10px;
+    }
+    .visual__content--item--img > button{
+        left: 30px;
+        bottom: 30px;
+        width: 50px;
+        height: 50px;
+    }
+    .play-icon{
+        width: 18px;
+        height: 17px;
+    }
+    .visual__content--item--img > p{
+        right: 30px;
+        bottom: 30px;
+        font-size: 14px;
+    }
+    .visual__content--item > p:nth-of-type(1){
+        font-size: 20px;
+        margin: 20px 0 6px 0;
+    }
+    .visual__content--item > p:nth-of-type(2){
+        font-size: 16px;
     }
 }
