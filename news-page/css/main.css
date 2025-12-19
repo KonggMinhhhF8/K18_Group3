@@ -427,3 +427,120 @@
 .discover__bottom > div:nth-of-type(3) .discover-like-and-share > div:first-child > div{
     background-image: url("../icons/love-icon.svg");
 }
+
+
+/*visual*/
+.visual__content--card{
+    display: flex;
+}
+.visual__content--card > div:nth-of-type(1){
+    padding: 80px 80px 80px 0;
+    border-right: 1px solid #262626;
+}
+.visual__content--item{
+    padding: 80px 80px 80px 0;
+    border-right: 1px solid #262626;
+    width: 50%;
+}
+.visual__content--card > div:nth-of-type(2){
+    padding: 80px 0 80px 80px;
+    border-right: none;
+}
+.visual__content--item--img{
+    position: relative;
+    /*background-image:*/
+    /*        linear-gradient(*/
+    /*                to bottom,*/
+    /*                #14141400,*/
+    /*                #141414*/
+    /*        );*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    height: 412px;
+    padding: 30px;
+    gap: 10px;
+}
+.visual__content--item--1{
+    background-image:
+            linear-gradient(
+                    to bottom,
+                    #14141400,
+                    #141414
+            ),
+            url(../images/visual-content-item-1.png);
+}
+.visual__content--item--2{
+    background-image:
+            linear-gradient(
+                    to bottom,
+                    #14141400,
+                    #141414
+            ),
+            url(../images/visual-content-item-2.png);
+}
+.visual__content--item--3{
+    background-image:
+            linear-gradient(
+                    to bottom,
+                    #14141400,
+                    #141414
+            ),
+            url(../images/visual-content-item-3.png);
+}
+.visual__content--item--4{
+    background-image:
+            linear-gradient(
+                    to bottom,
+                    #14141400,
+                    #141414
+            ),
+            url(../images/visual-content-item-4.png);
+}
+.visual__content--item--img > button{
+    position: absolute;
+    left: 37px;
+    bottom: 37px;
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.85);
+    border: none;
+}
+.play-icon{
+    position: absolute;
+    background-image: url("../icons/play.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 25px;
+    height: 23px;
+}
+.visual__content--item--img > p{
+    position: absolute;
+    right: 37px;
+    bottom: 37px;
+    color: #7E7E81;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.visual__content--item > p:nth-of-type(1){
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    margin: 30px 0 10px 0;
+}
+.visual__content--item > p:nth-of-type(2){
+    color: #98989A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
