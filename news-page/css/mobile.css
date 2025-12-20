@@ -270,6 +270,7 @@
     .discover__top--content{
         padding: 40px 0;
         flex-direction: column;
+        align-items: start;
         gap: 30px;
     }
     .discover__top--content > div{
