@@ -630,6 +630,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .be__part--content--item--title > a > div{
     background-image: url("../icons/arrow-up-right-clack.svg");

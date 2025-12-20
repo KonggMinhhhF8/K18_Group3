@@ -295,4 +295,55 @@
     .visual__content--item > p:nth-of-type(2){
         font-size: 16px;
     }
+
+    /*Be-part*/
+    .be__part{
+        padding: 0 0 80px 0;
+    }
+    .be__part--title{
+        gap: 60px;
+        padding: 80px 0 50px 0;
+    }
+    .be__part--title--img{
+        width: 120px;
+        height: 120px;
+    }
+    .be__part--title--content > div:first-of-type{
+        padding: 4px 8px;
+    }
+    .be__part--title--content > div:first-of-type > p{
+        font-size: 16px;
+    }
+    .be__part--title--content > h2{
+        font-size: 44px;
+        margin: 10px 0 20px 0;
+    }
+    .be__part--title--content > p{
+        font-size: 16px;
+    }
+    .be__part--content{
+        padding: 10px;
+        border-radius: 10px;
+        gap: 10px;
+    }
+    .be__part--content--item{
+        border-radius: 10px;
+        padding: 30px;
+        gap: 16px;
+    }
+    .be__part--content--item--title > p{
+        font-size: 18px;
+    }
+    .be__part--content--item--title > a{
+        width: 44px;
+        height: 44px;
+        padding: 12px;
+    }
+    .be__part--content--item--title > a > div{
+        width: 14px;
+        height: 14px;
+    }
+    .be__part--content--item > p{
+        font-size: 16px;
+    }
 }
