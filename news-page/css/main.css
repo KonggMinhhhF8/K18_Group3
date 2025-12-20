@@ -535,3 +535,111 @@
     font-weight: 400;
     line-height: 150%;
 }
+
+/*Be part*/
+.be__part{
+    background-color: #1A1A1A;
+    padding: 0 0 120px 0;
+}
+.be__part--title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 120px 0 100px 0;
+}
+.be__part--title > div:first-child > div:nth-of-type(2){
+    display: none;
+}
+.be__part--title--img{
+    background-image: url("../images/logo.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+}
+.be__part--title--content > div:first-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 10px;
+    gap: 10px;
+    background-color: #333333;
+    border-radius: 4px;
+    width: fit-content;
+}
+.be__part--title--content > div:first-of-type > p{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.be__part--title--content > h2{
+    color: white;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 130%;
+    font-family: 'Kumbh sans', sans-serif;
+    margin: 16px 0 30px 0;
+}
+.be__part--title--content > p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #7E7E81;
+    line-height: 150%;
+}
+.be__part--content{
+    display: flex;
+    padding: 20px;
+    background-color: #141414;
+    border-radius: 12px;
+    border: 1px solid #262626;
+    gap: 20px;
+}
+.be__part--content--item{
+    background-color: #1A1A1A;
+    border-radius: 12px;
+    border: 1px solid #262626;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+.be__part--content--item--title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.be__part--content--item--title > p{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 150%;
+    color: white;
+}
+.be__part--content--item--title > a{
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    padding: 14px;
+    background-color: #FFD11A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.be__part--content--item--title > a > div{
+    background-image: url("../icons/arrow-up-right-clack.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 17px;
+    height: 17px;
+}
+.be__part--content--item > p{
+    font-size: 18px;
+    font-weight:400;
+    line-height: 150%;
+    color: #98989A;
+}
