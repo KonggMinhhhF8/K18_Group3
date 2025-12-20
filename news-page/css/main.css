@@ -589,6 +589,9 @@
     color: #7E7E81;
     line-height: 150%;
 }
+.be__part--title--content > p:nth-of-type(2){
+    display: none;
+}
 .be__part--content{
     display: flex;
     padding: 20px;
@@ -611,7 +614,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 .be__part--content--item--title > p{
     font-size: 22px;
