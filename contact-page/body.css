@@ -71,16 +71,17 @@
     letter-spacing: 0%;
 }
 .question-text{
-    display: inline-flex;
-    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 .question{
     padding: 34px;
     border-radius: 12px;
     border: 1px solid #262626;
-    gap: 20px;
     background-color: #1A1A1A;
     width: 805px;
+    margin-bottom: 30px;
 }
 .answer{
     font-weight: 400;
@@ -91,11 +92,70 @@
     border-top: 1px solid #262626;
     padding-top: 24px;
 }
-#question:checked ~ .answer{
+.answer-1{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0%;
+    color: #7E7E81;
+    display: none;
+    border-top: 1px solid #262626;
+    padding-top: 24px;
+}
+.answer-2{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0%;
+    color: #7E7E81;
+    display: none;
+    border-top: 1px solid #262626;
+    padding-top: 24px;
+}
+.answer-3{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0%;
+    color: #7E7E81;
+    display: none;
+    border-top: 1px solid #262626;
+    padding-top: 24px;
+}
+.answer-4{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0%;
+    color: #7E7E81;
+    display: none;
+    border-top: 1px solid #262626;
+    padding-top: 24px;
+}
+#question:checked ~ .answer,
+#question-1:checked ~ .answer-1,
+#question-2:checked ~ .answer-2,
+#question-3:checked ~ .answer-3,
+#question-4:checked ~ .answer-4{
     display: block;
 }
-.answer-img{
-    margin-left: 610px;
+#question:checked ~ .question-text,
+#question-1:checked ~ .question-text,
+#question-2:checked ~ .question-text,
+#question-3:checked ~ .question-text,
+#question-4:checked ~ .question-text{
+     padding-bottom: 24px;
 }
+.answer-img:before{
+    content: "";
+    background-image: url("./icons/plus.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#question:checked ~ .answer-img::before,
+#question-1:checked ~ .answer-img::before,
+#question-2:checked ~ .answer-img::before,
+#question-3:checked ~ .answer-img::before,
+#question-4:checked ~ ..answer-img::before{
+    content: "";
+    background-image: url("./icons/minus.svg");
+ }
+
 
 
