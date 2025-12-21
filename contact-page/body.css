@@ -213,4 +213,54 @@
 .body-slogan{
     padding-bottom: 40px;
 }
+/*sub-body*/
+.sub-body__infor{
+    padding: 100px 162px 120px 0;
+}
+.sub-body__infor__title{
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: -3%;
+    color: #FFFFFF;
+    width: 353.3333435058594px;
+}
+.sub-body__text{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 3%;
+    padding-top: 20px;
+}
+.sub-body__logo{
+    background-color:#FFD11A;
+    border-radius: 100px;
+    padding: 14px;
+    gap: 10px;
+    background-image: url('./icons/arrow-black.svg');
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.head-box{
+    display: flex;
+    justify-content: space-between;
+}
+.infor-box{
+    display: flex;
+    border-radius: 12px;
+    border: 1px solid #262626;
+    padding: 20px;
+    justify-content: space-evenly;
+    gap: 20px;
+    background-color: #141414;
+    width: 1596px;
+}
+.sub-body__box{
+    border-radius: 12px;
+    border: 1px solid #262626;
+    padding: 40px;
+    gap: 20px;
+    max-width: 505.3333435058594px;
+    background-color: #1A1A1A;
+}
 
