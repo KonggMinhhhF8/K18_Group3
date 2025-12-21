@@ -160,11 +160,47 @@
     height: 16.5px;
 }
 
+.btn-Less{
+    display: none;
+}
 
 /*============checked vaof ddaay========================*/
 
+.content-Information-list .Information-itiem{
+    display: none;
+}
 
+/* Khi bấm Read Full Blog */
+#conten-btn:checked ~ .content-Information-list .Information-itiem {
+    display: block;
+}
+#conten-btn:checked ~ .content-Information-list .btn-Less {
+    display: block;
+}
 
+/*#conten-btn:checked ~ .content-Information-list .main-conten-btn::after {*/
+/*    content: "Read Less";*/
+/*    display: block;*/
+/*}*/
+
+.main-conten-btn img {
+    transition: transform 0.3s ease;
+}
+
+#conten-btn:checked ~ .content-Information-list .main-conten-btn img {
+    transform: rotate(180deg);
+}
+
+#conten-btn:checked ~ .content-Information-list .ovelay-cotent{
+    display: none;
+}
+/*===========hieen đoạn văn trong p khi đang để none*/
+
+#conten-btn:checked
+~ .content-Information-list
+.content-Information-list-item p[style] {
+    display: block !important; //ghi đè lên  style trong html //
+}
 
 
 

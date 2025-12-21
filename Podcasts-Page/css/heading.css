@@ -1,0 +1,59 @@
+
+
+.heading{
+    max-width: 100%;
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 130px  162px;
+    /*margin:130px 162px;*/
+    position: relative;
+
+
+}
+.heading h1{
+    max-width: 100%;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 130%;
+    letter-spacing: -3%;
+    color: #FFFFFF;
+
+
+}
+.heading span{
+    max-width: 900px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -3%;
+    color: #98989A;
+    position: absolute;
+    bottom: 142px;
+    right: 162px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
