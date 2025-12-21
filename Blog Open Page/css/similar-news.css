@@ -1,0 +1,177 @@
+
+
+
+.Similar-News{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    padding: 80px 162px;
+    box-sizing: border-box;
+    position: relative;
+    border-top: 1px solid #262626;
+    background-color: #141414;
+}
+
+/*======hedinh========================*/
+.Similar-News-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 80px;
+    position: relative;
+}
+
+.Similar-News-heading h2{
+    /*position: relative;*/
+    /*right: 0;*/
+    display: flex;
+    justify-content: flex-start;
+    /*align-items: ;*/
+    width: 85%;
+    color: #CCCCCC;
+}
+
+.Similar-News-heading a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 14px 20px;
+    width: 163px;
+    color: #98989A;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -3%;
+    /*background-color: rgba(198, 145, 53, 0.28);*/
+    border-radius: 8px;
+    border: 1px solid #262626;
+    gap:4px;
+
+}
+
+.Similar-News-heading a:hover{
+    color: #FFD11A;
+    text-decoration: underline;
+}
+
+.Similar-News-conten{
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    /*background-color: #FFD11A;*/
+}
+
+.Similar-News-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+    width: 100%;
+    gap: 16px;
+    position: relative;
+
+}
+
+.Similar-News-item> img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Similar-News-item .Similar-News-item-title h3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -3%;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+.Similar-News-item-title p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -3%;
+    color: #98989A;
+
+}
+
+.Similar-News-item-interact .item-interact-icons>span{
+    color: #98989A;
+    cursor: pointer;
+}
+
+
+/*+========= tuong tac========================*/
+
+.Similar-News-item-interact{
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.Similar-News-item-interact .item-interact-icons{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+
+}
+.Similar-News-item-interact .item-interact-icons span{
+    display: flex;
+    padding: 6px 14px;
+    background: #1A1A1A;
+    border: 1px solid #262626;
+    border-radius: 100px;
+    gap: 4px;
+
+}
+
+.Similar-News-item-interact >a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #98989A;
+    /*height: 100%;*/
+    text-decoration: none;
+    padding: 16px 20px;
+    gap: 4px;
+    background: #141414;
+    border: 1px solid #262626;
+    border-radius: 8px;
+}
+
+.Similar-News-item-interact >a:hover{
+    color: #FFD11A;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

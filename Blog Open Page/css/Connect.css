@@ -1,0 +1,151 @@
+
+
+.Connect{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 120px 162px;
+    gap: 100px;
+    border-top: 1px solid #262626;
+    border-bottom: 1px solid #262626;
+    background-color: #191919;
+
+}
+
+.Connect-heading{
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.Connect-heading img{
+    width: 150px;
+    height: 150px;
+}
+
+
+.connect-heading-titile span{
+    background-color: #333333;
+    padding: 6px 10px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -3%;
+    line-height: 150%;
+}
+
+.connect-heading-titile>h2{
+    color: #FFFFFF;
+    width: 100%;
+    font-size: 58px;
+    font-weight: 500;
+    letter-spacing: -3%;
+    line-height: 150%;
+    margin-top: 16px;
+}
+
+.connect-heading-titile>p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -3%;
+    color: #7E7E81;
+
+}
+
+
+.Connect-content{
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #141414;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #262626;
+
+}
+
+
+
+.Connect-content-item{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: #191919;
+    border-radius:12px ;
+    border: 1px solid #262626;
+}
+
+.Connect-content-item .connect-content-item-heading{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.connect-content-item-heading h2{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: -3%;
+
+}
+.connect-content-item-heading a{
+    width: 52px;
+    height: 52px;
+    background-color:#FFD11A ;
+    border-radius: 100px;
+    padding: 14px;
+    position: relative;
+
+}
+
+
+.connect-content-item-heading a>img{
+    position: absolute;
+    top:calc((100% - 17px)/2);
+    left: calc((100% - 17px)/2);
+}
+
+.Connect-content-item >span{
+    color: #98989A;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -3%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
