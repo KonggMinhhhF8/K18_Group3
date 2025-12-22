@@ -1,4 +1,4 @@
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
     .read-more-button{
         width: fit-content;
         padding: 14px 20px;
@@ -118,9 +118,9 @@
         font-size: 16px;
     }
     .like-and-share > div{
-        padding: 6px 14px;
-        gap: 4px;
-        margin-right: 8px;
+        padding: 4px 8px;
+        gap: 2px;
+        margin-right: 4px;
     }
     .like-and-share > div:first-child > div{
         width: 15px;
@@ -162,9 +162,9 @@
         margin-top: 16px;
     }
     .bottom--item--des > a{
-        padding: 14px 20px;
+        padding: 8px 12px;
         border-radius: 8px;
-        gap: 4px;
+        gap: 2px;
     }
     .bottom--item--des > a > p{
         font-size: 14px;

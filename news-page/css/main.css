@@ -150,7 +150,7 @@
     /*border-top: #262626 1px solid;*/
     display: flex;
     gap: 30px;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 .featured__article__bottom--item{
     flex: 1 1 0;
