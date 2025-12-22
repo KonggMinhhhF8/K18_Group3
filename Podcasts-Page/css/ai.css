@@ -20,6 +20,8 @@
 .AI-item-overview{
     max-width: 45%;
     display: flex;
+    /*padding-right: 80px;*/
+    /*margin-right: 80px;*/
     flex-direction: column;
     align-items: flex-start;
     /*justify-content: center;*/
@@ -27,15 +29,7 @@
     width: 519px;
 }
 
-/*.AI-item-overview .AI-item-heading{*/
-/*    display: flex;*/
-/*    !*flex-direction: column;*!*/
-/*    align-items: center;*/
-/*    justify-content: space-between;*/
-/*    gap: 16px;*/
-/*    width: 100%;*/
 
-/*}*/
 .AI-item-overview .AI-item-heading{
     display: flex;
     align-items: center;   /* ôm chiều cao nội dung */
@@ -44,13 +38,13 @@
 }
 
 .AI-item-overview .AI-item-heading h2{
-    /*width: 70%;*/
+    width: 65%;
     font-weight: 600;
     font-size: 40px;
     line-height: 150%;
     letter-spacing: -3%;
     color: #FFFFFF;
-    white-space: nowrap;
+    /*white-space: nowrap;*/
 }
 
 .AI-item-overview .AI-item-heading span{
@@ -165,7 +159,7 @@
     background-color: #1A1A1A;
     border: 1px solid #262626;
     border-radius: 13px;
-    padding: 30px;
+    padding: 20px;
 
 
 }
@@ -181,7 +175,6 @@
     font-size: 18px;
     line-height: 150%;
     letter-spacing: -3%;
-    white-space: nowrap;
 
 }
 .AI-item-conten-layout .item-layout>span:last-child{
