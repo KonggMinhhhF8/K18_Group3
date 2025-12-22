@@ -61,3 +61,29 @@ hr{
     line-height: 130%;
     font-family: 'Kumbh sans', sans-serif;
 }
+.read-more-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 24px;
+    border-radius: 12px;
+    border: #262626 1px solid;
+    gap: 10px;
+    text-decoration: none;
+}
+.read-more-button > p{
+    color: #98989A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+    margin-right: 4px;
+}
+.read-more-button > div{
+    background-image: url("../icons/arrow-up-right.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 17px;
+    height: 17px;
+}

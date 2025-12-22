@@ -194,11 +194,14 @@
     align-items: center;
     margin-top: 20px;
 }
-.read-more-button{
+.bottom--item--des > .like-and-share > div{
+    padding: 6px 10px;
+}
+.bottom--item--des > .read-more-button{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 18px 24px;
+    padding: 12px 16px;
     border-radius: 12px;
     border: #262626 1px solid;
     gap: 10px;
@@ -210,7 +213,7 @@
     font-weight: 400;
     line-height: 150%;
     text-decoration: none;
-    margin-right: 4px;
+    margin-right: 2px;
 }
 .read-more-button > div{
     background-image: url("../icons/arrow-up-right.svg");

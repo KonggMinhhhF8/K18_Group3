@@ -142,6 +142,9 @@
 
 
     /*Featured-article*/
+    .featured__article__top{
+        gap: 60px;
+    }
     .featured__article__bottom{
         padding: 60px 0;
         /*flex-direction: column;*/
