@@ -4,7 +4,8 @@
 
 
 .AI-item{
-    max-width: 100%;
+    max-width: 1920px;
+    width: 100%;
     background-color: #141414;
     padding: 0 162px 0 162px;
     border-top: 1px solid #262626;
@@ -23,32 +24,45 @@
     align-items: flex-start;
     /*justify-content: center;*/
     gap: 50px;
+    width: 519px;
 }
 
+/*.AI-item-overview .AI-item-heading{*/
+/*    display: flex;*/
+/*    !*flex-direction: column;*!*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    gap: 16px;*/
+/*    width: 100%;*/
+
+/*}*/
 .AI-item-overview .AI-item-heading{
     display: flex;
-    /*flex-direction: column;*/
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
+    align-items: center;   /* ôm chiều cao nội dung */
+    justify-content: space-between;
     width: 100%;
-
 }
+
 .AI-item-overview .AI-item-heading h2{
-    width: 70%;
+    /*width: 70%;*/
     font-weight: 600;
     font-size: 40px;
     line-height: 150%;
     letter-spacing: -3%;
     color: #FFFFFF;
+    white-space: nowrap;
 }
 
 .AI-item-overview .AI-item-heading span{
     padding: 10px 16px;
     border: 1px solid #262626;
     border-radius: 100px;
-
+    width: auto;
+    /*display: inline-flex; !*  ôm icon *!*/
+    align-items: center;
+    gap: 4px;
 }
+
 
 .AI-item-overview  .AI-item-description{
     width: 100%;
@@ -108,12 +122,12 @@
     gap: 50px;
 }
 
-/*.AI-item-conten img{*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    object-fit: cover;*/
-/*    background-position: center;*/
-/*}*/
+.AI-item-conten img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+}
 
 .AI-item-conten>div >h3,
 .AI-item-conten > div>p{
@@ -137,13 +151,14 @@
     display: flex;
     /*flex-direction: column;*/
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     gap: 20px;
 }
 
 .AI-item-conten-layout .item-layout{
-    width: 33.33%;
+    max-width: 33%;
     display: flex;
+    flex: 1;
     flex-direction: column;
     gap: 4px;
     /*align-items: center;*/
@@ -152,13 +167,21 @@
     border-radius: 13px;
     padding: 30px;
 
+
 }
+
+
+
+
+
+
 .AI-item-conten-layout .item-layout>span:first-child{
     color: #98989A;
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
     letter-spacing: -3%;
+    white-space: nowrap;
 
 }
 .AI-item-conten-layout .item-layout>span:last-child{
@@ -168,7 +191,18 @@
     letter-spacing: -3%;
     color: #FFFFFF;
 
+
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
