@@ -517,4 +517,59 @@
     .be__part--content--item > p{
         font-size: 14px;
     }
+
+    /*footer*/
+    .footer__content{
+        display: none;
+    }
+    .footer__content--mobile{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px 0;
+    }
+    .footer__content--mobile > div{
+        display: flex;
+        justify-content: space-between;
+        /*gap: 80px;*/
+    }
+    .footer__content--item{
+        gap: 16px;
+        width: 47%;
+    }
+    .footer__content--item > p{
+        font-size: 16px;
+    }
+    .footer__content--item > div{
+        gap: 8px;
+    }
+    .footer__content--item > div > div > a{
+        font-size: 14px;
+    }
+    /*.footer__content--item > div > div > a:hover{*/
+    /*    text-decoration: underline;*/
+    /*}*/
+    .footer__content--item > div > div > div{
+        padding: 2px 10px;
+        border-radius: 4px;
+    }
+    .footer__content--mobile > div:last-child{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .footer__content--mobile > div:last-child > p{
+        font-size: 16px;
+        font-weight: 500;
+        color: white;
+        line-height: 130%;
+    }
+    .footer__content--mobile > div:last-child > div{
+        display: flex;
+        /*flex-direction: column;*/
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+    .footer__content--mobile > div:last-child > div > a{
+        padding: 8px 14px;
+    }
 }
