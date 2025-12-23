@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     .read-more-button{
         width: fit-content;
         padding: 14px 20px;
@@ -148,6 +148,7 @@
     .featured__article__bottom{
         padding: 60px 0;
         /*flex-direction: column;*/
+        gap: 20px;
     }
     .bottom--item--img{
         /*width: 358px;*/
@@ -163,6 +164,9 @@
     }
     .bottom--item--des{
         margin-top: 16px;
+    }
+    .bottom--item--des > .read-more-button{
+        padding: 8px 10px;
     }
     .bottom--item--des > a{
         padding: 8px 12px;
@@ -371,6 +375,7 @@
     .footer__content--item > div > div > div{
         padding: 2px 10px;
         border-radius: 4px;
+        font-size: 14px;
     }
     .footer__content > div:last-child{
         gap: 28px;

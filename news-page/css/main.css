@@ -194,9 +194,9 @@
     align-items: center;
     margin-top: 20px;
 }
-.bottom--item--des > .like-and-share > div{
-    padding: 6px 10px;
-}
+/*.bottom--item--des > .like-and-share > div{*/
+/*    padding: 6px 10px;*/
+/*}*/
 .bottom--item--des > .read-more-button{
     display: flex;
     justify-content: center;
@@ -669,6 +669,7 @@
     display: flex;
     flex-direction: column;
     gap: 36px;
+    width: 16%;
 }
 .footer__content--item > p{
     font-size: 20px;
@@ -685,6 +686,7 @@
     display: flex;
     gap: 8px;
     align-items: center;
+    flex-wrap: wrap;
 }
 .footer__content--item > div > div > a{
     font-size: 18px;
