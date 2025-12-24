@@ -269,8 +269,21 @@
     .body-content{
         flex-direction: column;
     }
-    .body-sub-content{
-        padding: 0;
+    .body-content__button__text{
+        width: 358px;
+    }
+    .body-content{
+        padding: 0 16px;
+    }
+    .body-content__answer{
+        padding: 0 16px;
+    }
+    .question{
+        width: 358px;
+        margin-right:18px;
+    }
+    .sub-body{
+        flex-direction: column;
     }
 }
 
