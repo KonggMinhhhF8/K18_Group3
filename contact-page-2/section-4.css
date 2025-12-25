@@ -1,0 +1,100 @@
+.sub-body{
+    border-top: 1px solid #262626;
+    border-bottom: 1px solid #262626;
+    padding: 120px 162px;
+    gap: 100px;
+    background-color: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+}
+.sub-body-head{
+    display: flex;
+}
+.sub-body-head__logo{
+    background-image: url('./logo/logo-second.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+}
+.logo{
+    padding: 22.5px 80px 22.5px 0;
+}
+.sub-body-head__text-head{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -3%;
+    border-radius: 4px;
+    padding: 6px 10px;
+    background-color: #333333;
+    width: fit-content;
+}
+.sub-body-head__text-body{
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 130%;
+    letter-spacing: -3%;
+    color: #FFFFFF;
+    padding: 16px 0 30px 0;
+}
+.sub-body-head__text-footer{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -3%;
+    color: #7E7E81;
+}
+.sub-body-foot{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color:#141414;
+    padding: 20px;
+    border: 1px solid #262626;
+    border-radius: 12px;
+}
+.sub-body__card{
+    border: 1px solid #262626;
+    border-radius: 12px;
+    padding: 40px;
+    gap: 20px;
+    background-color: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+}
+.card-head__title{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.card-text{
+    color: #98989A;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -3%;
+}
+.card-head{
+    display: flex;
+    justify-content: space-between;
+}
+.card-logo{
+    background-color: #FFD11A;
+    padding: 14px;
+    gap: 10px;
+    border-radius: 100px;
+}
+.card-head__logo{
+    background-image: url('./icons/arrow-up-black.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+}
+.card-head-text{
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: -3%;
+    color: #FFFFFF;
+}

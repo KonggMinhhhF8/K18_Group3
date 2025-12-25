@@ -1,0 +1,79 @@
+.noti{
+    border-bottom: 1px solid #262626;
+    padding: 20px 24px;
+    gap: 10px;
+    background-color: #141414;
+}
+.notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.noti-text{
+    color: #98989A;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -3%;
+}
+.noti-logo{
+    background-image: url('./icons/arrow-up.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+/*future tech*/
+.header-bar{
+    border-bottom: 1px;
+    justify-content: space-between;
+    padding: 24px 162px;
+    background-color: #1A1A1A;
+    display: flex;
+}
+.header-bar__future-tech{
+    display: flex;
+}
+.header-bar__future-tech__text{
+    background-image: url("./icons/Heading.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 112.82px;
+    height: 17.16px;
+    margin-left: 12.72px;
+    margin-top: 16.36px;
+}
+.header-bar__future-tech__logo{
+    background-image: url('./logo/first-logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+.header-bar__option{
+    display: flex;
+    align-items: center;
+    margin-left: -60px;
+}
+.header-bar__option ul{
+    list-style: none;
+    gap: 40px;
+}
+.header-bar__option ul li{
+    display: inline-block;
+    color: #7E7E81;
+    font-weight: 400px;
+    font-size: 18px;
+    letter-spacing: 0%;
+    margin-right: 40px;
+}
+.header-bar__contact{
+    gap: 10px;
+    background-color: #FFD11A;
+    border-radius: 10px;
+    padding: 14px 20px;
+    font-weight: 500px;
+    font-size: 18px;
+    letter-spacing: 0%;
+    color: #141414;
+}
