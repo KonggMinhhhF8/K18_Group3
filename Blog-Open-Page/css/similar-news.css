@@ -161,6 +161,85 @@
 
 
 
+/* responsive tapleb*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .Similar-News-heading h2{
+        font-size: 22px;
+    }
+
+    .Similar-News{
+        padding: 40px 60px;
+    }
+    .Similar-News-heading a{
+        font-size: 14px;
+        height: 49px;
+        padding: 16px 20px;
+        white-space: nowrap;
+
+    }
+
+    .Similar-News-heading a> img{
+        width: 14px;
+        height: 14px;
+    }
+
+    .Similar-News-conten{
+        gap: 25px;
+    }
+
+
+    .Similar-News-item{
+        gap: 16px;
+        width: 100%;
+
+
+
+    }
+    .Similar-News-item .Similar-News-item-title h3,
+    .Similar-News-item .Similar-News-item-title p{
+        font-size: 14px;
+
+    }
+
+    .Similar-News-item-interact{
+        gap: 20px;
+    }
+    .item-interact-icons{
+        gap: 6px;
+    }
+    .item-interact-icons span{
+        font-size: 12px;
+    }
+
+    .Similar-News-item-interact img{
+        width: 12px;
+        height: 12px;
+    }
+
+    .Similar-News-item-interact >a{
+        padding: 12px 18px;
+        font-size: 12px;
+        white-space: nowrap;
+        gap: 3px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
 
 
 

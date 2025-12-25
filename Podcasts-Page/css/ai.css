@@ -1,9 +1,5 @@
 
-
-
-
-
-.AI-item{
+.AI-item {
     max-width: 1920px;
     width: 100%;
     background-color: #141414;
@@ -17,7 +13,7 @@
     /*gap: 60px;*/
 }
 
-.AI-item-overview{
+.AI-item-overview {
     max-width: 45%;
     display: flex;
     /*padding-right: 80px;*/
@@ -30,14 +26,14 @@
 }
 
 
-.AI-item-overview .AI-item-heading{
+.AI-item-overview .AI-item-heading {
     display: flex;
-    align-items: center;   /* ôm chiều cao nội dung */
+    align-items: center; /* ôm chiều cao nội dung */
     justify-content: space-between;
     width: 100%;
 }
 
-.AI-item-overview .AI-item-heading h2{
+.AI-item-overview .AI-item-heading h2 {
     width: 65%;
     font-weight: 600;
     font-size: 40px;
@@ -47,7 +43,7 @@
     /*white-space: nowrap;*/
 }
 
-.AI-item-overview .AI-item-heading span{
+.AI-item-overview .AI-item-heading span {
     padding: 10px 16px;
     border: 1px solid #262626;
     border-radius: 100px;
@@ -58,7 +54,7 @@
 }
 
 
-.AI-item-overview  .AI-item-description{
+.AI-item-overview .AI-item-description {
     width: 100%;
     background-color: #1A1A1A;
     padding: 30px;
@@ -71,7 +67,7 @@
     position: relative;
 }
 
-.AI-item-overview .AI-item-description>a{
+.AI-item-overview .AI-item-description > a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,31 +79,34 @@
     border: 1px solid #262626;
     border-radius: 12px;
 }
-.AI-item-overview .AI-item-description>a:hover{
+
+.AI-item-overview .AI-item-description > a:hover {
     color: #FFD11A;
     text-decoration: underline;
 }
 
-.AI-item-description>div{
+.AI-item-description > div {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     gap: 16px;
 }
-.AI-item-description > div > span{
+
+.AI-item-description > div > span {
     font-weight: 500;
     font-size: 18px;
     line-height: 150%;
     letter-spacing: -3%;
     color: #FFFFFF;
 }
-.AI-item-description > div > span:first-child{
+
+.AI-item-description > div > span:first-child {
     color: #98989A;
 }
 
 /*========================AI-item-conten==================*/
-.AI-item-conten{
-    max-width:  55%;
+.AI-item-conten {
+    max-width: 55%;
     padding: 80px 0 80px 80px;
     border-left: 1px solid #262626;
     display: flex;
@@ -116,15 +115,15 @@
     gap: 50px;
 }
 
-.AI-item-conten img{
+.AI-item-conten img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     background-position: center;
 }
 
-.AI-item-conten>div >h3,
-.AI-item-conten > div>p{
+.AI-item-conten > div > h3,
+.AI-item-conten > div > p {
     font-weight: 400;
     font-size: 26px;
     line-height: 150%;
@@ -134,13 +133,14 @@
     margin-top: 30px;
 
 }
-.AI-item-conten >div> p{
+
+.AI-item-conten > div > p {
     font-size: 18px;
     color: #98989A;
     margin-top: 14px;
 }
 
-.AI-item-conten .AI-item-conten-layout{
+.AI-item-conten .AI-item-conten-layout {
     width: 100%;
     display: flex;
     /*flex-direction: column;*/
@@ -149,7 +149,7 @@
     gap: 20px;
 }
 
-.AI-item-conten-layout .item-layout{
+.AI-item-conten-layout .item-layout {
     max-width: 33%;
     display: flex;
     flex: 1;
@@ -165,11 +165,7 @@
 }
 
 
-
-
-
-
-.AI-item-conten-layout .item-layout>span:first-child{
+.AI-item-conten-layout .item-layout > span:first-child {
     color: #98989A;
     font-weight: 400;
     font-size: 18px;
@@ -177,7 +173,8 @@
     letter-spacing: -3%;
 
 }
-.AI-item-conten-layout .item-layout>span:last-child{
+
+.AI-item-conten-layout .item-layout > span:last-child {
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
@@ -188,7 +185,109 @@
 }
 
 
+/* respovive*/
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .AI .AI-item {
+        padding-right: 60px;
+        padding-left: 60px;
+        gap: 50px;
+    }
+
+    .AI-item-overview {
+        gap: 35px;
+        /*width: 390px;*/
+    }
+
+    .AI-item-overview > img {
+        width: 46px;
+        height: 46px;
+    }
+
+    .AI-item-overview .AI-item-heading {
+        gap: 8px;
+    }
+
+    .AI-item-overview .AI-item-heading h2 {
+        font-size: 20px;
+
+    }
+
+    .AI-item-overview .AI-item-heading > span {
+        padding: 6px 10px;
+        gap: 3px;
+        white-space: nowrap;
+    }
+
+    .AI-item-overview .AI-item-heading span > img {
+        width: 14px;
+        height: 16px;
+    }
+
+    .AI-item-overview .AI-item-description {
+        padding: 20px;
+        gap: 4px;
+    }
+
+    .AI-item-overview .AI-item-description div {
+        gap: 2px;
+    }
+
+    .AI-item-overview .AI-item-description div > span {
+        font-size: 14px;
+    }
+
+    .AI-item-overview .AI-item-description > a {
+        gap: 4px;
+        padding: 14px 20px;
+    }
+
+    .AI-item-overview .AI-item-description > a > img {
+        width: 12px;
+        height: 12px;
+    }
+
+
+    .AI-item-conten {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+    }
+
+    .AI-item-conten div:first-child {
+        gap: 20px;
+    }
+
+    .AI-item-conten div:first-child h3 {
+        font-size: 20px;
+    }
+
+    .AI-item-conten div:first-child p {
+        font-size: 14px;
+    }
+
+    .AI-item-conten .AI-item-conten-layout {
+        gap: 14px;
+
+
+    }
+
+    .AI-item-conten-layout .item-layout {
+        padding: 20px;
+        gap: 2px;
+    }
+
+    .AI-item-conten-layout .item-layout span:first-child {
+        font-size: 14px;
+        /*white-space: nowrap;*/
+    }
+
+    .AI-item-conten-layout .item-layout span:last-child {
+        font-size: 16px;
+    }
+
+
+}
 
 
 

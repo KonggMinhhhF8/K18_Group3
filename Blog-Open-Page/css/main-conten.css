@@ -1,22 +1,12 @@
 
-
-
-
-
-
-
-
-
-
-
-.main-conten{
+.main-conten {
     width: 100%;
     display: flex;
     background-color: #141414;
     border-bottom: 1px solid #262626;
 }
 
-.main-content-Information{
+.main-content-Information {
     width: 65%;
     display: flex;
     flex-direction: column;
@@ -28,21 +18,21 @@
 
 
 /*-=========Introduction==================*/
-.content-Information-Introduction{
+.content-Information-Introduction {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap:14px;
+    gap: 14px;
     padding: 80px 80px 80px 162px;
     background-color: #141414;
     /*border-top: 1px solid ;*/
-    border-bottom: 1px solid ;
+    border-bottom: 1px solid;
     border-color: #262626;
 
 
 }
 
-.content-Information-Introduction h2{
+.content-Information-Introduction h2 {
     color: #FFFFFF;
     background-color: transparent;
     width: 100%;
@@ -51,7 +41,7 @@
     font-weight: 500;
 }
 
-.content-Information-Introduction p{
+.content-Information-Introduction p {
     color: #98989A;
     font-size: 18px;
     font-weight: 400;
@@ -61,17 +51,15 @@
 }
 
 
-
-
 /* =========conten item  ===============*/
-.content-Information-list{
+.content-Information-list {
     width: 100%;
     /*height: 741px;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:30px;
+    gap: 30px;
     padding: 80px 80px 80px 162px;
     background-color: #141414;
     /*border-bottom: 1px solid #262626;*/
@@ -82,18 +70,18 @@
 
 }
 
-.content-Information-list-item{
+.content-Information-list-item {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap:24px;
+    gap: 24px;
     background-color: transparent;
     /*position: relative;*/
 
 }
 
 
-.content-Information-list-item h2{
+.content-Information-list-item h2 {
     width: 100%;
     background-color: transparent;
     font-weight: 500;
@@ -102,7 +90,8 @@
     line-height: 150%;
     letter-spacing: -3%;
 }
-.content-Information-list-item p{
+
+.content-Information-list-item p {
     width: 100%;
     color: #98989A;
     font-size: 18px;
@@ -114,7 +103,7 @@
 }
 
 
-.content-Information-list .ovelay-cotent{
+.content-Information-list .ovelay-cotent {
     width: 100%;
     padding: 80px 10px 30px 10px;
     left: 0;
@@ -128,7 +117,7 @@
 
 }
 
-.main-conten-btn{
+.main-conten-btn {
     width: 195px;
     height: 55px;
     gap: 10px;
@@ -152,21 +141,20 @@
     z-index: 21;
 
 
-
 }
 
-.main-conten-btn img{
+.main-conten-btn img {
     width: 15px;
     height: 16.5px;
 }
 
-.btn-Less{
+.btn-Less {
     display: none;
 }
 
 /*============checked vaof ddaay========================*/
 
-.content-Information-list .Information-itiem{
+.content-Information-list .Information-itiem {
     display: none;
 }
 
@@ -174,6 +162,7 @@
 #conten-btn:checked ~ .content-Information-list .Information-itiem {
     display: block;
 }
+
 #conten-btn:checked ~ .content-Information-list .btn-Less {
     display: block;
 }
@@ -191,24 +180,22 @@
     transform: rotate(180deg);
 }
 
-#conten-btn:checked ~ .content-Information-list .ovelay-cotent{
+#conten-btn:checked ~ .content-Information-list .ovelay-cotent {
     display: none;
 }
+
 /*===========hieen đoạn văn trong p khi đang để none*/
 
 #conten-btn:checked
 ~ .content-Information-list
 .content-Information-list-item p[style] {
-    display: block !important; //ghi đè lên  style trong html //
+    display: block !important;
+/ / ghi đè lên style trong html / /
 }
 
 
-
-
-
-
 /*==========heading conten======================*/
-.main-content-heading{
+.main-content-heading {
     width: 35%;
     display: flex;
     flex-direction: column;
@@ -221,13 +208,14 @@
 
 
 }
+
 .main-content-Information,
-.main-content-heading{
+.main-content-heading {
     border-top: 1px solid #262626;
 }
 
 
-.main-content-heading-icon{
+.main-content-heading-icon {
     width: 100%;
     /*padding: 50px 162px 50px 80px;*/
     padding: 40px 80px 40px 60px;
@@ -238,7 +226,7 @@
     background-color: #141414;
 }
 
-.main-content-heading-icon .icon-item{
+.main-content-heading-icon .icon-item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -251,12 +239,12 @@
 
 }
 
-.icon-item span>img{
+.icon-item span > img {
     background-color: #141414;
 
 }
 
-.icon-item span{
+.icon-item span {
     color: #98989A;
     height: auto;
     /*margin: auto;*/
@@ -267,13 +255,13 @@
     cursor: pointer;
 }
 
-.icon-item .icon-text{
+.icon-item .icon-text {
     position: relative;
     top: -1.5px;
 }
 
 /*====title===============*/
-.main-content-heading-title{
+.main-content-heading-title {
     width: 100%;
     height: auto;
     display: flex;
@@ -286,9 +274,8 @@
 }
 
 
-
 /*===========title top*/
-.main-content-heading-title--top{
+.main-content-heading-title--top {
     width: 100%;
     height: auto;
     display: flex;
@@ -298,26 +285,27 @@
 }
 
 
-.title-top-item{
+.title-top-item {
     color: #FFFFFF;
     display: flex;
     align-items: center;
 
 }
-.title-top-item div{
+
+.title-top-item div {
     margin-right: 20px;
 }
 
-.title-top-item div span{
+.title-top-item div span {
     display: flex;
     flex-direction: row;
     width: 210px;
     margin-bottom: 10px;
 }
-.title-top-item div span:first-child{
+
+.title-top-item div span:first-child {
     color: #98989A;
 }
-
 
 
 /*titile bottom*/
@@ -330,14 +318,15 @@
     gap: 16px;
 }
 
-.main-content-heading-title--bottom-list{
+.main-content-heading-title--bottom-list {
     width: 100%;
     padding: 20px;
     border-radius: 12px;
     background-color: #1A1A1A;
     gap: 20px;
 }
-.main-content-heading-title-bottom div:first-child{
+
+.main-content-heading-title-bottom div:first-child {
     color: #98989A;
     font-size: 18px;
     font-weight: 400;
@@ -345,7 +334,7 @@
     letter-spacing: -3%;
 }
 
-.main-content-heading-title--bottom-list ul{
+.main-content-heading-title--bottom-list ul {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -353,19 +342,147 @@
     gap: 16px;
 
 }
-.main-content-heading-title--bottom-list ul li{
+
+.main-content-heading-title--bottom-list ul li {
     color: #FFFFFF;
     margin-left: 20px;
+    text-align: left;
 
 }
 
-.main-content-heading-title--bottom-list ul li a{
+
+.main-content-heading-title--bottom-list ul li a {
     /*font-weight: 400;*/
     font-size: 18px;
     line-height: 150%;
     letter-spacing: -3%;
     color: #FFFFFF;
     text-decoration: none;
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /*=========Information==========*/
+    .main-conten, .container {
+        max-width: 991px;
+        width: 100%;
+    }
+
+    .content-Information-Introduction {
+        padding: 40px 60px 60px 60px;
+        gap: 6px;
+    }
+
+    .content-Information-Introduction h2 {
+        font-size: 20px;
+    }
+
+    .content-Information-Introduction p {
+        font-size: 16px;
+    }
+
+
+    .content-Information-list {
+        padding: 60px;
+        gap: 24px;
+    }
+
+    .content-Information-list-item {
+        gap: 20px;
+    }
+
+    .content-Information-list-item h2 {
+        font-size: 22px;
+    }
+
+    .content-Information-list-item p {
+        font-size: 16px;
+    }
+
+    .main-conten-btn {
+        padding: 14px 20px;
+        font-size: 14px;
+
+    }
+
+    .main-conten-btn img {
+        width: 12px;
+        height: 14px;
+    }
+
+    .ovelay-cotent {
+        padding: 60px 10px 30px 10px;
+    }
+
+
+    /*   ==== main-content-heading ============*/
+    .main-content-heading-icon {
+        width: 100%;
+        padding: 40px 40px 40px 20px;
+        gap:14px;
+    }
+
+    .main-content-heading-icon .icon-item {
+        padding: 8px 14px;
+        gap: 4px;
+        height: 42px;
+    }
+
+    .main-content-heading-icon .icon-item> span>img{
+        width: 21px;
+        height: 20px;
+
+    }
+
+    .main-content-heading-title{
+        width: 100%;
+        padding: 20px;
+        gap: 40px;
+
+    }
+
+    .main-content-heading-title--top{
+        width: 100%;
+        gap: 15px;
+    }
+
+    .main-content-heading-title--top .title-top-item div{
+        margin-right: 20px;
+    }
+    .title-top-item div span {
+        width: 150px;
+    }
+
+
+    .main-content-heading-title--top .title-top-item div>span:first-child {
+        font-size: 16px;
+    }
+    .main-content-heading-title--top .title-top-item div>span:last-child {
+        font-size: 14px;
+    }
+
+    .main-content-heading-title-bottom >div{
+        font-size: 16px;
+    }
+
+    .main-content-heading-title--bottom-list{
+        padding: 16px;
+
+    }
+
+    .main-content-heading-title--bottom-list ul li a{
+        width: 100%;
+        font-size: 16px;
+
+    }
+
+
+
+
+
+
+
 
 }
 

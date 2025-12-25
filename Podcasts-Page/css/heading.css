@@ -1,6 +1,5 @@
 
-
-.heading{
+.heading {
     max-width: 100%;
     background-color: #141414;
     display: flex;
@@ -8,13 +7,14 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    padding: 130px  162px;
+    padding: 130px 162px;
     /*margin:130px 162px;*/
     position: relative;
 
 
 }
-.heading h1{
+
+.heading h1 {
     max-width: 100%;
     font-weight: 500;
     font-size: 80px;
@@ -24,7 +24,8 @@
 
 
 }
-.heading span{
+
+.heading span {
     max-width: 900px;
     font-weight: 400;
     font-size: 18px;
@@ -35,6 +36,30 @@
     bottom: 142px;
     right: 162px;
 
+
+}
+
+/* respovive tabled*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .heading {
+        padding: 60px 60px;
+        position: relative;
+    }
+
+    .heading h1 {
+        font-size: 45px;
+        font-weight: 500;
+    }
+
+    .heading span {
+        width: 520px;
+        font-size: 16px;
+        position: relative;
+        bottom: 50px;
+        right: -210px;
+
+    }
 
 }
 

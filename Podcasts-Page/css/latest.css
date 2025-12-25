@@ -2,7 +2,7 @@
 		*/
 
 
-.Latest-Podcast{
+.Latest-Podcast {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,13 +15,9 @@
 }
 
 
-
-
-
-
 /*!*===============Heading========*/
 
-.Latest-Podcast-heading{
+.Latest-Podcast-heading {
 
     width: 100%;
     padding: 120px 162px;
@@ -35,14 +31,15 @@
 
 }
 
-.Latest-Podcast-heading div> span{
+.Latest-Podcast-heading div > span {
     color: #FFFFFF;
     background: #333333;
     border-radius: 8px;
     padding: 6px 10px;
 
 }
-.Latest-Podcast-heading h2{
+
+.Latest-Podcast-heading h2 {
     font-weight: 500;
     font-size: 58px;
     line-height: 130%;
@@ -54,7 +51,7 @@
 /*====Latest-Podcast-content=====*/
 
 
-.Latest-Podcast-content{
+.Latest-Podcast-content {
     width: 100%;
     padding-left: 162px;
     padding-right: 162px;
@@ -67,34 +64,41 @@
     border-bottom: 1px solid #262626;
 }
 
-.Latest-Podcast-content-item{
+.Latest-Podcast-content-item {
     /*padding-top: 80px;*/
     /*padding-bottom: 80px;*/
     padding: 80px 46px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start ;
+    align-items: flex-start;
     gap: 30px;
     border-right: 1px solid #262626;
     position: relative;
+
+    width: 33%;
+
 }
 
 
-.Latest-Podcast-content-item:nth-child(3){
+.Latest-Podcast-content-item:nth-child(3) {
     border-right: none;
 }
-.Latest-Podcast-content-item img{
+
+.Latest-Podcast-content-item > img {
     background-position: center;
     object-fit: cover;
+    width: 100%;
 }
-.Latest-Podcast-content-item>div{
+
+.Latest-Podcast-content-item > div {
     display: flex;
     flex-direction: column;
     text-align: left;
     gap: 14px;
 }
-.Latest-Podcast-content-item>div>h3{
+
+.Latest-Podcast-content-item > div > h3 {
     font-weight: 600;
     font-size: 22px;
     line-height: 150%;
@@ -104,7 +108,7 @@
 }
 
 
-.Latest-Podcast-content-item>div>p{
+.Latest-Podcast-content-item > div > p {
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
@@ -112,7 +116,7 @@
     color: #98989A;
 }
 
-.Latest-Podcast-content-item>a{
+.Latest-Podcast-content-item > a {
     text-decoration: none;
     padding: 14px 24px;
     border: 1px solid #262626;
@@ -121,16 +125,82 @@
     color: #98989A;
 
 }
-.Latest-Podcast-content-item>a:hover{
+
+.Latest-Podcast-content-item > a:hover {
     color: #FFD11A;
     text-decoration: underline;
 }
-.Latest-Podcast-content-item>a>img{
+
+.Latest-Podcast-content-item > a > img {
     margin-left: 10px;
 }
 
 
+/* respovive*/
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .Latest-Podcast-heading {
+        padding: 60px;
+        gap: 14px;
+    }
+
+    .Latest-Podcast-heading div > span {
+        padding: 8px 14px;
+    }
+
+    .Latest-Podcast-heading h2 {
+        font-size: 44px;
+    }
+
+
+    .Latest-Podcast-content {
+        /*padding: 40px 60px; !* thêm padding top/bottom *!*/
+        padding-right: 40px;
+        padding-left: 40px;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .Latest-Podcast-content-item {
+        padding: 40px 20px;
+        gap: 20px;
+        border-right: 1px solid #262626;
+
+
+    }
+
+    .Latest-Podcast-heading {
+        border-bottom: 1px solid #262626;
+    }
+
+    .Latest-Podcast-content-item div h3 {
+        font-size: 16px;
+
+    }
+
+    .Latest-Podcast-content-item div p {
+        font-size: 14px;
+
+    }
+
+    .Latest-Podcast-content-item > a {
+        font-size: 12px;
+        padding: 12px 18px;
+        width: 157px;
+        display: flex;
+        gap: 4px;
+
+    }
+
+    .Latest-Podcast-content-item > a > img {
+        width: 12px;
+        height: 12px;
+    }
+
+
+
+
+}
 
 
 

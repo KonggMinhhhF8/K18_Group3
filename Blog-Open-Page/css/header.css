@@ -1,10 +1,10 @@
 
-.container{
+.container {
     max-width: 1920px;
 }
 
 
-.top-banner{
+.top-banner {
     width: 100%;
     margin: auto;
 
@@ -17,9 +17,9 @@
     /*margin-bottom: 108px;*/
 
 
-
 }
-.top-banner a{
+
+.top-banner a {
     text-decoration: none;
     color: #98989A;
     font-weight: 400;
@@ -29,14 +29,16 @@
     letter-spacing: -3%;
 
 }
-.top-banner img{
+
+.top-banner img {
     width: 24px;
     height: 24px;
     margin-left: 10px;
-    background-color:#141414;
+    background-color: #141414;
 
 }
-.top-banner a:hover{
+
+.top-banner a:hover {
     text-decoration: underline;
     /*color:#FFD11A ;*/
 }
@@ -44,7 +46,7 @@
 
 /*======================================================================*/
 /*thanh menu*/
-nav{
+nav {
     display: flex;
     width: 100%;
     padding: 24px 162px;
@@ -65,11 +67,7 @@ nav{
 /*}*/
 
 
-
-
-
-
-nav .menu-bar{
+nav .menu-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,7 +75,8 @@ nav .menu-bar{
     position: relative;
 
 }
-.menu-bar img{
+
+.menu-bar img {
     width: 179px;
     height: 50px;
     /*z-index: 11;*/
@@ -101,7 +100,8 @@ nav .menu-bar{
 
 
 }
-.menu-list li>a{
+
+.menu-list li > a {
     text-decoration: none;
     font-size: 18px;
     color: #7E7E81;
@@ -109,12 +109,13 @@ nav .menu-bar{
     line-height: 150%;
     letter-spacing: 0%;
 }
-.menu-list li>a:hover{
+
+.menu-list li > a:hover {
     color: #FFD11A;
     /*font-size: 20px;*/
 }
 
-.menu-bar>a{
+.menu-bar > a {
     /*width: 137px;*/
     padding: 14px 20px;
     border-radius: 10px;
@@ -131,11 +132,11 @@ nav .menu-bar{
 
 }
 
-.menu-bar>a:hover {
+.menu-bar > a:hover {
     background-color: #caa215;
 }
 
-.banner{
+.banner {
     position: relative;
     width: 100%;
     display: flex;
@@ -144,9 +145,9 @@ nav .menu-bar{
     align-items: center;
 
 
-
 }
-.banner img{
+
+.banner img {
     width: 100%;
     max-width: 100%;
     height: 598px;
@@ -157,8 +158,8 @@ nav .menu-bar{
 
 }
 
-.banner h1{
-   display: flex;
+.banner h1 {
+    display: flex;
     font-weight: 600;
     font-size: 64px;
     line-height: 130%;
@@ -170,7 +171,8 @@ nav .menu-bar{
     background-color: transparent;
 
 }
-.overlay-banner{
+
+.overlay-banner {
     width: 100%;
     position: absolute;
     background: linear-gradient(180deg, rgba(20, 20, 20, 0) 0%, rgba(20, 20, 20, 0.880208) 75.52%, #141414 100%);
@@ -184,12 +186,112 @@ nav .menu-bar{
 /*============rebonship cho taplet*/
 
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .container, body {
+        min-width: 768px;
+        max-width: 991px;
+    }
+
+    .top-banner {
+        width: 100%;
+        padding: 12px 24px;
+    }
+
+    .top-banner > a {
+        font-size: 14px;
+    }
+
+    .top-banner > a > img {
+        width: 14px;
+        height: 14px;
+    }
+
+    nav {
+        width: 100%;
+        padding: 20px 60px;
+    }
+
+    nav .menu-bar > img {
+        width: 143px;
+        height: 40px;
+    }
+
+    nav .menu-bar a {
+        font-size: 14px;
+    }
+
+    nav .menu-bar > a {
+        padding: 10px 14px;
+    }
+
+    .banner img {
+        width: 100%;
+        height: 439px;
+        background-position: center;
+        object-fit: cover;
+        background-repeat: no-repeat;
+    }
+
+    .banner h1 {
+        font-size: 44px;
+        top: 317px;
+    }
+
 
 }
 
 
+/* ======responsive cho mobile*/
+@media screen and (max-width: 767px) {
+    .top-banner {
+        padding: 30px 24px 14px 24px;
 
+    }
+
+    .top-banner a {
+        font-size: 12px;
+        text-align: center;
+
+    }
+
+    .top-banner a > img {
+        width: 14px;
+        height: 14px;
+    }
+
+    nav {
+        padding: 20px 16px;
+    }
+
+    .menu-bar img {
+        width: 126px;
+        height: 35px;
+
+    }
+
+    .menu-bar > ul {
+        display: none;
+    }
+
+    .banner >img{
+        width: 100%;
+        height: 281px;
+    }
+
+    .banner h1{
+        font-size: 28px;
+        position: absolute;
+        top: 180px;
+
+    }
+
+
+}
 
 
 

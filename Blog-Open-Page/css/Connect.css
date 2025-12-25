@@ -1,6 +1,5 @@
 
-
-.Connect{
+.Connect {
     position: relative;
     width: 100%;
     display: flex;
@@ -15,7 +14,7 @@
 
 }
 
-.Connect-heading{
+.Connect-heading {
     display: flex;
     /*flex-direction: column;*/
     align-items: center;
@@ -23,13 +22,13 @@
     gap: 80px;
 }
 
-.Connect-heading img{
+.Connect-heading img {
     width: 150px;
     height: 150px;
 }
 
 
-.connect-heading-titile span{
+.connect-heading-titile span {
     background-color: #333333;
     padding: 6px 10px;
     border-radius: 4px;
@@ -40,7 +39,7 @@
     line-height: 150%;
 }
 
-.connect-heading-titile>h2{
+.connect-heading-titile > h2 {
     color: #FFFFFF;
     width: 100%;
     font-size: 58px;
@@ -50,7 +49,7 @@
     margin-top: 16px;
 }
 
-.connect-heading-titile>p{
+.connect-heading-titile > p {
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
@@ -60,7 +59,7 @@
 }
 
 
-.Connect-content{
+.Connect-content {
     display: flex;
     /*flex-direction: column;*/
     justify-content: center;
@@ -74,8 +73,7 @@
 }
 
 
-
-.Connect-content-item{
+.Connect-content-item {
     display: flex;
     flex-direction: column;
     /*align-items: center;*/
@@ -83,11 +81,11 @@
     gap: 20px;
     padding: 40px;
     background-color: #191919;
-    border-radius:12px ;
+    border-radius: 12px;
     border: 1px solid #262626;
 }
 
-.Connect-content-item .connect-content-item-heading{
+.Connect-content-item .connect-content-item-heading {
     display: flex;
     width: 100%;
     align-items: center;
@@ -95,7 +93,7 @@
     gap: 20px;
 }
 
-.connect-content-item-heading h2{
+.connect-content-item-heading h2 {
     color: #FFFFFF;
     font-weight: 600;
     font-size: 22px;
@@ -103,10 +101,11 @@
     letter-spacing: -3%;
 
 }
-.connect-content-item-heading a{
+
+.connect-content-item-heading a {
     width: 52px;
     height: 52px;
-    background-color:#FFD11A ;
+    background-color: #FFD11A;
     border-radius: 100px;
     padding: 14px;
     position: relative;
@@ -114,13 +113,13 @@
 }
 
 
-.connect-content-item-heading a>img{
+.connect-content-item-heading a > img {
     position: absolute;
-    top:calc((100% - 17px)/2);
-    left: calc((100% - 17px)/2);
+    top: calc((100% - 17px) / 2);
+    left: calc((100% - 17px) / 2);
 }
 
-.Connect-content-item >span{
+.Connect-content-item > span {
     color: #98989A;
     font-weight: 400;
     font-size: 18px;
@@ -130,9 +129,65 @@
 }
 
 
+/* responsive tapleb */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .Connect {
+        padding: 60px;
+    }
+
+    .Connect-heading > img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .Connect-heading .connect-heading-titile span,
+    .Connect-heading .connect-heading-titile p {
+        font-size: 14px;
+    }
+
+    .Connect-heading .connect-heading-titile h2 {
+        font-size: 38px;
+
+    }
+
+    .Connect .Connect-content {
+        gap: 8px;
+        padding: 8px;
+    }
+
+    .Connect-content-item {
+        gap: 12px;
+        padding: 25px;
+        width: 33%;
+        height: 150px;
+    }
+
+    .connect-content-item-heading h2 {
+        font-size: 16px;
+    }
+
+    .connect-content-item-heading a{
+        padding: 10px;
+        width: 38px;
+        height: 38px;
 
 
+    }
+    .connect-content-item-heading a>img{
+        width: 12px;
+        height: 12px;
+        position: absolute;
+        top: calc((100% - 12px) / 2);
+        left: calc((100% - 12px) / 2);
 
+    }
+    .Connect-content-item >span{
+        font-size: 14px;
+    }
+
+
+}
 
 
 
