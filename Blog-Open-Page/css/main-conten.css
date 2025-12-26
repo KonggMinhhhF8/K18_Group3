@@ -478,11 +478,31 @@
     }
 
 
+}
+/*=================Mobile ===============*/
+@media screen and (max-width: 767px) {
 
 
+    .main-conten {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 
+    /* Đưa heading lên trước */
+    .main-content-heading {
+        order: 1;
+        width: 100%;
 
+    }
 
+    /* Đưa nội dung xuống sau */
+    .main-content-Information {
+        order: 2;
+    }
+    .main-content-heading-icon{
+        width: 100%;
+    }
 
 }
 
