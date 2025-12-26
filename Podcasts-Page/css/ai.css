@@ -289,6 +289,112 @@
 
 }
 
+/* ================= MOBILE AI ITEM ================= */
+@media screen and (max-width: 767px) {
+
+    .AI-item {
+        flex-direction: column;
+        padding: 24px 16px;
+        gap: 30px;
+    }
+
+    /* ===== Overview ===== */
+    .AI-item-overview {
+        width: 100%;
+        max-width: 100%;
+        gap: 20px;
+    }
+
+    .AI-item-overview > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .AI-item-heading {
+        gap: 12px;
+    }
+
+    .AI-item-heading h2 {
+        font-size: 20px;
+        line-height: 150%;
+        width: 100%;
+    }
+
+    .AI-item-heading span {
+        padding: 8px 14px;
+        gap: 4px;
+    }
+
+    .AI-item-heading span img {
+        width: 18px;
+        height: 18px;
+        white-space: nowrap;
+    }
+
+    /* ===== Host + Button ===== */
+    .AI-item-description {
+        /*flex-direction: column;*/
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        gap: 4px;
+    }
+
+    .AI-item-description > a {
+        width: 50%;
+        padding: 14px;
+    }
+
+    /* ===== Content ===== */
+    .AI-item-conten {
+        width: 100%;
+        max-width: 100%;
+        padding: 40px 24px;
+        border-left: none;
+        gap: 24px;
+    }
+
+
+    .AI-item-conten img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+    }
+
+
+    .AI-item-conten h3 {
+        font-size: 18px;
+    }
+
+    .AI-item-conten p {
+        font-size: 14px;
+    }
+
+
+    .AI-item-conten-layout {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .AI-item-conten-layout .item-layout {
+        max-width: 100%;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .AI-item-conten-layout .item-layout span:first-child {
+        font-size: 14px;
+    }
+
+    .AI-item-conten-layout .item-layout span:last-child {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
 
 
 

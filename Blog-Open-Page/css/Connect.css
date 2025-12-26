@@ -192,6 +192,81 @@
 
 
 
+/*++=====mobile================*/
+
+@media screen and (max-width: 767px) {
+    .Connect{
+        padding:  40px 16px;
+        width: 100%;
+        gap: 40px;
+    }
+
+    .Connect-heading{
+        width: 100%;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+    }
+
+    .Connect-heading img{
+        width: 60px;
+        height: 60px;
+
+    }
+    .connect-heading-titile h2{
+        font-size: 28px;
+
+    }
+    .connect-heading-titile p{
+        font-size: 14px;
+    }
+    .connect-heading-titile >span{
+        font-size: 14px;
+        position: absolute;
+        left: 100px;
+        top: 55px;
+        padding: 4px 8px;
+    }
+
+    .Connect-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .Connect-content-item{
+        padding: 24px;
+        gap: 10px;
+        width: 100%;
+    }
+    .Connect-content-item h2{
+        font-size: 16px;
+    }
+    .Connect-content-item span{
+        font-size: 14px;
+    }
+    .connect-content-item-heading {
+        gap: 16px;
+    }
+    .connect-content-item-heading a{
+        padding: 10px;
+        gap: 10px;
+    }
+    .connect-content-item-heading a>img{
+        width: 14px;
+        height: 14px;
+    }
+
+
+
+
+
+}
 
 
 

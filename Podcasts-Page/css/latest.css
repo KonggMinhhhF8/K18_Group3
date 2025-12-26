@@ -198,6 +198,77 @@
     }
 
 
+}
+
+
+/*========mobile============*/
+@media screen and (max-width: 767px) {
+
+    .Latest-Podcast {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .Latest-Podcast-heading {
+        padding: 40px 16px;
+        gap: 16px;
+        text-align: left;
+    }
+
+    .Latest-Podcast-heading div > span {
+        padding: 4px 8px;
+        font-size: 12px;
+    }
+
+    .Latest-Podcast-heading h2 {
+        font-size: 28px;
+    }
+
+    .Latest-Podcast-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        width: 100%;
+        max-width: 100%;
+        padding: 40px 16px;
+    }
+
+    .Latest-Podcast-content-item {
+        max-width: 100%;
+        width: 100%;
+        border-right: none;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Latest-Podcast-content-item > div h3 {
+        font-size: 16px;
+    }
+
+    .Latest-Podcast-content-item > div p {
+        font-size: 14px;
+    }
+
+    .Latest-Podcast-content-item > div {
+        gap: 6px;
+    }
+
+    .Latest-Podcast-content-item > a {
+        padding: 14px 24px;
+        max-width: 100%;
+        width: 100%;
+        font-size: 14px;
+        gap: 4px;
+    }
+
+    .Latest-Podcast-content-item > a > img {
+        width: 13px;
+        height: 13px;
+    }
 
 
 }

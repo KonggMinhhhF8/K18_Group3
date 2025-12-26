@@ -238,7 +238,7 @@
         padding: 40px 20px 0 20px;
     }
 
-    .Similar-News-heading{
+    .Similar-News-heading {
         width: 100%;
         padding-right: 16px;
         padding-left: 16px;
@@ -248,6 +248,7 @@
     .Similar-News-heading h2 {
         font-size: 20px;
     }
+
     .Similar-News-heading a {
         font-size: 14px;
         padding: 14px 20px;
@@ -255,59 +256,62 @@
         white-space: nowrap;
 
     }
-    .Similar-News-heading a img{
+
+    .Similar-News-heading a img {
         width: 14px;
         height: 14px;
     }
 
-    .Similar-News-conten{
+    .Similar-News-conten {
         padding: 40px 16px;
         flex-direction: column;
         gap: 30px;
     }
 
-    .Similar-News-item{
+    .Similar-News-item {
         gap: 16px;
     }
-    .Similar-News-item-title{
+
+    .Similar-News-item-title {
         gap: 4px;
     }
-    .Similar-News-item-title h3{
+
+    .Similar-News-item-title h3 {
         font-size: 16px;
     }
-    .Similar-News-item-title p{
+
+    .Similar-News-item-title p {
         font-size: 14px;
     }
 
-    .Similar-News-item-interact{
+    .Similar-News-item-interact {
         gap: 50px;
     }
-    .Similar-News-item-interact .item-interact-icons{
+
+    .Similar-News-item-interact .item-interact-icons {
         gap: 8px;
     }
+
     .Similar-News-item-interact .item-interact-icons span {
         font-size: 14px;
     }
 
-    .Similar-News-item-interact .item-interact-icons span img{
+    .Similar-News-item-interact .item-interact-icons span img {
         width: 14px;
         height: 14px;
     }
 
-    .Similar-News-item-interact >a{
+    .Similar-News-item-interact > a {
         padding: 14px 20px;
         gap: 4px;
         font-size: 14px;
-        height: ;
+
     }
-    .Similar-News-item-interact > a>img{
+
+    .Similar-News-item-interact > a > img {
         width: 14px;
         height: 14px;
     }
-
-
-
-
 
 
 }

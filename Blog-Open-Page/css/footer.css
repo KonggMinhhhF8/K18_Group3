@@ -1,5 +1,5 @@
 
-footer{
+footer {
     width: 100%;
     padding-left: 162px;
     padding-right: 162px;
@@ -12,7 +12,7 @@ footer{
 }
 
 
-.Footer-top{
+.Footer-top {
     width: 100%;
     display: flex;
     /*justify-content: center;*/
@@ -24,7 +24,7 @@ footer{
 
 }
 
-.Footer-top-item{
+.Footer-top-item {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -36,9 +36,9 @@ footer{
 
 }
 
-.Footer-top-item>a ,
-.Footer-top-item>h4,
-.Footer-bottom span{
+.Footer-top-item > a,
+.Footer-top-item > h4,
+.Footer-bottom span {
     text-decoration: none;
     color: #666666;
     font-weight: 400;
@@ -49,26 +49,30 @@ footer{
 
 }
 
-.Footer-top-item>a:hover{
+.Footer-top-item > a:hover {
     text-decoration: underline;
     color: #FFD11A;
 }
-.Footer-top-item >h4{
+
+.Footer-top-item > h4 {
     color: #FFFFFF;
     font-weight: 500;
     font-size: 20px;
 
 }
-.Footer-top-item >h4{
+
+.Footer-top-item > h4 {
     margin-bottom: 36px;
 }
-.Footer-top-item a{
+
+.Footer-top-item a {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
-.Footer-top-item .item-new{
+
+.Footer-top-item .item-new {
     background: linear-gradient(70.33deg, #262626 61.2%, #FFD119 216.15%);
     font-size: 16px;
     /*position: absolute;*/
@@ -84,7 +88,7 @@ footer{
 
 }
 
-.footer-top-item-Resources>a{
+.footer-top-item-Resources > a {
     /*width: 100%;*/
     /*background-color: #8f6824;*/
     border-radius: 8px;
@@ -96,45 +100,30 @@ footer{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*========footer bottom*/
 
 
-
-.Footer-bottom{
+.Footer-bottom {
     width: 100%;
     display: flex;
     /*flex-direction: column;*/
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding-top:40px;
+    padding-top: 40px;
     padding-bottom: 40px;
 
 }
+
 /*.Footer-bottom-left{*/
 
-.Footer-bottom-left span:first-child{
+.Footer-bottom-left span:first-child {
     border-right: 1px solid #262626;
     margin-right: 11px;
     padding-right: 11px;
 }
 
-.footer-bottom-img{
+.footer-bottom-img {
     display: flex;
     /*flex-direction: column;*/
     justify-content: center;
@@ -146,35 +135,39 @@ footer{
 /* responsive tabled*/
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    footer{
+    footer {
         padding-right: 60px;
         padding-left: 60px;
     }
 
-    .footer a{
+    .footer a {
         font-size: 12px;
     }
-    .footer h4{
+
+    .footer h4 {
         font-size: 16px;
     }
 
-    .Footer-top{
+    .Footer-top {
         padding-top: 40px;
         padding-bottom: 40px;
         gap: 40px;
     }
 
-    .Footer-top .Footer-top-item{
+    .Footer-top .Footer-top-item {
         gap: 24px;
     }
-    .Footer-top .Footer-top-item h4{
+
+    .Footer-top .Footer-top-item h4 {
         margin-bottom: 18px;
     }
-    .Footer-top .Footer-top-item a{
+
+    .Footer-top .Footer-top-item a {
         display: flex;
         gap: 6px;
     }
-    .Footer-top .Footer-top-item a>span{
+
+    .Footer-top .Footer-top-item a > span {
         font-size: 12px;
         padding: 2px 8px;
         width: 40px;
@@ -182,42 +175,164 @@ footer{
 
     }
 
-    .Footer-top .Footer-top-item a >img{
+    .Footer-top .Footer-top-item a > img {
         width: 12px;
         height: 12px;
     }
-    .footer-top-item-Resources a{
+
+    .footer-top-item-Resources a {
         padding: 8px 14px;
         white-space: nowrap;
     }
 
-    .Footer-bottom{
+    .Footer-bottom {
         padding-top: 20px;
         padding-bottom: 20px;
     }
 
-    .Footer-bottom .footer-bottom-img{
+    .Footer-bottom .footer-bottom-img {
         gap: 12px;
         display: flex;
         align-items: center;
 
 
     }
-    .Footer-bottom .footer-bottom-img img:nth-child(1){
+
+    .Footer-bottom .footer-bottom-img img:nth-child(1) {
         width: 18px;
         height: 15px;
     }
-    .Footer-bottom .footer-bottom-img img:nth-child(2){
+
+    .Footer-bottom .footer-bottom-img img:nth-child(2) {
         width: 19px;
         height: 10px;
     }
-    .Footer-bottom .footer-bottom-img img:nth-child(3){
+
+    .Footer-bottom .footer-bottom-img img:nth-child(3) {
         width: 16px;
         height: 16px;
     }
 
 }
 
+
+@media screen and (max-width: 767px) {
+
+    footer {
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 18px;
+    }
+
+    /*    =================*/
+    footer.footer {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+
+    .Footer-top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 40px 0;
+    }
+
+    .Footer-top-item {
+        align-items: flex-start;
+        text-align: left;
+        gap: 14px;
+    }
+
+    .Footer-top-item h4 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .Footer-top-item a {
+        font-size: 14px;
+        justify-content: flex-start;
+    }
+
+
+    /*.footer-top-item-Resources {*/
+    /*    grid-column: 1 / -1; !* chiếm full width *!*/
+    /*}*/
+
+    .footer-top-item-Resources a {
+        width: fit-content;
+        padding: 10px 14px;
+        font-size: 14px;
+        border-radius: 8px;
+        border: 1px solid #262626;
+    }
+
+    .footer-top-item-Resources {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        flex-wrap: wrap;
+        gap: 12px;
+        width: 200%;
+    }
+    .footer-top-item-Resources a{
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+    .footer-top-item-Resources a>img{
+        width: 12px;
+        height: 12px;
+    }
+
+    .footer-top-item-Resources h4 {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .Footer-top-item .item-new {
+        font-size: 12px;
+        width: auto;
+        height: auto;
+        padding: 2px 8px;
+    }
+
+
+    .Footer-bottom {
+        flex-direction: column;
+        gap: 20px;
+        padding: 24px 0;
+        text-align: center;
+    }
+
+    .Footer-bottom-left {
+        order: 2;
+    }
+
+    .Footer-bottom-left span {
+        font-size: 14px;
+    }
+
+    .Footer-bottom-left span:first-child {
+        border-right: none;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .footer-bottom-img {
+        order: 1;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .Footer-bottom > div:last-child {
+        order: 3;
+        font-size: 12px;
+
+    }
+
+
+}
 
 
 
