@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #141414;
+    line-height: 150%;
+    font-family: "Inter", sans-serif;
+}

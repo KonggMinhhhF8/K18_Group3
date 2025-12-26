@@ -37,7 +37,7 @@
     color: #98989A;
 }
 .infor-section__sub-logo{
-    background-image: url("./icons/arrow-up.svg");
+    background-image: url("icons/arrow-up.svg");
     background-repeat: no-repeat;
     background-position: center;
     width: 24px;

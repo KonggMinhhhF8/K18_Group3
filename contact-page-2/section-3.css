@@ -45,7 +45,7 @@
     color: #98989A;
 }
 .button-logo{
-    background-image: url('./icons/arrow-up.svg');
+    background-image: url('icons/arrow-up.svg');
     background-repeat: no-repeat;
     background-position: center;
     width: 16.5px;

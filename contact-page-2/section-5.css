@@ -53,7 +53,7 @@
     color: #FFFFFF;
 }
 .icon-opt{
-    background-image: url('./icons/arrow-up.svg');
+    background-image: url('icons/arrow-up.svg');
     background-repeat: no-repeat;
     background-position: center;
     width: 20px;

@@ -16,7 +16,7 @@
     letter-spacing: -3%;
 }
 .noti-logo{
-    background-image: url('./icons/arrow-up.svg');
+    background-image: url('icons/arrow-up.svg');
     background-repeat: no-repeat;
     background-position: center;
     width: 24px;
@@ -77,3 +77,18 @@
     letter-spacing: 0%;
     color: #141414;
 }
+/*toggle*/
+.menu-toggle{
+    width: 34px;
+    height: 34px;
+    display: none;
+}
+.header-actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-btn{
+    display: none;
+}
+.
