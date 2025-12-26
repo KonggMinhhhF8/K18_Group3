@@ -1,4 +1,8 @@
-
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .container {
     max-width: 1920px;
 }
@@ -7,6 +11,8 @@
 .top-banner {
     width: 100%;
     margin: auto;
+
+    box-sizing: border-box;
 
     display: flex;
     justify-content: center;
@@ -192,9 +198,13 @@ nav .menu-bar {
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    .container, body {
-        min-width: 768px;
+    /*.container, body {*/
+    /*    min-width: 768px;*/
+    /*    max-width: 991px;*/
+    /*}*/
+    .container {
         max-width: 991px;
+        margin: 0 auto;
     }
 
     .top-banner {
@@ -248,17 +258,30 @@ nav .menu-bar {
 
 /* ======responsive cho mobile*/
 @media screen and (max-width: 767px) {
+
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .main-conten{
+        max-width: 767px;
+        width: 100%;
+    }
+    .main-content-heading{
+        width: 100%;
+    }
+
+
     .top-banner {
         padding: 30px 24px 14px 24px;
 
     }
-
     .top-banner a {
         font-size: 12px;
         text-align: center;
 
     }
-
     .top-banner a > img {
         width: 14px;
         height: 14px;
@@ -278,17 +301,43 @@ nav .menu-bar {
         display: none;
     }
 
-    .banner >img{
+    .banner > img {
         width: 100%;
         height: 281px;
     }
 
-    .banner h1{
+    .banner h1 {
         font-size: 28px;
         position: absolute;
         top: 180px;
 
     }
+    .main-conten {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* Đưa heading lên trước */
+    .main-content-heading {
+        order: 1;
+        width: 100%;
+
+    }
+
+    /* Đưa nội dung xuống sau */
+    .main-content-Information {
+        order: 2;
+    }
+    .main-content-heading-icon{
+        width: 100%;
+    }
+
+
+
+
+
+
 
 
 }
