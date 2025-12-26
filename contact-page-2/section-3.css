@@ -1,7 +1,6 @@
 .asked-question{
     display: flex;
     border-top: 1px solid #262626;
-    padding: 0 162px;
     gap: 80px;
 }
 .asked-question__text{
@@ -59,9 +58,8 @@
 /*sub*/
 .body-content__answer{
     padding: 80px 0 80px 80px;
-    gap: 30px;
     border-left: 1px solid #262626;
-    width: 997px;
+    width: 100%;
 }
 .question-text{
     color:#FFFFFF;
@@ -80,7 +78,6 @@
     border-radius: 12px;
     border: 1px solid #262626;
     background-color: #1A1A1A;
-    width: 917px;
     margin-bottom: 30px;
 }
 .answer{

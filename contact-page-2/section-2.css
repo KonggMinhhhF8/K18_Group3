@@ -1,12 +1,11 @@
 .infor{
-    padding: 0 162px;
-    gap: 50px;
     display: flex;
     justify-content: space-between;
 }
 .infor-section{
     padding: 80px 0;
-    gap: 50px;
+    /*width: calc( (100% - 300px) / 4);*/
+    gap: 20px;
 }
 .infor-box{
     display: flex;
@@ -45,7 +44,7 @@
 }
 .infor-logo{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 20px;
 }
 .infor-icon{
@@ -84,13 +83,11 @@
 /*content*/
 .content{
     border-top: 1px solid #262626;
-    padding: 0 162px;
     gap: 80px;
     display: flex;
 }
 .content-text{
-    gap: 50px;
-    padding: 258px 80px 258px 0;
+    padding: 258px 0 258px 0;
 }
 .content-text__logo{
     background-image: url('./icons/Icon-round.svg');
@@ -113,6 +110,8 @@
     gap: 50px;
     display: flex;
     flex-direction: column;
+    flex: 1;
+    width: 100%;
 }
 .content-form__name{
     display: flex;
@@ -122,6 +121,7 @@
     gap: 16px;
     display: flex;
     flex-direction: column;
+    width: calc((100% - 50px) / 2);
 }
 .content-form__name__text{
     font-weight: 500;
@@ -135,7 +135,6 @@
     padding: 20px;
     gap: 77px;
     background-color: #1A1A1A;
-    width: 433.5px;
 }
 .content-form__name__text__box span{
     color: #666666;
@@ -151,6 +150,7 @@
     gap: 16px;
     display: flex;
     flex-direction: column;
+    width: calc((100% - 50px) / 2);
 }
 .number{
     display: flex;
@@ -166,6 +166,7 @@
     background-color: #1A1A1A;
     align-items: center;
     height: 67px;
+    width: 20%;
 }
 .image{
     background-image: url('./logo/india.svg');
@@ -188,7 +189,7 @@
     border-radius: 8px;
     border: 1px solid #262626;
     background-color: #1A1A1A;
-    width: 317.5px;
+    width: 100%;
 }
 .number-fill span {
     color: #666666;

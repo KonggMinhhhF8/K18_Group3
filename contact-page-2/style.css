@@ -8,3 +8,6 @@ body{
     font-family: "Inter", sans-serif;
     background-color: #141414;
 }
+.container{
+    margin: 0 162px;
+}

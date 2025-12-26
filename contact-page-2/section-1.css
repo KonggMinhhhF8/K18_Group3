@@ -27,9 +27,12 @@
 .header-bar{
     border-bottom: 1px;
     justify-content: space-between;
-    padding: 24px 162px;
+    padding: 24px 0;
     background-color: #1A1A1A;
     display: flex;
+}
+.wrapped-header-bar{
+    background-color: #1A1A1A;
 }
 .header-bar__future-tech{
     display: flex;
