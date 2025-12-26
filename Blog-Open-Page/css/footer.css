@@ -258,7 +258,6 @@ footer {
     /*.footer-top-item-Resources {*/
     /*    grid-column: 1 / -1; !* chiếm full width *!*/
     /*}*/
-
     .footer-top-item-Resources a {
         width: fit-content;
         padding: 10px 14px;
@@ -276,11 +275,13 @@ footer {
         gap: 12px;
         width: 200%;
     }
-    .footer-top-item-Resources a{
+
+    .footer-top-item-Resources a {
         padding: 8px 14px;
         font-size: 14px;
     }
-    .footer-top-item-Resources a>img{
+
+    .footer-top-item-Resources a > img {
         width: 12px;
         height: 12px;
     }

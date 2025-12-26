@@ -189,6 +189,16 @@ nav .menu-bar {
 
 }
 
+.menu-toggle--mobile {
+    display: none;
+}
+
+
+
+
+
+
+
 
 /*============rebonship cho taplet*/
 
@@ -317,11 +327,142 @@ nav .menu-bar {
 
     }
 
+    .menu-bar .menu-btn{
+        display: none;
+    }
+
+
+    /*.menu-toggle--mobile{*/
+    /*    background-color: #c69135;*/
+    /*    width: 100%;*/
+    /*    max-width: 100%;*/
+    /*    !*position: absolute;*!*/
+    /*    !*inset: 0;*!*/
+    /*}*/
+
 
 }
 
 
 @media screen and (max-width: 767px) {
+    .menu-toggle--mobile {
+        display: block;
+        position: relative;
+        z-index: 1000;
+    }
+
+    /* ===== Icon mở menu ===== */
+    .open-start {
+        cursor: pointer;
+    /*    display: flex;*/
+    /*    align-items: center;*/
+    }
+
+    .open-start img {
+        width: 28px;
+        height: 28px;
+    }
+
+    /* ===== Overlay nền mờ ===== */
+    .box-modal-statr {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.6);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease;
+        z-index: 998;
+    }
+
+    /* ===== Menu panel ===== */
+    .menu-toggle {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 280px;
+        height: 100%;
+        background: #141414;
+        transform: translateX(-100%);
+        transition: transform 0.35s ease;
+        z-index: 999;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        border-right: 1px solid #262626;
+    }
+
+    /* ===== Header trong menu ===== */
+    .menu-toggle > div:first-child {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header_bottom_logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .header_bottom_logo div img{
+        width: 130px;
+        height: 32px;
+
+        border-radius: 6px;
+    }
+
+    .header_bottom_logo h4 {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* ===== Nút đóng ===== */
+    .off-start {
+        cursor: pointer;
+        font-size: 20px;
+        color: #fff;
+    }
+
+    /* ===== Menu list ===== */
+    .menu-toggle ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .menu-toggle ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 12px 14px;
+        border-radius: 8px;
+        display: block;
+        background: #1A1A1A;
+        border: 1px solid #262626;
+    }
+
+    .menu-toggle ul li a:hover {
+        background: #1f1f1f;
+        color: #FFD11A;
+    }
+
+    /* ================= TOGGLE ACTION ================= */
+    #menu-toggle:checked ~ .box-modal-statr {
+        opacity: 1;
+        pointer-events: auto;
+    }
+    /*đưa menu ra khỏi màn */
+    #menu-toggle:checked ~ .menu-toggle {
+        transform: translateX(0);
+    }
+
+
+
 }
 
 
