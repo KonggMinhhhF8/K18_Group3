@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 .container {
     max-width: 1920px;
 }
@@ -264,11 +265,12 @@ nav .menu-bar {
         padding: 0;
     }
 
-    .main-conten{
+    .main-conten {
         max-width: 767px;
         width: 100%;
     }
-    .main-content-heading{
+
+    .main-content-heading {
         width: 100%;
     }
 
@@ -277,11 +279,13 @@ nav .menu-bar {
         padding: 30px 24px 14px 24px;
 
     }
+
     .top-banner a {
         font-size: 12px;
         text-align: center;
 
     }
+
     .top-banner a > img {
         width: 14px;
         height: 14px;
@@ -314,10 +318,11 @@ nav .menu-bar {
     }
 
 
-
-
 }
 
+
+@media screen and (max-width: 767px) {
+}
 
 
 

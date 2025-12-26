@@ -163,6 +163,7 @@
     display: block;
 }
 
+
 #conten-btn:checked ~ .content-Information-list .btn-Less {
     display: block;
 }
@@ -179,6 +180,7 @@
 #conten-btn:checked ~ .content-Information-list .main-conten-btn img {
     transform: rotate(180deg);
 }
+
 
 #conten-btn:checked ~ .content-Information-list .ovelay-cotent {
     display: none;
@@ -420,7 +422,7 @@
     .main-content-heading-icon {
         width: 100%;
         padding: 40px 40px 40px 20px;
-        gap:14px;
+        gap: 14px;
     }
 
     .main-content-heading-icon .icon-item {
@@ -429,49 +431,51 @@
         height: 42px;
     }
 
-    .main-content-heading-icon .icon-item> span>img{
+    .main-content-heading-icon .icon-item > span > img {
         width: 21px;
         height: 20px;
 
     }
 
-    .main-content-heading-title{
+    .main-content-heading-title {
         width: 100%;
         padding: 20px;
         gap: 40px;
 
     }
 
-    .main-content-heading-title--top{
+    .main-content-heading-title--top {
         width: 100%;
         gap: 15px;
     }
 
-    .main-content-heading-title--top .title-top-item div{
+    .main-content-heading-title--top .title-top-item div {
         margin-right: 20px;
     }
+
     .title-top-item div span {
         width: 150px;
     }
 
 
-    .main-content-heading-title--top .title-top-item div>span:first-child {
+    .main-content-heading-title--top .title-top-item div > span:first-child {
         font-size: 16px;
     }
-    .main-content-heading-title--top .title-top-item div>span:last-child {
+
+    .main-content-heading-title--top .title-top-item div > span:last-child {
         font-size: 14px;
     }
 
-    .main-content-heading-title-bottom >div{
+    .main-content-heading-title-bottom > div {
         font-size: 16px;
     }
 
-    .main-content-heading-title--bottom-list{
+    .main-content-heading-title--bottom-list {
         padding: 16px;
 
     }
 
-    .main-content-heading-title--bottom-list ul li a{
+    .main-content-heading-title--bottom-list ul li a {
         width: 100%;
         font-size: 16px;
 
@@ -479,6 +483,7 @@
 
 
 }
+
 /*=================Mobile ===============*/
 @media screen and (max-width: 767px) {
 
@@ -487,6 +492,13 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+    }
+
+    .main-content-heading-title {
+        padding: 40px 24px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     /* Đưa heading lên trước */
@@ -500,9 +512,127 @@
     .main-content-Information {
         order: 2;
     }
-    .main-content-heading-icon{
+
+    .main-content-heading-icon {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    .icon-item {
+        padding: 8px 14px;
+        gap: 4px;
+        width: 92px;
+    }
+
+    .icon-item span {
+        font-size: 14px;
+    }
+
+    .icon-item span > img {
+        width: 21px;
+        height: 20px;
+    }
+
+
+    .main-content-heading-title {
         width: 100%;
     }
+
+    .main-content-heading-title--top {
+        width: 100%;
+    }
+
+    .title-top-item {
+        /*padding: 40px 24px 30px 24px;*/
+        margin: auto;
+    }
+
+    .title-top-item div {
+        gap: 20px;
+    }
+
+    .title-top-item div span {
+        width: 161px;
+
+    }
+
+    .main-content-heading-title-bottom {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .main-content-heading-title-bottom > div {
+        font-size: 16px;
+    }
+
+    .main-content-heading-title--bottom-list {
+        padding: 18px;
+        width: 100%;
+    }
+
+    .main-content-heading-title--bottom-list ul {
+        gap: 16px;
+        width: 100%;
+    }
+
+    .main-content-heading-title--bottom-list ul li a {
+        font-size: 14px;
+    }
+
+    .main-content-Information {
+        width: 100%;
+    }
+
+    .content-Information-Introduction {
+        padding: 40px 24px;
+        gap: 6px;
+    }
+
+    .content-Information-Introduction h2 {
+        font-size: 18px;
+    }
+
+    .content-Information-Introduction p {
+        font-size: 14px;
+    }
+
+    .content-Information-list {
+        padding: 40px 24px;
+        gap: 24px;
+    }
+
+    .content-Information-list-item {
+        gap: 14px;
+    }
+
+    .content-Information-list-item h2 {
+        font-size: 18px;
+    }
+
+    .content-Information-list-item p {
+        font-size: 14px;
+    }
+
+    .main-conten-btn {
+        padding: 14px 20px;
+        gap: 4px;
+        font-size: 14px;
+        width: 152px;
+        position: absolute;
+        margin: auto;
+        bottom: 30px;
+
+    }
+
+    .main-conten-btn img {
+        width: 14px;
+        height: 14px;
+    }
+
 
 }
 
