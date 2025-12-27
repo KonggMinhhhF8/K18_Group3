@@ -61,7 +61,6 @@
     padding: 80px 0 80px 80px;
     border-left: 1px solid #262626;
     width: 100%;
-    /*flex: 1;*/
 }
 .question-text{
     color:#FFFFFF;
@@ -192,5 +191,44 @@
     }
     .answer{
         font-size: 16px;
+    }
+}
+@media screen and (max-width: 767px){
+    .asked-question{
+        flex-direction: column;
+        gap: 0;
+    }
+    .asked-question__text{
+        width: 100%;
+        padding: 40px 0;
+        gap: 24px;
+    }
+    .asked-button{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .body-content__answer{
+        padding: 40px 0;
+        border: none;
+    }
+    .asked-logo{
+        width: 50px;
+        height: 50px;
+        background-size: contain;
+    }
+    .asked-title{
+        font-size: 20px;
+    }
+    .asked-text{
+        font-size: 14px;
+    }
+    .button-text{
+        font-size: 14px;
+    }
+    .button-logo{
+        width: 20px;
+        height: 20px;
+        background-size: contain;
     }
 }

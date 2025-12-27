@@ -79,10 +79,16 @@
     font-size: 18px;
     letter-spacing: 0%;
     color: #141414;
+    display: inline-block;
 }
 /*toggle*/
-.header-btn{
+.btn{
     display: none;
+}
+.header-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .menu-content{
     position: fixed;
@@ -137,7 +143,7 @@
 }
 /*Responsive*/
 /*tablet*/
-@media (min-width : 768px) and (max-width: 991px){
+@media (min-width : 767px) and (max-width: 991px){
     .container{
         margin: 0 80px;
     }
@@ -184,11 +190,33 @@
     }
 }
 /*phone*/
-@media screen and(max-width: 768px){
+@media screen and (max-width: 767px) {
+    .container{
+        margin: 0 16px;
+    }
     .header-bar__contact{
         display: none;
     }
-    .header-btn{
+    .btn{
         display: block;
+        cursor: pointer;
+    }
+    .header-bar__option{
+        display: none;
+    }
+    .noti{
+        padding: 40px 24px 14px 24px;
+        gap: 10px;
+    }
+    .noti-text{
+        font-size: 12px;
+    }
+    .noti-logo{
+        width: 20px;
+        height: 20px;
+        background-size: contain;
+    }
+    .header-bar{
+        padding: 20px 16px;
     }
 }
