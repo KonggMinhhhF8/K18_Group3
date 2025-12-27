@@ -709,7 +709,11 @@
     align-items: center;
     padding: 4px 12px;
     border-radius: 6px;
-    border: 1px solid #262626;
+    border: 1px solid transparent;
+    background-image: linear-gradient(#1A1A1A, #1A1A1A),
+    linear-gradient(to right, #262626, #FFD119);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
     color: white;
 }
 .footer__content > div:last-child{
