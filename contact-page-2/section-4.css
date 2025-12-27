@@ -98,15 +98,20 @@
     letter-spacing: -3%;
     color: #FFFFFF;
 }
-.logo > .sub-body-head__text-head{
+.sub-body-head__text-head-box{
     display: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -3%;
+    border-radius: 4px;
+    padding: 6px 10px;
+    background-color: #333333;
+    width: fit-content;
 }
 /*responsive*/
 /*tablet*/
 @media (min-width : 768px) and (max-width : 991px){
-    .logo > .sub-body-head__text-head{
-        display: none;
-    }
     .sub-body{
         padding-right: 40px;
         padding-left: 40px;
@@ -173,14 +178,15 @@
         height: 60px;
         background-size: contain;
     }
-    .logo > .sub-body-head__text-head{
+    .sub-body-head__text-head-box{
         display: block;
         padding: 4px 8px;
         gap: 10px;
         font-size: 14px;
-        width: 100%;
+        position: absolute;
+        left: 93px;
     }
-    .sub-body-head__text > .sub-body-head__text-head{
+   .sub-body-head__text-head{
         display: none;
     }
     .logo{

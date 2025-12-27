@@ -225,18 +225,9 @@
         display:none;
     }
     .footer-infor{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-    }
-    .footer-infor-opt{
-        flex: 1;
-    }
-    .opt-text-box{
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
-    }
-    .opt-text{
+        gap: 20px;
+        justify-content: space-between;
     }
 }
