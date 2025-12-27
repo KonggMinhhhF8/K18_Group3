@@ -4,8 +4,7 @@
 }
 .infor-section{
     padding: 80px 0;
-    /*width: calc( (100% - 300px) / 4);*/
-    gap: 20px;
+    gap: 50px;
 }
 .infor-box{
     display: flex;
@@ -88,6 +87,10 @@
 }
 .content-text{
     padding: 258px 0 258px 0;
+    width: 37%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 .content-text__logo{
     background-image: url('./icons/Icon-round.svg');
@@ -110,8 +113,7 @@
     gap: 50px;
     display: flex;
     flex-direction: column;
-    flex: 1;
-    /*width: 100%;*/
+    width: 100%;
 }
 .content-form__name{
     display: flex;
@@ -235,4 +237,107 @@
     padding: 18px 46px;
     border-radius: 8px;
 }
-
+/*responsive*/
+/*tablet*/
+@media screen and (max-width : 991px){
+    .infor{
+        gap: 30px;
+    }
+    .infor-section{
+        padding: 60px 0;
+    }
+    .infor-section__title{
+        font-size: 18px;
+    }
+    .infor-section__sub{
+        border-radius: 6px;
+        padding: 14px 20px;
+        gap: 4px;
+    }
+    .infor-section__sub-text{
+        font-size: 14px;
+    }
+    .infor-section__sub-logo{
+        width: 20px;
+        height: 20px;
+    }
+    .infor-logo{
+        gap: 10px;
+    }
+    .infor-icon{
+        border-radius: 6px;
+        padding: 14px 24px;
+        gap: 10px;
+    }
+    .infor-twitter__image,
+    .infor-dot__image,
+    .infor-linkedin__image{
+        width: 20px;
+        height: 20px;
+        background-size: contain;
+    }
+    .infor-section__sub-logo{
+        background-size: contain;
+    }
+    .infor-box,
+    .infor-section__sub {
+        width: 100%;
+    }
+/*content*/
+    .content{
+        gap: 60px;
+    }
+    .content-text{
+        gap: 30px;
+        padding: 217.5px 0 217.5px 0;
+        width: 50%;
+    }
+    .content-text__logo{
+        width: 60px;
+        height: 60px;
+        background-size: contain;
+    }
+    .content-text__big{
+        font-size: 44px;
+    }
+    .content-form{
+        padding: 60px 0 60px 60px;
+        gap: 30px;
+    }
+    .content-form__name{
+        gap: 50px;
+    }
+    .form-name{
+        width: calc((100% - 50px) / 2);
+    }
+    .content-form__name{
+        gap: 50px;
+    }
+    .content-form__infor{
+        gap: 50px;
+    }
+    .number{
+        width: 100%;
+        display: flex;
+        gap: 12px;
+    }
+    .number-country{
+        width: auto;
+        flex-shrink: 0;
+    }
+    .number-fill{
+        width: auto;
+        flex: 1;
+    }
+    .number{
+        gap: 12px;
+    }
+    .image{
+        width: 30px;
+        height: 30px;
+    }
+    .arrow-down{
+        width: 20px;
+        height: 20px;
+    }
+}
