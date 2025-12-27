@@ -275,6 +275,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    overflow: auto;
 }
 .discover__menu--content > button{
     width: 250px;
@@ -290,6 +291,10 @@
     background-color: #141414;
 }
 .discover__menu--content > button:first-child{
+    color: white;
+    background-color: #1A1A1A;
+}
+.discover__menu--content > button:hover{
     color: white;
     background-color: #1A1A1A;
 }
