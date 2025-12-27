@@ -19,7 +19,7 @@
     background-size: contain;
 }
 .logo{
-    padding: 22.5px 80px 22.5px 0;
+    padding: 33.5px 80px 33.5px 0;
 }
 .sub-body-head__text-head{
     color: #FFFFFF;
@@ -97,4 +97,57 @@
     font-size: 22px;
     letter-spacing: -3%;
     color: #FFFFFF;
+}
+/*responsive*/
+/*tablet*/
+@media screen and (max-width : 991px){
+    .sub-body-head{
+        gap: 60px;
+    }
+    .sub-body-head__logo{
+        width: 120px;
+        height: 120px;
+        background-size: contain;
+    }
+    .logo{
+        padding: 23.5px 0 23.5px 0;
+    }
+    .sub-body-head__text-head{
+        padding: 4px 8px;
+        border-radius: 4px;
+        gap: 10px;
+        font-size: 16px;
+    }
+    .sub-body-head__text-body{
+        font-size: 44px;
+        padding: 10px 0 20px 0;
+    }
+    .sub-body-head__text-footer{
+        font-size: 16px;
+    }
+    .sub-body-foot{
+        border-radius: 10px;
+        padding: 10px;
+        gap: 10px;
+    }
+    .sub-body-card{
+        border-radius: 10px;
+        padding: 30px;
+        gap: 16px;
+    }
+    .card-head-text{
+        font-size: 18px;
+    }
+    .card-text{
+        font-size: 16px;
+    }
+    .card-head__logo{
+        width: 20px;
+        height: 20px;
+        background-size: contain;
+    }
+    .card-logo{
+        padding: 12px;
+        gap: 10px;
+    }
 }

@@ -164,16 +164,33 @@
         gap: 30px;
     }
     .asked-logo{
-        width: 60px;
-        height: 60px;
-    }
-    .asked-container{
-        gap: 16px;
+        width: 48px;
+        height: 48px;
+        background-size: contain;
     }
     .asked-title{
-        font-size: 20px;
+        font-size: 28px;
     }
     .asked-text{
+        font-size: 16px;
+    }
+    .asked-button{
+        border-radius: 6px;
+        padding: 14px 20px;
+        gap: 4px;
+    }
+    .button-text{
+        font-size: 14px;
+    }
+    .button-logo{
+        width: 20px;
+        height: 20px;
+        background-size: contain;
+    }
+    .question-text{
+        font-size: 18px;
+    }
+    .answer{
         font-size: 16px;
     }
 }
