@@ -327,7 +327,7 @@ nav .menu-bar {
 
     }
 
-    .menu-bar .menu-btn{
+    .menu-bar .menu-btn {
         display: none;
     }
 
@@ -354,8 +354,8 @@ nav .menu-bar {
     /* ===== Icon mở menu ===== */
     .open-start {
         cursor: pointer;
-    /*    display: flex;*/
-    /*    align-items: center;*/
+        /*    display: flex;*/
+        /*    align-items: center;*/
     }
 
     .open-start img {
@@ -367,8 +367,9 @@ nav .menu-bar {
     .box-modal-statr {
         position: fixed;
         inset: 0;
-        background: rgba(0, 0, 0, 0.6);
-        opacity: 0;
+        /*background: rgba(0, 0, 0, 0.6);*/
+        background-color: transparent;
+        /*opacity: 0;*/
         pointer-events: none;
         transition: opacity 0.3s ease;
         z-index: 998;
@@ -405,7 +406,7 @@ nav .menu-bar {
         gap: 10px;
     }
 
-    .header_bottom_logo div img{
+    .header_bottom_logo div img {
         width: 130px;
         height: 32px;
 
@@ -453,14 +454,15 @@ nav .menu-bar {
 
     /* ================= TOGGLE ACTION ================= */
     #menu-toggle:checked ~ .box-modal-statr {
-        opacity: 1;
+        /*opacity: 1;*/
+        background-color: rgba(0, 0, 0, 0.45);
         pointer-events: auto;
     }
+
     /*đưa menu ra khỏi màn */
     #menu-toggle:checked ~ .menu-toggle {
         transform: translateX(0);
     }
-
 
 
 }

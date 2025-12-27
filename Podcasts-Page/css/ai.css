@@ -1,4 +1,3 @@
-
 .AI-item {
     max-width: 1920px;
     width: 100%;
@@ -28,7 +27,8 @@
 
 .AI-item-overview .AI-item-heading {
     display: flex;
-    align-items: center; /* ôm chiều cao nội dung */
+    align-items: center;
+    /* ôm chiều cao nội dung */
     justify-content: space-between;
     width: 100%;
 }
@@ -67,7 +67,7 @@
     position: relative;
 }
 
-.AI-item-overview .AI-item-description > a {
+.AI-item-overview .AI-item-description>a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,19 +80,19 @@
     border-radius: 12px;
 }
 
-.AI-item-overview .AI-item-description > a:hover {
+.AI-item-overview .AI-item-description>a:hover {
     color: #FFD11A;
     text-decoration: underline;
 }
 
-.AI-item-description > div {
+.AI-item-description>div {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     gap: 16px;
 }
 
-.AI-item-description > div > span {
+.AI-item-description>div>span {
     font-weight: 500;
     font-size: 18px;
     line-height: 150%;
@@ -100,7 +100,7 @@
     color: #FFFFFF;
 }
 
-.AI-item-description > div > span:first-child {
+.AI-item-description>div>span:first-child {
     color: #98989A;
 }
 
@@ -117,13 +117,14 @@
 
 .AI-item-conten img {
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
     background-position: center;
+    border-radius: 12px;
 }
 
-.AI-item-conten > div > h3,
-.AI-item-conten > div > p {
+.AI-item-conten>div>h3,
+.AI-item-conten>div>p {
     font-weight: 400;
     font-size: 26px;
     line-height: 150%;
@@ -134,7 +135,7 @@
 
 }
 
-.AI-item-conten > div > p {
+.AI-item-conten>div>p {
     font-size: 18px;
     color: #98989A;
     margin-top: 14px;
@@ -165,7 +166,7 @@
 }
 
 
-.AI-item-conten-layout .item-layout > span:first-child {
+.AI-item-conten-layout .item-layout>span:first-child {
     color: #98989A;
     font-weight: 400;
     font-size: 18px;
@@ -174,7 +175,7 @@
 
 }
 
-.AI-item-conten-layout .item-layout > span:last-child {
+.AI-item-conten-layout .item-layout>span:last-child {
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
@@ -199,7 +200,7 @@
         /*width: 390px;*/
     }
 
-    .AI-item-overview > img {
+    .AI-item-overview>img {
         width: 46px;
         height: 46px;
     }
@@ -213,13 +214,13 @@
 
     }
 
-    .AI-item-overview .AI-item-heading > span {
+    .AI-item-overview .AI-item-heading>span {
         padding: 6px 10px;
         gap: 3px;
         white-space: nowrap;
     }
 
-    .AI-item-overview .AI-item-heading span > img {
+    .AI-item-overview .AI-item-heading span>img {
         width: 14px;
         height: 16px;
     }
@@ -233,16 +234,16 @@
         gap: 2px;
     }
 
-    .AI-item-overview .AI-item-description div > span {
+    .AI-item-overview .AI-item-description div>span {
         font-size: 14px;
     }
 
-    .AI-item-overview .AI-item-description > a {
+    .AI-item-overview .AI-item-description>a {
         gap: 4px;
         padding: 14px 20px;
     }
 
-    .AI-item-overview .AI-item-description > a > img {
+    .AI-item-overview .AI-item-description>a>img {
         width: 12px;
         height: 12px;
     }
@@ -305,7 +306,7 @@
         gap: 20px;
     }
 
-    .AI-item-overview > img {
+    .AI-item-overview>img {
         width: 40px;
         height: 40px;
     }
@@ -340,7 +341,7 @@
         gap: 4px;
     }
 
-    .AI-item-description > a {
+    .AI-item-description>a {
         width: 50%;
         padding: 14px;
     }
@@ -390,35 +391,3 @@
         font-size: 16px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
