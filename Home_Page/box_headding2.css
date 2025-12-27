@@ -3,7 +3,6 @@
     padding: 50px 162px;
     border-bottom: 1px solid #262626;
     display: flex;
-    justify-content: space-between;
 }
 .box_headding2-item{
     padding: 30px 24px;
@@ -23,12 +22,8 @@
     flex: 1;
 }
 .box_headding_2 > a:first-child{
-    padding: 30px 24px;
-    border-radius: 8px;
     background-color: #1A1A1A;
     border: 1px solid #262626;
-    text-decoration: none;
-    text-align: center;
     color: #FFFFFF;
 }
 @media screen and (max-width: 1440px){
