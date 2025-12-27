@@ -23,10 +23,10 @@
         font-size: 44px;
     }
 
-    .container{
-        /*max-width: 1280px;*/
-        width: 85%;
-    }
+    /*.container{*/
+    /*    !*max-width: 1280px;*!*/
+    /*    width: 85%;*/
+    /*}*/
 
     #header-top{
         /*display: flex;*/

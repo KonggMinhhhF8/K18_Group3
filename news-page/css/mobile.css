@@ -26,10 +26,10 @@
     .title-h2-content > a{
         width: 100%;
     }
-    .container{
-        /*max-width: 358px;*/
-        width: 85%;
-    }
+    /*.container{*/
+    /*    !*max-width: 358px;*!*/
+    /*    width: 85%;*/
+    /*}*/
     .header__content--menu > nav{
         display: none;
     }
