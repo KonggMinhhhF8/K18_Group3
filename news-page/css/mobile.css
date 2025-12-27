@@ -552,6 +552,7 @@
     .footer__content--item > div > div > div{
         padding: 2px 10px;
         border-radius: 4px;
+        font-size: 14px;
     }
     .footer__content--mobile > div:last-child{
         flex-direction: column;
