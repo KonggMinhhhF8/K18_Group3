@@ -27,9 +27,10 @@
 .header-bar{
     border-bottom: 1px;
     justify-content: space-between;
-    padding: 24px 0;
     background-color: #1A1A1A;
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .wrapped-header-bar{
     background-color: #1A1A1A;
@@ -144,9 +145,6 @@
 /*Responsive*/
 /*tablet*/
 @media (min-width : 767px) and (max-width: 991px){
-    .container{
-        margin: 0 80px;
-    }
 /*    noti*/
     .notification{
         padding: 12px 24px;
@@ -191,9 +189,6 @@
 }
 /*phone*/
 @media screen and (max-width: 767px) {
-    .container{
-        margin: 0 16px;
-    }
     .header-bar__contact{
         display: none;
     }

@@ -98,12 +98,19 @@
     letter-spacing: -3%;
     color: #FFFFFF;
 }
-.logo > sub-body-head__text-head{
+.logo > .sub-body-head__text-head{
     display: none;
 }
 /*responsive*/
 /*tablet*/
 @media (min-width : 768px) and (max-width : 991px){
+    .logo > .sub-body-head__text-head{
+        display: none;
+    }
+    .sub-body{
+        padding-right: 40px;
+        padding-left: 40px;
+    }
     .sub-body-head{
         gap: 60px;
     }
@@ -157,7 +164,8 @@
 /*iphone*/
 @media screen and (max-width: 767px){
     .sub-body{
-        padding: 40px 0;
+        padding-right: 16px;
+        padding-left: 16px;
         gap: 40px;
     }
     .sub-body-head__logo{
@@ -197,6 +205,9 @@
         font-size: 16px;
     }
     .card-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 40px;
         height: 40px;
     }

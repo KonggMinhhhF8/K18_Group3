@@ -76,6 +76,10 @@
     display: flex;
     justify-content: space-between;
 }
+.footer-policy-mobile{
+    display: none;
+    padding: 40px 0;
+}
 .divider-2{
     width: 1px;
     height: 23px;
@@ -120,6 +124,10 @@
 /*responsive*/
 /*tablet*/
 @media (min-width : 768px) and (max-width: 991px){
+    .footer{
+        padding-right: 40px;
+        padding-left: 40px;
+    }
     .footer-infor{
         padding: 60px 0;
         gap: 50px;
@@ -176,5 +184,59 @@
         width: 20px;
         height: 20px;
         background-size: contain;
+    }
+}
+/*phone*/
+@media screen and (max-width: 767px){
+    .footer{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .opt-title{
+        font-size: 16px;
+    }
+    .text-foot{
+        font-size: 14px;
+    }
+    .footer-infor-text__sub{
+        padding: 2px 10px;
+        gap: 10px;
+    }
+    .sub-text-infor{
+        font-size: 12px;
+    }
+    .text-foot-box{
+        padding: 8px 14px;
+        gap: 4px;
+    }
+    .icon-opt{
+        width: 18px;
+        height: 18px;
+        background-size: contain;
+    }
+    .footer-policy-mobile{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-policy{
+        display:none;
+    }
+    .footer-infor{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .footer-infor-opt{
+        flex: 1;
+    }
+    .opt-text-box{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .opt-text{
     }
 }
