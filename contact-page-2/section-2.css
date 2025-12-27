@@ -191,7 +191,7 @@
     border-radius: 8px;
     border: 1px solid #262626;
     background-color: #1A1A1A;
-    width: 100%;
+    width: fit-content;
 }
 .number-fill span {
     color: #666666;
@@ -326,7 +326,7 @@
         flex-shrink: 0;
     }
     .number-fill{
-        width: auto;
+        width: 100%;
         flex: 1;
     }
     .number{
@@ -339,6 +339,9 @@
     .arrow-down{
         width: 20px;
         height: 20px;
+    }
+    .form-number{
+        /*width: 100%;*/
     }
 }
 @media screen and (max-width: 767px){
@@ -418,6 +421,9 @@
         width: 100%;
         gap: 12px;
     }
+    .form-number{
+        width: 100%;
+    }
     .content-form{
         padding: 0;
         border: none;
@@ -438,6 +444,7 @@
     }
     .number{
         gap: 12px;
+        width: 100%;
     }
     .image{
         width: 30px;
@@ -453,7 +460,7 @@
         font-size: 14px;
     }
     .number-fill{
-        width: auto;
+        width: 100%;
     }
     .number-country{
         width: auto;

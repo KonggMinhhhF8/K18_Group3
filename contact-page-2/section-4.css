@@ -98,6 +98,9 @@
     letter-spacing: -3%;
     color: #FFFFFF;
 }
+.logo > sub-body-head__text-head{
+    display: none;
+}
 /*responsive*/
 /*tablet*/
 @media (min-width : 768px) and (max-width : 991px){
@@ -148,6 +151,62 @@
     }
     .card-logo{
         padding: 12px;
+        gap: 10px;
+    }
+}
+/*iphone*/
+@media screen and (max-width: 767px){
+    .sub-body{
+        padding: 40px 0;
+        gap: 40px;
+    }
+    .sub-body-head__logo{
+        width: 60px;
+        height: 60px;
+        background-size: contain;
+    }
+    .logo > .sub-body-head__text-head{
+        display: block;
+        padding: 4px 8px;
+        gap: 10px;
+        font-size: 14px;
+        width: 100%;
+    }
+    .sub-body-head__text > .sub-body-head__text-head{
+        display: none;
+    }
+    .logo{
+        display: flex;
+        gap: 20px;
+        padding: 0;
+    }
+    .sub-body-head{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-body-head__text-body{
+        font-size: 28px;
+    }
+    .sub-body-head__text-footer{
+        font-size: 14px;
+    }
+    .sub-body-foot{
+        flex-direction: column;
+    }
+    .card-head-text{
+        font-size: 16px;
+    }
+    .card-logo{
+        width: 40px;
+        height: 40px;
+    }
+    .card-head__logo{
+        width: 20px;
+        height: 20px;
+        background-size: contain;
+    }
+    .sub-body__card{
+        padding: 24px;
         gap: 10px;
     }
 }
