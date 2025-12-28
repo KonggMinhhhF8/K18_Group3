@@ -3,6 +3,9 @@
     padding: 50px 162px;
     border-bottom: 1px solid #262626;
     display: flex;
+    overflow-x: auto;      /* cho phép trượt ngang */
+    overflow-y: hidden;
+    flex-wrap: nowrap;
 }
 .box_headding2-item{
     padding: 30px 24px;
@@ -20,6 +23,7 @@
     justify-content: center;
     text-align: center;
     min-width: 249px;
+    flex-shrink: 0;
 }
 .box_headding_2 > a:first-child{
     background-color: #1A1A1A;
