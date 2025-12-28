@@ -79,3 +79,23 @@
         font-size: 14px;
     }
 }
+/*phone*/
+@media screen and (max-width: 767px) {
+    .analysis-text{
+        gap: 10px;
+    }
+    .analysis {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        flex-direction: column;
+    }
+    .analysis-text{
+
+    }
+    .analysis-sub-text{
+        font-size: 14px;
+    }
+    .analysis-big-text{
+        font-size: 28px;
+    }
+}

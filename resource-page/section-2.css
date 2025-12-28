@@ -63,7 +63,7 @@
 }
 .divider{
     width: 1px;
-    height: 287px;
+    height: auto;
     background-color: #262626;
 }
 /*respoonsive*/
@@ -87,5 +87,39 @@
     }
     .infor-text{
         font-size: 18px;
+    }
+}
+/*phone*/
+@media screen and (max-width: 767px){
+    .unlock{
+        padding-top: 40px;
+    }
+    .unlock-sub-text{
+        flex-direction: column;
+    }
+    .unlock-text,
+    .sub-big-text{
+        font-size: 28px;
+    }
+    .sub-small-text{
+        font-size: 14px;
+        padding: 0;
+        padding-top: 14px;
+    }
+    .data{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+        justify-content: space-between;
+    }
+    .infor-data{
+        width: 50%;
+    }
+    .infor-number span,
+    .number{
+        font-size: 24px;
+    }
+    .infor-text{
+        font-size: 14px;
     }
 }

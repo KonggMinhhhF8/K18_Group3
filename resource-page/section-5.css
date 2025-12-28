@@ -56,7 +56,7 @@
 }
 .divider-3{
     width: 1px;
-    height: 674px;
+    height: auto;
     background-color: #262626;
 }
 /*responsive*/
