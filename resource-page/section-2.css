@@ -1,0 +1,91 @@
+.unlock{
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.unlock-text,
+.sub-big-text{
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 130%;
+    letter-spacing: -3%;
+    color:#FFFFFF;
+}
+.unlock-sub-text{
+    display: flex;
+}
+.sub-small-text{
+    font-weight: 400;
+    font-size: 18px;
+    color: #98989A;
+    padding: 25px 0 25px 80px;
+}
+/*data*/
+.data{
+    border-top: 1px solid #262626;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+.infor-data{
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    flex: 1;
+}
+.number{
+    font-weight: 600;
+    font-size: 60px;
+    letter-spacing: -3%;
+    color:#FFFFFF;
+}
+.infor-number span{
+    font-weight: 600;
+    font-size: 60px;
+    color: #FFD11A;
+    margin-left: 5px;
+}
+.infor-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.infor-text{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #98989A;
+}
+.divider{
+    width: 1px;
+    height: 287px;
+    background-color: #262626;
+}
+/*respoonsive*/
+/*tablet*/
+@media (min-width : 768px) and (max-width: 991px){
+    .unlock{
+        padding-top: 80px;
+        gap: 20px;
+    }
+    .sub-big-text,
+    .unlock-text{
+        font-size: 55px;
+    }
+    .sub-small-text{
+        font-size: 13px;
+        padding: 11.5px 0 11.5px 60px;
+    }
+    .number span,
+    .number{
+        font-size: 40px;
+    }
+    .infor-text{
+        font-size: 18px;
+    }
+}

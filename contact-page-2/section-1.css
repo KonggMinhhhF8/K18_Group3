@@ -1,21 +1,22 @@
-.noti{
+.noti {
     border-bottom: 1px solid #262626;
     padding: 20px 24px;
     gap: 10px;
     background-color: #141414;
 }
-.notification{
+
+.notification {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.noti-text{
+.noti-text {
     color: #98989A;
     font-weight: 400;
     font-size: 18px;
     letter-spacing: -3%;
 }
-.noti-logo{
+.noti-logo {
     background-image: url('icons/arrow-up.svg');
     background-repeat: no-repeat;
     background-position: center;
@@ -24,7 +25,7 @@
     margin-left: 10px;
 }
 /*future tech*/
-.header-bar{
+.header-bar {
     border-bottom: 1px;
     justify-content: space-between;
     background-color: #1A1A1A;
@@ -32,13 +33,13 @@
     padding-top: 24px;
     padding-bottom: 24px;
 }
-.wrapped-header-bar{
+.wrapped-header-bar {
     background-color: #1A1A1A;
 }
-.header-bar__future-tech{
+.header-bar__future-tech {
     display: flex;
 }
-.header-bar__future-tech__text{
+.header-bar__future-tech__text {
     background-image: url("./icons/Heading.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -47,23 +48,23 @@
     margin-left: 12.72px;
     margin-top: 16.36px;
 }
-.header-bar__future-tech__logo{
+.header-bar__future-tech__logo {
     background-image: url('./logo/first-logo.svg');
     background-repeat: no-repeat;
     background-position: center;
     width: 50px;
     height: 50px;
 }
-.header-bar__option{
+.header-bar__option {
     display: flex;
     align-items: center;
     margin-left: -60px;
 }
-.header-bar__option ul{
+.header-bar__option ul {
     list-style: none;
     gap: 40px;
 }
-.header-bar__option ul li{
+.header-bar__option ul li {
     display: inline-block;
     color: #7E7E81;
     font-weight: 400px;
@@ -71,7 +72,7 @@
     letter-spacing: 0%;
     margin-right: 40px;
 }
-.header-bar__contact{
+.header-bar__contact {
     gap: 10px;
     background-color: #FFD11A;
     border-radius: 10px;
@@ -81,17 +82,23 @@
     letter-spacing: 0%;
     color: #141414;
     display: inline-block;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.header-bar__contact:hover {
+    background-color: #E5BC00;
 }
 /*toggle*/
-.btn{
+.btn {
     display: none;
 }
-.header-btn{
+.header-btn {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.menu-content{
+.menu-content {
     position: fixed;
     top: 0;
     right: 0;
@@ -114,28 +121,28 @@
     align-items: center;
     margin-top: 20px;
 }
-.menu-content ul li{
-    color:#7E7E81;
+.menu-content ul li {
+    color: #7E7E81;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0%;
 }
-.menu-btn-close img{
+.menu-btn-close img {
     width: 24px;
     height: 24px;
     cursor: pointer;
     background-color: #FFFFFF;
     border-radius: 50%;
 }
-.header-btn input[type="checkbox"]:checked ~ .menu-content{
+.header-btn input[type="checkbox"]:checked~.menu-content {
     display: block;
 }
-.menu-box{
+.menu-box {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid white;
 }
-.menu-logo{
+.menu-logo {
     background-image: url('./logo/first-logo.svg');
     width: 50px;
     height: 50px;
@@ -144,26 +151,27 @@
 }
 /*Responsive*/
 /*tablet*/
-@media (min-width : 767px) and (max-width: 991px){
-/*    noti*/
-    .notification{
+@media (min-width : 767px) and (max-width: 991px) {
+
+    /*    noti*/
+    .notification {
         padding: 12px 24px;
         gap: 10px;
     }
-    .noti-text{
+    .noti-text {
         font-size: 14px;
     }
-    .noti-logo{
+    .noti-logo {
         width: 20px;
         height: 20px;
     }
-/*    header-bar*/
-    .header-bar__future-tech__logo{
+    /*    header-bar*/
+    .header-bar__future-tech__logo {
         width: 40px;
         height: 40px;
         background-size: contain;
     }
-    .header-bar__future-tech__text{
+    .header-bar__future-tech__text {
         margin-left: 10.17px;
         width: 90.26px;
         height: 13.73px;
@@ -175,13 +183,13 @@
     .header-bar__option ul {
         gap: 20px;
     }
-    .header-bar__contact{
+    .header-bar__contact {
         border-radius: 6px;
         padding: 10px 14px;
         gap: 10px;
         font-size: 14px;
     }
-    .header-bar__option{
+    .header-bar__option {
         margin-left: 0;
         flex: 1;
         justify-content: center;
@@ -189,29 +197,29 @@
 }
 /*phone*/
 @media screen and (max-width: 767px) {
-    .header-bar__contact{
+    .header-bar__contact {
         display: none;
     }
-    .btn{
+    .btn {
         display: block;
         cursor: pointer;
     }
-    .header-bar__option{
+    .header-bar__option {
         display: none;
     }
-    .noti{
+    .noti {
         padding: 40px 24px 14px 24px;
         gap: 10px;
     }
-    .noti-text{
+    .noti-text {
         font-size: 12px;
     }
-    .noti-logo{
+    .noti-logo {
         width: 20px;
         height: 20px;
         background-size: contain;
     }
-    .header-bar{
+    .header-bar {
         padding: 20px 16px;
     }
 }

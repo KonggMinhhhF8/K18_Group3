@@ -1,30 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     line-height: 150%;
     font-family: "Inter", sans-serif;
     background-color: #141414;
 }
-.container{
+
+.container {
     width: min(100%, 1590px);
     margin: 0 auto;
-
 }
-@media screen and (min-width: 1024px){
+
+@media screen and (min-width: 1024px) {
     .container {
         padding: 0 80px;
     }
 }
-@media (min-width : 767px) and (max-width: 991px){
+
+@media (min-width : 767px) and (max-width: 991px) {
     .container {
         padding: 0 40px;
     }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
     .container {
         padding: 0 16px;
     }

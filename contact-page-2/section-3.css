@@ -1,35 +1,40 @@
-.asked-question{
+.asked-question {
     display: flex;
     border-top: 1px solid #262626;
     gap: 80px;
 }
-.asked-question__text{
+
+.asked-question__text {
     padding: 241px 0 241px 0;
     display: flex;
     flex-direction: column;
     gap: 50px;
     width: 37%;
 }
-.asked-logo{
+
+.asked-logo {
     background-image: url("./logo/logo-3.svg");
     background-repeat: no-repeat;
     background-position: center;
     width: 64px;
     height: 64px;
 }
-.asked-title{
+
+.asked-title {
     font-weight: 600;
     font-size: 40px;
     letter-spacing: -3%;
     color: #FFFFFF;
 }
-.asked-text{
+
+.asked-text {
     font-weight: 400;
     font-size: 18px;
     letter-spacing: -3%;
     color: #98989A;
 }
-.asked-button{
+
+.asked-button {
     border-radius: 8px;
     border: 1px solid #262626;
     padding: 18px 24px;
@@ -38,50 +43,58 @@
     display: flex;
     width: fit-content;
 }
-.button-text{
+
+.button-text {
     font-weight: 400;
     font-size: 18px;
     letter-spacing: -3%;
     color: #98989A;
 }
-.button-logo{
+
+.button-logo {
     background-image: url('icons/arrow-up.svg');
     background-repeat: no-repeat;
     background-position: center;
     width: 16.5px;
     height: 16.5px;
 }
-.asked-container{
+
+.asked-container {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
+
 /*sub*/
-.body-content__answer{
+.body-content__answer {
     padding: 80px 0 80px 80px;
     border-left: 1px solid #262626;
     width: 100%;
 }
-.question-text{
-    color:#FFFFFF;
+
+.question-text {
+    color: #FFFFFF;
     font-weight: 500;
     font-size: 20px;
     line-height: 100%;
     letter-spacing: 0%;
 }
-.question-text{
+
+.question-text {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
-.question{
+
+.question {
     padding: 34px;
     border-radius: 12px;
     border: 1px solid #262626;
     background-color: #1A1A1A;
     margin-bottom: 30px;
 }
-.answer{
+
+.answer {
     font-weight: 400;
     font-size: 18px;
     letter-spacing: 0%;
@@ -89,144 +102,120 @@
     display: none;
     border-top: 1px solid #262626;
     padding-top: 24px;
+    margin-top: 24px;
 }
-.answer-1{
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 0%;
-    color: #7E7E81;
-    display: none;
-    border-top: 1px solid #262626;
-    padding-top: 24px;
-}
-.answer-2{
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 0%;
-    color: #7E7E81;
-    display: none;
-    border-top: 1px solid #262626;
-    padding-top: 24px;
-}
-.answer-3{
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 0%;
-    color: #7E7E81;
-    display: none;
-    border-top: 1px solid #262626;
-    padding-top: 24px;
-}
-.answer-4{
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 0%;
-    color: #7E7E81;
-    display: none;
-    border-top: 1px solid #262626;
-    padding-top: 24px;
-}
-#question:checked ~ .answer,
-#question-1:checked ~ .answer-1,
-#question-2:checked ~ .answer-2,
-#question-3:checked ~ .answer-3,
-#question-4:checked ~ .answer-4{
+
+input[type="checkbox"]:checked~.answer {
     display: block;
 }
-#question:checked ~ .question-text,
-#question-1:checked ~ .question-text,
-#question-2:checked ~ .question-text,
-#question-3:checked ~ .question-text,
-#question-4:checked ~ .question-text{
+
+input[type="checkbox"]:checked~.question-text {
     padding-bottom: 24px;
 }
+
 .question-text::after {
     content: "";
-    background-image: url("../contact-page-2/icons/plus.svg");
+    background-image: url("./icons/plus.svg");
     background-repeat: no-repeat;
     background-position: center;
     width: 16px;
     height: 16px;
     background-size: cover;
+    flex-shrink: 0;
 }
-#question:checked ~ .question-text::after,
-#question-1:checked ~ .question-text::after,
-#question-2:checked ~ .question-text::after,
-#question-3:checked ~ .question-text::after,
-#question-4:checked ~ .question-text::after {
+
+input[type="checkbox"]:checked~.question-text::after {
     content: "";
-    background-image: url("../contact-page-2/icons/minus.svg");
+    background-image: url("./icons/minus.svg");
 }
-@media (min-width : 768px) and (max-width : 991px){
-    .asked-question__text{
+
+@media (min-width : 768px) and (max-width : 991px) {
+    .asked-question__text {
         width: 46.75%;
         gap: 30px;
     }
-    .asked-logo{
+
+    .asked-logo {
         width: 48px;
         height: 48px;
         background-size: contain;
     }
-    .asked-title{
+
+    .asked-title {
         font-size: 28px;
     }
-    .asked-text{
+
+    .asked-text {
         font-size: 16px;
     }
-    .asked-button{
+
+    .asked-button {
         border-radius: 6px;
         padding: 14px 20px;
         gap: 4px;
     }
-    .button-text{
+
+    .button-text {
         font-size: 14px;
     }
-    .button-logo{
+
+    .button-logo {
         width: 20px;
         height: 20px;
         background-size: contain;
     }
-    .question-text{
+
+    .question-text {
         font-size: 18px;
     }
-    .answer{
+
+    .answer {
         font-size: 16px;
     }
 }
-@media screen and (max-width: 767px){
-    .asked-question{
+
+@media screen and (max-width: 767px) {
+    .asked-question {
         flex-direction: column;
         gap: 0;
     }
-    .asked-question__text{
+
+    .asked-question__text {
         width: 100%;
         padding: 40px 0;
         gap: 24px;
     }
-    .asked-button{
+
+    .asked-button {
         width: 100%;
         justify-content: center;
         align-items: center;
     }
-    .body-content__answer{
+
+    .body-content__answer {
         padding: 40px 0;
         border: none;
     }
-    .asked-logo{
+
+    .asked-logo {
         width: 50px;
         height: 50px;
         background-size: contain;
     }
-    .asked-title{
+
+    .asked-title {
         font-size: 20px;
     }
-    .asked-text{
+
+    .asked-text {
         font-size: 14px;
     }
-    .button-text{
+
+    .button-text {
         font-size: 14px;
     }
-    .button-logo{
+
+    .button-logo {
         width: 20px;
         height: 20px;
         background-size: contain;
