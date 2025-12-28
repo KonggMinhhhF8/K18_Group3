@@ -35,7 +35,6 @@
     flex-direction: column;
     gap: 10px;
     align-items: center;
-    flex: 1;
 }
 .number{
     font-weight: 600;
@@ -121,5 +120,8 @@
     }
     .infor-text{
         font-size: 14px;
+    }
+    .divider{
+        display: none;
     }
 }

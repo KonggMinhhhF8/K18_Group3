@@ -222,3 +222,64 @@
         font-size: 16px;
     }
 }
+/*phone*/
+@media screen and (max-width: 767px){
+    .quantum{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .quantum-box{
+        gap: 20px;
+    }
+    .quantum-detail{
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .quantum-text{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        gap: 0;
+    }
+    .quantum-infor{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .quantum-logo{
+        width: 50px;
+        height: 50px;
+    }
+    .quantum-title{
+        font-size: 21px;
+    }
+    .quantum-sub-text{
+        font-size: 14px;
+    }
+    .description-title{
+        font-size: 18px;
+    }
+    .description-text{
+        font-size: 14px;
+    }
+    .quantum-sub-infor{
+        flex-direction: column;
+    }
+    .box-btn{
+        width: 100%;
+    }
+    .sub-box{
+        border-radius: 8px;
+        padding: 20px;
+        width: calc((100% - 10px) / 2);
+        text-align: center;
+    }
+    .date-text{
+        font-size: 14px;
+    }
+    .date-sub{
+        font-size: 14px;
+    }
+    .middle{
+        width: 100%;
+    }
+}

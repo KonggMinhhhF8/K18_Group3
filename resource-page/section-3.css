@@ -88,14 +88,28 @@
         padding-top: 40px;
         padding-bottom: 40px;
         flex-direction: column;
+        align-items: flex-start;
+        height: auto;
     }
     .analysis-text{
-
+        width: 100%;
+        gap: 16px;
+        justify-content: flex-start;
     }
     .analysis-sub-text{
         font-size: 14px;
     }
     .analysis-big-text{
         font-size: 28px;
+    }
+    .analysis-opt{
+        width: 100%;
+        margin-top: 0;
+        display: flex;
+        flex: 1;
+    }
+    .opt-box{
+        width: calc((100% - 10px) / 3);
+        text-align: center;
     }
 }

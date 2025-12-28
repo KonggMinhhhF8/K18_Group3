@@ -82,3 +82,29 @@
         padding-bottom: 60px;
     }
 }
+/*phone*/
+@media screen and (max-width: 767px){
+    .hero{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .hero-container{
+        width: 100%;
+    }
+    .hero-btn{
+        gap: 10px;
+    }
+    .hero-title{
+        font-size: 16px;
+    }
+    .hero-text{
+        font-size: 14px;
+    }
+    .size{
+        padding: 14px 20px;
+        border-radius: 8px;
+        gap: 10px;
+        font-size: 14px;
+    }
+}
