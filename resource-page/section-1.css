@@ -4,6 +4,7 @@
     gap: 10px;
     background-color: #141414;
 }
+
 .notification {
     display: flex;
     justify-content: center;
@@ -31,6 +32,9 @@
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
+}
+.wrapped-header-bar {
+    background-color: #1A1A1A;
 }
 .header-bar__future-tech {
     display: flex;
@@ -63,18 +67,10 @@
 .header-bar__option ul li {
     display: inline-block;
     color: #7E7E81;
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 18px;
     letter-spacing: 0%;
     margin-right: 40px;
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
-.header-bar__option ul li:hover {
-    color: #FFFFFF;
-}
-.header-bar__option ul li.active {
-    color: #FFFFFF;
 }
 .header-bar__contact {
     gap: 10px;
@@ -86,6 +82,12 @@
     letter-spacing: 0%;
     color: #141414;
     display: inline-block;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.header-bar__contact:hover {
+    background-color: #E5BC00;
 }
 /*toggle*/
 .btn {
@@ -148,16 +150,6 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-.header-bar__option ul li:last-child{
-    color:#FFFFFF;
-    font-size: 18px;
-    letter-spacing: 0%;
-    font-weight: 500;
-    border-radius: 10px;
-    border: 1px solid #333333;
-    padding: 14px 24px;
-    gap: 10px;
-}
 .overlay{
     position: fixed;
     top: 0;
@@ -167,6 +159,28 @@
     background-color: rgba(4, 3, 3, 0.5);
     z-index: 3;
     display: none;
+}
+.menu-content ul li:last-child{
+    color:#FFFFFF;
+    font-size: 18px;
+    letter-spacing: 0%;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px solid #333333;
+    padding: 14px 24px;
+    gap: 10px;
+    background-color: #141414;
+}
+.header-bar__option ul li:last-child{
+    color:#FFFFFF;
+    font-size: 18px;
+    letter-spacing: 0%;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px solid #333333;
+    padding: 14px 24px;
+    gap: 10px;
+    background-color: #141414;
 }
 /*responsive*/
 /*tablet*/

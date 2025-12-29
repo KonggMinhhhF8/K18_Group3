@@ -266,6 +266,8 @@
     }
     .box-btn{
         width: 100%;
+        padding-left: 0;
+        padding-right: 0;
     }
     .sub-box{
         border-radius: 8px;
@@ -281,5 +283,8 @@
     }
     .middle{
         width: 100%;
+    }
+    .divider-2{
+        display: none;
     }
 }

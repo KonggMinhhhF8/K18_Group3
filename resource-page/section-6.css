@@ -169,8 +169,7 @@
 /*iphone*/
 @media screen and (max-width: 767px){
     .sub-body{
-        padding-right: 16px;
-        padding-left: 16px;
+        padding: 40px 16px;
         gap: 40px;
     }
     .sub-body-head__logo{
@@ -226,4 +225,9 @@
         padding: 24px;
         gap: 10px;
     }
+    .sub-body-foot{
+        padding: 10px;
+        gap: 10px;
+    }
+
 }

@@ -4,10 +4,13 @@
 }
 
 .infor-section {
-    padding: 80px 0;
+    padding: 80px 50px;
     gap: 50px;
+    border-right: 1px solid #262626;
 }
-
+.infor-section:last-child {
+    border-right: none;
+}
 .infor-box {
     display: flex;
     flex-direction: column;
@@ -630,5 +633,10 @@
 
     .content-policy-text {
         font-size: 14px;
+    }
+    .content-form,
+    .content-form__infor,
+    .content-form__name{
+        gap: 20px;
     }
 }

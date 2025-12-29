@@ -229,5 +229,7 @@
         flex-wrap: wrap;
         gap: 20px;
         justify-content: space-between;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
