@@ -3,9 +3,10 @@
     padding: 50px 162px;
     border-bottom: 1px solid #262626;
     display: flex;
-    overflow-x: auto;      /* cho phép trượt ngang */
+    overflow-x: overlay;
     overflow-y: hidden;
     flex-wrap: nowrap;
+    width: 100%;
 }
 .box_headding2-item{
     padding: 30px 24px;
