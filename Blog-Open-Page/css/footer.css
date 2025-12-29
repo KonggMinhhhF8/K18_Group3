@@ -1,4 +1,3 @@
-
 footer {
     width: 100%;
     padding-left: 162px;
@@ -8,6 +7,7 @@ footer {
     /*align-items: center;*/
     flex-direction: column;
     background-color: #141414;
+    max-width: 100%;
 
 }
 
@@ -36,8 +36,8 @@ footer {
 
 }
 
-.Footer-top-item > a,
-.Footer-top-item > h4,
+.Footer-top-item>a,
+.Footer-top-item>h4,
 .Footer-bottom span {
     text-decoration: none;
     color: #666666;
@@ -49,19 +49,19 @@ footer {
 
 }
 
-.Footer-top-item > a:hover {
+.Footer-top-item>a:hover {
     text-decoration: underline;
     color: #FFD11A;
 }
 
-.Footer-top-item > h4 {
+.Footer-top-item>h4 {
     color: #FFFFFF;
     font-weight: 500;
     font-size: 20px;
 
 }
 
-.Footer-top-item > h4 {
+.Footer-top-item>h4 {
     margin-bottom: 36px;
 }
 
@@ -88,7 +88,7 @@ footer {
 
 }
 
-.footer-top-item-Resources > a {
+.footer-top-item-Resources>a {
     /*width: 100%;*/
     /*background-color: #8f6824;*/
     border-radius: 8px;
@@ -132,6 +132,20 @@ footer {
 }
 
 
+/* Responsive small PC */
+@media screen and (min-width: 992px) and (max-width: 1500px) {
+    footer {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .Footer-top {
+        gap: 40px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
 /* responsive tabled*/
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -167,7 +181,7 @@ footer {
         gap: 6px;
     }
 
-    .Footer-top .Footer-top-item a > span {
+    .Footer-top .Footer-top-item a>span {
         font-size: 12px;
         padding: 2px 8px;
         width: 40px;
@@ -175,7 +189,7 @@ footer {
 
     }
 
-    .Footer-top .Footer-top-item a > img {
+    .Footer-top .Footer-top-item a>img {
         width: 12px;
         height: 12px;
     }
@@ -281,7 +295,7 @@ footer {
         font-size: 14px;
     }
 
-    .footer-top-item-Resources a > img {
+    .footer-top-item-Resources a>img {
         width: 12px;
         height: 12px;
     }
@@ -326,7 +340,7 @@ footer {
         gap: 20px;
     }
 
-    .Footer-bottom > div:last-child {
+    .Footer-bottom>div:last-child {
         order: 3;
         font-size: 12px;
 
@@ -334,16 +348,3 @@ footer {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

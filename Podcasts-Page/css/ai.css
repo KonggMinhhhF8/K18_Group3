@@ -51,6 +51,7 @@
     /*display: inline-flex; !*  ôm icon *!*/
     align-items: center;
     gap: 4px;
+    white-space: nowrap;
 }
 
 
@@ -187,6 +188,52 @@
 
 
 /* respovive*/
+@media screen and (min-width: 992px) and (max-width: 1560px) {
+
+    .AI-item {
+        padding: 0 60px;
+        gap: 40px;
+    }
+
+    .AI-item-overview {
+        max-width: 45%;
+        gap: 30px;
+    }
+
+    .AI-item-overview .AI-item-heading h2 {
+        font-size: 28px;
+    }
+
+    .AI-item-overview .AI-item-heading span {
+        padding: 8px 12px;
+    }
+
+    .AI-item-conten {
+        padding-left: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .AI-item-conten>div>h3 {
+        font-size: 20px;
+    }
+
+    .AI-item-conten>div>p {
+        font-size: 16px;
+    }
+
+    .AI-item-conten .AI-item-conten-layout {
+        gap: 14px;
+    }
+
+    .AI-item-conten-layout .item-layout {
+        padding: 16px;
+    }
+
+    .AI-item-conten-layout .item-layout>span:last-child {
+        font-size: 18px;
+    }
+}
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .AI .AI-item {
@@ -241,6 +288,10 @@
     .AI-item-overview .AI-item-description>a {
         gap: 4px;
         padding: 14px 20px;
+        white-space: nowrap;
+    }
+    .AI-item .AI-item-description >a{
+        white-space: nowrap;
     }
 
     .AI-item-overview .AI-item-description>a>img {
