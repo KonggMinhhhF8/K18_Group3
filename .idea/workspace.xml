@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9337a2ff-813a-402e-bff8-4d28e2fcafce" name="Changes" comment="comit after fix bug" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature-resource-contact-page-fix" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;huy31032007&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KonggMinhhhF8/K18_Group3.git&quot;,
+    &quot;accountId&quot;: &quot;45d8f1c7-4c79-438a-b432-6e57de4bd085&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="36n7UrLvxw2V6BR8q4MPsKk3dxn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/quanghuyvu/Documents/Workspace/Code/K18_Group3/resource-page/logo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resource-page/logo" />
+      <recent name="$PROJECT_DIR$/resource-page" />
+      <recent name="$PROJECT_DIR$/resource-page/icons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resource-page/logo" />
+      <recent name="$PROJECT_DIR$/resource-page/icons" />
+      <recent name="$PROJECT_DIR$/resource-page" />
+      <recent name="$PROJECT_DIR$/contact-page-2/icons" />
+      <recent name="$PROJECT_DIR$/contact-page/icons" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.26830.93" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9337a2ff-813a-402e-bff8-4d28e2fcafce" name="Changes" comment="" />
+      <created>1765630499833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765630499833</updated>
+      <workItem from="1765630501000" duration="7000" />
+      <workItem from="1765630897786" duration="2084000" />
+      <workItem from="1765806744977" duration="5010000" />
+      <workItem from="1765814584322" duration="29044000" />
+      <workItem from="1766164276978" duration="1022000" />
+      <workItem from="1766199683765" duration="18533000" />
+      <workItem from="1766285935006" duration="9914000" />
+      <workItem from="1766410884440" duration="17408000" />
+      <workItem from="1766629469407" duration="31507000" />
+      <workItem from="1766686984730" duration="462000" />
+      <workItem from="1766741111025" duration="77532000" />
+      <workItem from="1767025942616" duration="5516000" />
+      <workItem from="1767062661363" duration="2358000" />
+      <workItem from="1767096802642" duration="3871000" />
+    </task>
+    <task id="LOCAL-00001" summary="comit lan dau">
+      <option name="closed" value="true" />
+      <created>1765811896270</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765811896270</updated>
+    </task>
+    <task id="LOCAL-00002" summary="comit lan dau">
+      <option name="closed" value="true" />
+      <created>1765814513632</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765814513632</updated>
+    </task>
+    <task id="LOCAL-00003" summary="comit lan 3">
+      <option name="closed" value="true" />
+      <created>1765869670116</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765869670116</updated>
+    </task>
+    <task id="LOCAL-00004" summary="comit lan 4">
+      <option name="closed" value="true" />
+      <created>1765888546057</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765888546057</updated>
+    </task>
+    <task id="LOCAL-00005" summary="comit lan 4">
+      <option name="closed" value="true" />
+      <created>1765889118251</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765889118251</updated>
+    </task>
+    <task id="LOCAL-00006" summary="comit lan 4">
+      <option name="closed" value="true" />
+      <created>1765908214643</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765908214643</updated>
+    </task>
+    <task id="LOCAL-00007" summary="comit lan 6">
+      <option name="closed" value="true" />
+      <created>1765910814082</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765910814082</updated>
+    </task>
+    <task id="LOCAL-00008" summary="comit lan 6">
+      <option name="closed" value="true" />
+      <created>1766204484845</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1766204484845</updated>
+    </task>
+    <task id="LOCAL-00009" summary="comit lan 7">
+      <option name="closed" value="true" />
+      <created>1766234123760</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1766234123760</updated>
+    </task>
+    <task id="LOCAL-00010" summary="comit lan 8">
+      <option name="closed" value="true" />
+      <created>1766247035189</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1766247035189</updated>
+    </task>
+    <task id="LOCAL-00011" summary="comit lan 8">
+      <option name="closed" value="true" />
+      <created>1766251665149</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1766251665149</updated>
+    </task>
+    <task id="LOCAL-00012" summary="comit lan 8">
+      <option name="closed" value="true" />
+      <created>1766254739472</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1766254739472</updated>
+    </task>
+    <task id="LOCAL-00013" summary="comit lan 8">
+      <option name="closed" value="true" />
+      <created>1766291317663</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1766291317663</updated>
+    </task>
+    <task id="LOCAL-00014" summary="comit lan 9 xong page pc">
+      <option name="closed" value="true" />
+      <created>1766375025401</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1766375025401</updated>
+    </task>
+    <task id="LOCAL-00015" summary="comit lan 10 responsive">
+      <option name="closed" value="true" />
+      <created>1766546118768</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1766546118768</updated>
+    </task>
+    <task id="LOCAL-00016" summary="comit lan 1">
+      <option name="closed" value="true" />
+      <created>1766677192409</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1766677192409</updated>
+    </task>
+    <task id="LOCAL-00017" summary="comit lan 1">
+      <option name="closed" value="true" />
+      <created>1766762896888</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1766762896888</updated>
+    </task>
+    <task id="LOCAL-00018" summary="comit lan 1">
+      <option name="closed" value="true" />
+      <created>1766769815713</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1766769815713</updated>
+    </task>
+    <task id="LOCAL-00019" summary="comit lan 1">
+      <option name="closed" value="true" />
+      <created>1766769934337</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1766769934337</updated>
+    </task>
+    <task id="LOCAL-00020" summary="comit lan 2">
+      <option name="closed" value="true" />
+      <created>1766822621595</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1766822621595</updated>
+    </task>
+    <task id="LOCAL-00021" summary="comit lan 2">
+      <option name="closed" value="true" />
+      <created>1766828292869</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1766828292869</updated>
+    </task>
+    <task id="LOCAL-00022" summary="comit lan 2">
+      <option name="closed" value="true" />
+      <created>1766828556709</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1766828556709</updated>
+    </task>
+    <task id="LOCAL-00023" summary="comit lan 4">
+      <option name="closed" value="true" />
+      <created>1766834780029</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1766834780029</updated>
+    </task>
+    <task id="LOCAL-00024" summary="comit lan 4">
+      <option name="closed" value="true" />
+      <created>1766837922653</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1766837922653</updated>
+    </task>
+    <task id="LOCAL-00025" summary="comit lan 4">
+      <option name="closed" value="true" />
+      <created>1766856722831</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1766856722831</updated>
+    </task>
+    <task id="LOCAL-00026" summary="comit lan 4">
+      <option name="closed" value="true" />
+      <created>1766859431647</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1766859431647</updated>
+    </task>
+    <task id="LOCAL-00027" summary="comit lan 4">
+      <option name="closed" value="true" />
+      <created>1766909812216</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1766909812216</updated>
+    </task>
+    <task id="LOCAL-00028" summary="comit lan 4">
+      <option name="closed" value="true" />
+      <created>1766911143696</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1766911143696</updated>
+    </task>
+    <task id="LOCAL-00029" summary="comit lan 4">
+      <option name="closed" value="true" />
+      <created>1766913697739</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1766913697739</updated>
+    </task>
+    <task id="LOCAL-00030" summary="comit lan 4">
+      <option name="closed" value="true" />
+      <created>1766915074359</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1766915074359</updated>
+    </task>
+    <task id="LOCAL-00031" summary="comit lan 4">
+      <option name="closed" value="true" />
+      <created>1767027834363</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1767027834363</updated>
+    </task>
+    <task id="LOCAL-00032" summary="comit after fix bug">
+      <option name="closed" value="true" />
+      <created>1767031493287</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1767031493287</updated>
+    </task>
+    <task id="LOCAL-00033" summary="comit after fix bug">
+      <option name="closed" value="true" />
+      <created>1767062911016</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1767062911016</updated>
+    </task>
+    <task id="LOCAL-00034" summary="comit after fix bug">
+      <option name="closed" value="true" />
+      <created>1767098165774</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1767098165774</updated>
+    </task>
+    <task id="LOCAL-00035" summary="comit after fix bug">
+      <option name="closed" value="true" />
+      <created>1767100379370</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1767100379370</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="comit lan dau" />
+    <MESSAGE value="comit lan 3" />
+    <MESSAGE value="comit lan 6" />
+    <MESSAGE value="comit lan 7" />
+    <MESSAGE value="comit lan 8" />
+    <MESSAGE value="comit lan 9 xong page pc" />
+    <MESSAGE value="comit lan 10 responsive" />
+    <MESSAGE value="comit lan 1" />
+    <MESSAGE value="comit lan 2" />
+    <MESSAGE value="comit lan 4" />
+    <MESSAGE value="comit after fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="comit after fix bug" />
+  </component>
+</project>

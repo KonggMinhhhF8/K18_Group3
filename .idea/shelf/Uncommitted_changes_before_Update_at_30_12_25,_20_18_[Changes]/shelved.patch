@@ -1,0 +1,159 @@
+diff --git a/resource-page/logo/quantum-logo-2.svg b/resource/logo/quantum-logo-2.svg
+rename from resource-page/logo/quantum-logo-2.svg
+rename to resource/logo/quantum-logo-2.svg
+diff --git a/resource-page/logo/linkdle.svg b/resource/logo/linkdle.svg
+rename from resource-page/logo/linkdle.svg
+rename to resource/logo/linkdle.svg
+diff --git a/resource-page/logo/india.svg b/resource/logo/india.svg
+rename from resource-page/logo/india.svg
+rename to resource/logo/india.svg
+diff --git a/resource-page/logo/twitter.svg b/resource/logo/twitter.svg
+rename from resource-page/logo/twitter.svg
+rename to resource/logo/twitter.svg
+diff --git a/resource-page/logo/logo-3.svg b/resource/logo/logo-3.svg
+rename from resource-page/logo/logo-3.svg
+rename to resource/logo/logo-3.svg
+diff --git a/resource-page/icons/arrow-down.svg b/resource/icons/arrow-down.svg
+rename from resource-page/icons/arrow-down.svg
+rename to resource/icons/arrow-down.svg
+diff --git a/resource-page/icons/plus-2.svg b/resource/icons/plus-2.svg
+rename from resource-page/icons/plus-2.svg
+rename to resource/icons/plus-2.svg
+diff --git a/resource-page/icons/Heading.svg b/resource/icons/Heading.svg
+rename from resource-page/icons/Heading.svg
+rename to resource/icons/Heading.svg
+diff --git a/resource-page/icons/arrow-up-black.svg b/resource/icons/arrow-up-black.svg
+rename from resource-page/icons/arrow-up-black.svg
+rename to resource/icons/arrow-up-black.svg
+diff --git a/resource-page/icons/3-gach.svg b/resource/icons/3-gach.svg
+rename from resource-page/icons/3-gach.svg
+rename to resource/icons/3-gach.svg
+diff --git a/resource-page/icons/Button.svg b/resource/icons/Button.svg
+rename from resource-page/icons/Button.svg
+rename to resource/icons/Button.svg
+diff --git a/resource-page/icons/arrow-up.svg b/resource/icons/arrow-up.svg
+rename from resource-page/icons/arrow-up.svg
+rename to resource/icons/arrow-up.svg
+diff --git a/resource-page/icons/arrow-black.svg b/resource/icons/arrow-black.svg
+rename from resource-page/icons/arrow-black.svg
+rename to resource/icons/arrow-black.svg
+diff --git a/resource-page/icons/Icon-round.svg b/resource/icons/Icon-round.svg
+rename from resource-page/icons/Icon-round.svg
+rename to resource/icons/Icon-round.svg
+diff --git a/resource-page/icons/minus.svg b/resource/icons/minus.svg
+rename from resource-page/icons/minus.svg
+rename to resource/icons/minus.svg
+diff --git a/contact-page-2/section-1.css b/contact/section-1.css
+rename from contact-page-2/section-1.css
+rename to contact/section-1.css
+diff --git a/contact-page-2/section-2.css b/contact/section-2.css
+rename from contact-page-2/section-2.css
+rename to contact/section-2.css
+diff --git a/contact-page-2/section-3.css b/contact/section-3.css
+rename from contact-page-2/section-3.css
+rename to contact/section-3.css
+diff --git a/contact-page-2/section-4.css b/contact/section-4.css
+rename from contact-page-2/section-4.css
+rename to contact/section-4.css
+diff --git a/contact-page-2/section-5.css b/contact/section-5.css
+rename from contact-page-2/section-5.css
+rename to contact/section-5.css
+diff --git a/contact-page-2/style.css b/contact/style.css
+rename from contact-page-2/style.css
+rename to contact/style.css
+diff --git a/contact-page-2/contact-page.html b/contact/contact-page.html
+rename from contact-page-2/contact-page.html
+rename to contact/contact-page.html
+diff --git a/contact-page-2/logo/logo-second.svg b/contact/logo/logo-second.svg
+rename from contact-page-2/logo/logo-second.svg
+rename to contact/logo/logo-second.svg
+diff --git a/contact-page-2/logo/dot.svg b/contact/logo/dot.svg
+rename from contact-page-2/logo/dot.svg
+rename to contact/logo/dot.svg
+diff --git a/contact-page-2/logo/first-logo.svg b/contact/logo/first-logo.svg
+rename from contact-page-2/logo/first-logo.svg
+rename to contact/logo/first-logo.svg
+diff --git a/contact-page-2/logo/linkdle.svg b/contact/logo/linkdle.svg
+rename from contact-page-2/logo/linkdle.svg
+rename to contact/logo/linkdle.svg
+diff --git a/contact-page-2/logo/india.svg b/contact/logo/india.svg
+rename from contact-page-2/logo/india.svg
+rename to contact/logo/india.svg
+diff --git a/contact-page-2/logo/twitter.svg b/contact/logo/twitter.svg
+rename from contact-page-2/logo/twitter.svg
+rename to contact/logo/twitter.svg
+diff --git a/contact-page-2/logo/logo-3.svg b/contact/logo/logo-3.svg
+rename from contact-page-2/logo/logo-3.svg
+rename to contact/logo/logo-3.svg
+diff --git a/contact-page-2/icons/arrow-down.svg b/contact/icons/arrow-down.svg
+rename from contact-page-2/icons/arrow-down.svg
+rename to contact/icons/arrow-down.svg
+diff --git a/contact-page-2/icons/Heading.svg b/contact/icons/Heading.svg
+rename from contact-page-2/icons/Heading.svg
+rename to contact/icons/Heading.svg
+diff --git a/contact-page-2/icons/arrow-up-black.svg b/contact/icons/arrow-up-black.svg
+rename from contact-page-2/icons/arrow-up-black.svg
+rename to contact/icons/arrow-up-black.svg
+diff --git a/contact-page-2/icons/3-gach.svg b/contact/icons/3-gach.svg
+rename from contact-page-2/icons/3-gach.svg
+rename to contact/icons/3-gach.svg
+diff --git a/contact-page-2/icons/plus.svg b/contact/icons/plus.svg
+rename from contact-page-2/icons/plus.svg
+rename to contact/icons/plus.svg
+diff --git a/contact-page-2/icons/Button.svg b/contact/icons/Button.svg
+rename from contact-page-2/icons/Button.svg
+rename to contact/icons/Button.svg
+diff --git a/contact-page-2/icons/arrow-up.svg b/contact/icons/arrow-up.svg
+rename from contact-page-2/icons/arrow-up.svg
+rename to contact/icons/arrow-up.svg
+diff --git a/contact-page-2/icons/arrow-black.svg b/contact/icons/arrow-black.svg
+rename from contact-page-2/icons/arrow-black.svg
+rename to contact/icons/arrow-black.svg
+diff --git a/contact-page-2/icons/Icon-round.svg b/contact/icons/Icon-round.svg
+rename from contact-page-2/icons/Icon-round.svg
+rename to contact/icons/Icon-round.svg
+diff --git a/contact-page-2/icons/minus.svg b/contact/icons/minus.svg
+rename from contact-page-2/icons/minus.svg
+rename to contact/icons/minus.svg
+diff --git a/resource-page/index.html b/resource/index.html
+rename from resource-page/index.html
+rename to resource/index.html
+diff --git a/resource-page/section-1.css b/resource/section-1.css
+rename from resource-page/section-1.css
+rename to resource/section-1.css
+diff --git a/resource-page/section-2.css b/resource/section-2.css
+rename from resource-page/section-2.css
+rename to resource/section-2.css
+diff --git a/resource-page/section-3.css b/resource/section-3.css
+rename from resource-page/section-3.css
+rename to resource/section-3.css
+diff --git a/resource-page/section-7.css b/resource/section-7.css
+rename from resource-page/section-7.css
+rename to resource/section-7.css
+diff --git a/resource-page/section-6.css b/resource/section-6.css
+rename from resource-page/section-6.css
+rename to resource/section-6.css
+diff --git a/resource-page/section-4.css b/resource/section-4.css
+rename from resource-page/section-4.css
+rename to resource/section-4.css
+diff --git a/resource-page/section-5.css b/resource/section-5.css
+rename from resource-page/section-5.css
+rename to resource/section-5.css
+diff --git a/resource-page/style.css b/resource/style.css
+rename from resource-page/style.css
+rename to resource/style.css
+diff --git a/resource-page/logo/logo-quantum-2.svg b/resource/logo/logo-quantum-2.svg
+rename from resource-page/logo/logo-quantum-2.svg
+rename to resource/logo/logo-quantum-2.svg
+diff --git a/resource-page/logo/logo-second.svg b/resource/logo/logo-second.svg
+rename from resource-page/logo/logo-second.svg
+rename to resource/logo/logo-second.svg
+diff --git a/resource-page/logo/logo-quantum.svg b/resource/logo/logo-quantum.svg
+rename from resource-page/logo/logo-quantum.svg
+rename to resource/logo/logo-quantum.svg
+diff --git a/resource-page/logo/dot.svg b/resource/logo/dot.svg
+rename from resource-page/logo/dot.svg
+rename to resource/logo/dot.svg
+diff --git a/resource-page/logo/first-logo.svg b/resource/logo/first-logo.svg
+rename from resource-page/logo/first-logo.svg
+rename to resource/logo/first-logo.svg

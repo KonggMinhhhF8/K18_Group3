@@ -1,0 +1,207 @@
+Index: contact-page-2/section-1.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.noti{\n    border-bottom: 1px solid #262626;\n    padding: 20px 24px;\n    gap: 10px;\n    background-color: #141414;\n}\n.notification{\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n.noti-text{\n    color: #98989A;\n    font-weight: 400;\n    font-size: 18px;\n    letter-spacing: -3%;\n}\n.noti-logo{\n    background-image: url('./icons/arrow-up.svg');\n    background-repeat: no-repeat;\n    background-position: center;\n    width: 24px;\n    height: 24px;\n    margin-left: 10px;\n}\n/*future tech*/\n.header-bar{\n    border-bottom: 1px;\n    justify-content: space-between;\n    padding: 24px 162px;\n    background-color: #1A1A1A;\n    display: flex;\n}\n.header-bar__future-tech{\n    display: flex;\n}\n.header-bar__future-tech__text{\n    background-image: url(\"./icons/Heading.svg\");\n    background-repeat: no-repeat;\n    background-position: center;\n    width: 112.82px;\n    height: 17.16px;\n    margin-left: 12.72px;\n    margin-top: 16.36px;\n}\n.header-bar__future-tech__logo{\n    background-image: url('./logo/first-logo.svg');\n    background-repeat: no-repeat;\n    background-position: center;\n    width: 50px;\n    height: 50px;\n}\n.header-bar__option{\n    display: flex;\n    align-items: center;\n    margin-left: -60px;\n}\n.header-bar__option ul{\n    list-style: none;\n    gap: 40px;\n}\n.header-bar__option ul li{\n    display: inline-block;\n    color: #7E7E81;\n    font-weight: 400px;\n    font-size: 18px;\n    letter-spacing: 0%;\n    margin-right: 40px;\n}\n.header-bar__contact{\n    gap: 10px;\n    background-color: #FFD11A;\n    border-radius: 10px;\n    padding: 14px 20px;\n    font-weight: 500px;\n    font-size: 18px;\n    letter-spacing: 0%;\n    color: #141414;\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/contact-page-2/section-1.css b/contact-page-2/section-1.css
+--- a/contact-page-2/section-1.css	(revision da14b3a002ede88aba1c20234c52469a6306da79)
++++ b/contact-page-2/section-1.css	(date 1766682578530)
+@@ -77,3 +77,24 @@
+     letter-spacing: 0%;
+     color: #141414;
+ }
++.menu{
++    background-image: url("./icons/3-gach.svg");
++    background-repeat: no-repeat;
++    background-position: center;
++    width: 34px;
++    height: 34px;
++    display: none;
++}
++/*responsive*/
++/*tablet*/
++@media screen and(max-width: 991px) {
++    .noti{
++        padding: 12px 24px;
++    }
++    .header-bar{
++        padding: 20px 80px;
++    }
++    .header-bar__option{
++        gap: 24px;
++    }
++}
+Index: contact-page-2/section-2.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.infor{\n    padding: 0 162px;\n    gap: 50px;\n    display: flex;\n    justify-content: space-between;\n}\n.infor-section{\n    padding: 80px 0;\n    gap: 50px;\n}\n.infor-box{\n    display: flex;\n    flex-direction: column;\n    gap: 15px;\n}\n.infor-section__title{\n    font-weight: 500;\n    font-size: 20px;\n    letter-spacing: -3%;\n    color: #FFFFFF;\n    line-height: 130%;\n    margin-bottom: 50px;\n}\n.infor-section__sub{\n    display: flex;\n    border-radius: 8px;\n    border: 1px solid #262626;\n    padding: 18px 24px;\n    gap: 10px;\n    width: fit-content;\n    background-color: #1A1A1A;\n}\n.infor-section__sub-text{\n    font-weight: 400;\n    font-size: 18px;\n    letter-spacing: -3%;\n    color: #98989A;\n}\n.infor-section__sub-logo{\n    background-image: url(\"./icons/arrow-up.svg\");\n    background-repeat: no-repeat;\n    background-position: center;\n    width: 24px;\n    height: 24px;\n}\n.infor-logo{\n    display: flex;\n    justify-content: space-evenly;\n    gap: 20px;\n}\n.infor-icon{\n    border-radius: 6px;\n    border: 1px solid #262626;\n    padding: 18px 30px;\n    gap: 10px;\n    background-color: #1A1A1A;\n}\n.infor-twitter__image{\n    background-image: url(\"./logo/twitter.svg\");\n    background-repeat: no-repeat;\n    background-position: center;\n    width: 24px;\n    height: 24px;\n}\n.infor-linkedin__image{\n    background-image: url(\"./logo/linkdle.svg\");\n    background-repeat: no-repeat;\n    background-position: center;\n    width: 24px;\n    height: 24px;\n}\n.infor-dot__image{\n    background-image: url(\"./logo/dot.svg\");\n    background-repeat: no-repeat;\n    background-position: center;\n    width: 24px;\n    height: 24px;\n}\n.divider {\n    width: 1px;\n    height: 425px;\n    background-color: #262626;\n}\n/*content*/\n.content{\n    border-top: 1px solid #262626;\n    padding: 0 162px;\n    gap: 80px;\n    display: flex;\n}\n.content-text{\n    gap: 50px;\n    padding: 258px 80px 258px 0;\n}\n.content-text__logo{\n    background-image: url('./icons/Icon-round.svg');\n    background-repeat: no-repeat;\n    background-position: center;\n    width: 80px;\n    height: 80px;\n}\n.content-text__big{\n    font-family: \"Kumbh Sans\", sans-serif;\n    font-weight: 500;\n    font-size: 58px;\n    line-height: 130%;\n    letter-spacing: -3%;\n    color:#FFFFFF;\n}\n.content-form{\n    border-left: 1px solid #262626;\n    padding: 80px 0 80px 80px;\n    gap: 50px;\n    display: flex;\n    flex-direction: column;\n}\n.content-form__name{\n    display: flex;\n    gap: 50px;\n}\n.form-name{\n    gap: 16px;\n    display: flex;\n    flex-direction: column;\n}\n.content-form__name__text{\n    font-weight: 500;\n    font-size: 18px;\n    letter-spacing: 0%;\n    color: #FFFFFF;\n}\n.content-form__name__text__box{\n    border-radius: 8px;\n    border: 1px solid #262626;\n    padding: 20px;\n    gap: 77px;\n    background-color: #1A1A1A;\n    width: 433.5px;\n}\n.content-form__name__text__box span{\n    color: #666666;\n    font-weight: 400;\n    font-size: 18px;\n    letter-spacing: 0%;\n}\n.content-form__infor{\n    display: flex;\n    gap: 50px;\n}\n.form-number{\n    gap: 16px;\n    display: flex;\n    flex-direction: column;\n}\n.number{\n    display: flex;\n    gap: 16px;\n    flex-direction: row;\n}\n.number-country{\n    display: flex;\n    border-radius: 7px;\n    border: 1px solid #262626;\n    padding: 8px 18px;\n    gap: 6px;\n    background-color: #1A1A1A;\n    align-items: center;\n    height: 67px;\n}\n.image{\n    background-image: url('./logo/india.svg');\n    background-repeat: no-repeat;\n    background-position: center;\n    width: 34px;\n    height: 34px;\n    border-radius: 100px;\n}\n.arrow-down{\n    background-image: url(\"./icons/arrow-down.svg\");\n    background-repeat: no-repeat;\n    background-position: center;\n    width: 24px;\n    height: 24px;\n}\n.number-fill{\n    padding: 20px;\n    gap: 77px;\n    border-radius: 8px;\n    border: 1px solid #262626;\n    background-color: #1A1A1A;\n    width: 317.5px;\n}\n.number-fill span {\n    color: #666666;\n}\n.content-form-message{\n    display: flex;\n    flex-direction: column;\n    gap: 16px;\n}\n.content-form__fill{\n    border: 1px solid #262626;\n    border-radius: 8px;\n    padding: 20px;\n    gap: 77px;\n    background-color: #1A1A1A;\n    height: 163px;\n}\n.content-form__fill span {\n    color: #666666;\n    font-weight: 400;\n    font-size: 18px;\n    letter-spacing: 0%;\n}\n/*policy*/\n.content-form-policy{\n    display: flex;\n    gap: 70px;\n    justify-content: space-between;\n}\n.content-policy ~ input[type=\"checkbox\"]{\n    background-color: #1A1A1A;\n}\n.content-policy__text{\n    font-weight: 400;\n    font-size: 18px;\n    letter-spacing: 0%;\n    color: #FFFFFF;\n}\n.content-send{\n    background-color:#FFD11A;\n    border: 1px solid #262626;\n    gap: 67px;\n    padding: 18px 46px;\n    border-radius: 8px;\n}\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/contact-page-2/section-2.css b/contact-page-2/section-2.css
+--- a/contact-page-2/section-2.css	(revision da14b3a002ede88aba1c20234c52469a6306da79)
++++ b/contact-page-2/section-2.css	(date 1766686350326)
+@@ -135,7 +135,7 @@
+     padding: 20px;
+     gap: 77px;
+     background-color: #1A1A1A;
+-    width: 433.5px;
++    width: 27rem;
+ }
+ .content-form__name__text__box span{
+     color: #666666;
+@@ -188,7 +188,7 @@
+     border-radius: 8px;
+     border: 1px solid #262626;
+     background-color: #1A1A1A;
+-    width: 317.5px;
++    width: 19.84375rem;
+ }
+ .number-fill span {
+     color: #666666;
+@@ -234,4 +234,82 @@
+     padding: 18px 46px;
+     border-radius: 8px;
+ }
++/*responsive*/
++/*tablet*/
++@media screen and(max-width: 991px){
++    .infor{
++        padding: 0 80px;
++        gap: 30px;
++    }
++    .infor-section{
++        padding: 0 60px;
++        gap: 30px;
++    }
++    .infor-section__title{
++        font-size:18px;
++    }
++    .infor-section__sub{
++        border-radius: 6px;
++        padding: 14px 20px;
++    }
++    .infor-section__sub-text{
++        font-size: 14px;
++    }
++    .infor-section__sub-logo{
++        width: 20px;
++        height: 20px;
++    }
++    .sub-infor-text{
++        font-size: 16px;
++    }
++    .infor-icon{
++        border-radius: 6px;
++        padding: 14px 24px;
++        gap: 10px;
++    }
++    .infor-twitter__image,
++    .infor-linkedin__image,
++    .infor-dot__image,{
++        width: 20px;
++        height: 20px;
++    }
++    .content{
++        padding: 0 80px;
++        gap: 60px;
++    }
++    .content-text{
++        gap: 30px;
++        padding: 217.5px 60px 217.5px 0;
++    }
++    .content-text__logo{
++        width: 60px;
++        height: 60px;
++    }
++    .content-text__big{
++        font-size: 44px;
++        line-height: 130%;
++        letter-spacing: -3%;
++    }
++    .content-form{
++        padding: 60px 0 60px 60px;
++        gap: 30px;
++    }
++    .content-form__name{
++        gap: 50px;
++    }
++    .form-name{
++        gap: 12px;
++    }
++    .content-form__name__text{
++        font-size: 16px;
++    }
++    .content-form__name__text__box{
++        border-radius: 6px;
++        padding: 16px;
++        gap: 77px;
++    }
++    ..content-form__name__text__box span{
++        font-size: 14px;
++    }
++}
+ 
+Index: contact-page-2/section-3.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.asked-question{\n    display: flex;\n    border-top: 1px solid #262626;\n    padding: 0 162px;\n    gap: 80px;\n}\n.asked-question__text{\n    padding: 241px 0 241px 0;\n    display: flex;\n    flex-direction: column;\n    gap: 50px;\n}\n.asked-logo{\n    background-image: url(\"./logo/logo-3.svg\");\n    background-repeat: no-repeat;\n    background-position: center;\n    width: 64px;\n    height: 64px;\n}\n.asked-title{\n    font-weight: 600;\n    font-size: 40px;\n    letter-spacing: -3%;\n    color: #FFFFFF;\n}\n.asked-text{\n    font-weight: 400;\n    font-size: 18px;\n    letter-spacing: -3%;\n    color: #98989A;\n}\n.asked-button{\n    border-radius: 8px;\n    border: 1px solid #262626;\n    padding: 18px 24px;\n    gap: 10px;\n    background-color: #1A1A1A;\n    display: flex;\n    width: fit-content;\n}\n.button-text{\n    font-weight: 400;\n    font-size: 18px;\n    letter-spacing: -3%;\n    color: #98989A;\n}\n.button-logo{\n    background-image: url('./icons/arrow-up.svg');\n    background-repeat: no-repeat;\n    background-position: center;\n    width: 16.5px;\n    height: 16.5px;\n}\n.asked-container{\n    display: flex;\n    flex-direction: column;\n    gap: 30px;\n}\n/*sub*/\n.body-content__answer{\n    padding: 80px 0 80px 80px;\n    gap: 30px;\n    border-left: 1px solid #262626;\n    width: 997px;\n}\n.question-text{\n    color:#FFFFFF;\n    font-weight: 500;\n    font-size: 20px;\n    line-height: 100%;\n    letter-spacing: 0%;\n}\n.question-text{\n    display: flex;\n    justify-content: space-between;\n    gap: 20px;\n}\n.question{\n    padding: 34px;\n    border-radius: 12px;\n    border: 1px solid #262626;\n    background-color: #1A1A1A;\n    width: 917px;\n    margin-bottom: 30px;\n}\n.answer{\n    font-weight: 400;\n    font-size: 18px;\n    letter-spacing: 0%;\n    color: #7E7E81;\n    display: none;\n    border-top: 1px solid #262626;\n    padding-top: 24px;\n}\n.answer-1{\n    font-weight: 400;\n    font-size: 18px;\n    letter-spacing: 0%;\n    color: #7E7E81;\n    display: none;\n    border-top: 1px solid #262626;\n    padding-top: 24px;\n}\n.answer-2{\n    font-weight: 400;\n    font-size: 18px;\n    letter-spacing: 0%;\n    color: #7E7E81;\n    display: none;\n    border-top: 1px solid #262626;\n    padding-top: 24px;\n}\n.answer-3{\n    font-weight: 400;\n    font-size: 18px;\n    letter-spacing: 0%;\n    color: #7E7E81;\n    display: none;\n    border-top: 1px solid #262626;\n    padding-top: 24px;\n}\n.answer-4{\n    font-weight: 400;\n    font-size: 18px;\n    letter-spacing: 0%;\n    color: #7E7E81;\n    display: none;\n    border-top: 1px solid #262626;\n    padding-top: 24px;\n}\n#question:checked ~ .answer,\n#question-1:checked ~ .answer-1,\n#question-2:checked ~ .answer-2,\n#question-3:checked ~ .answer-3,\n#question-4:checked ~ .answer-4{\n    display: block;\n}\n#question:checked ~ .question-text,\n#question-1:checked ~ .question-text,\n#question-2:checked ~ .question-text,\n#question-3:checked ~ .question-text,\n#question-4:checked ~ .question-text{\n    padding-bottom: 24px;\n}\n.question-text::after {\n    content: \"\";\n    background-image: url(\"../contact-page-2/icons/plus.svg\");\n    background-repeat: no-repeat;\n    background-position: center;\n    width: 16px;\n    height: 16px;\n    background-size: cover;\n}\n#question:checked ~ .question-text::after,\n#question-1:checked ~ .question-text::after,\n#question-2:checked ~ .question-text::after,\n#question-3:checked ~ .question-text::after,\n#question-4:checked ~ .question-text::after {\n    content: \"\";\n    background-image: url(\"../contact-page-2/icons/minus.svg\");\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/contact-page-2/section-3.css b/contact-page-2/section-3.css
+--- a/contact-page-2/section-3.css	(revision da14b3a002ede88aba1c20234c52469a6306da79)
++++ b/contact-page-2/section-3.css	(date 1766680770463)
+@@ -61,7 +61,7 @@
+     padding: 80px 0 80px 80px;
+     gap: 30px;
+     border-left: 1px solid #262626;
+-    width: 997px;
++    width: 62.3125rem;
+ }
+ .question-text{
+     color:#FFFFFF;
+@@ -80,7 +80,7 @@
+     border-radius: 12px;
+     border: 1px solid #262626;
+     background-color: #1A1A1A;
+-    width: 917px;
++    width: 57.3125rem;
+     margin-bottom: 30px;
+ }
+ .answer{
+Index: contact-page-2/contact-page.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!doctype html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\"\n          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n    <title>Document</title>\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n    <link href=\"https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap\" rel=\"stylesheet\">\n    <link rel=\"stylesheet\" href=\"style.css\">\n    <link rel=\"stylesheet\" href=\"section-1.css\">\n    <link rel=\"stylesheet\" href=\"section-2.css\">\n    <link rel=\"stylesheet\" href=\"section-3.css\">\n    <link rel=\"stylesheet\" href=\"section-4.css\">\n    <link rel=\"stylesheet\" href=\"section-5.css\">\n</head>\n<body>\n<!--sec1-->\n<div class=\"noti\">\n    <div class=\"notification\">\n        <div class=\"noti-text\">\n            Subscribe to our Newsletter For New & latest Blogs and Resources\n        </div>\n        <div class=\"noti-logo\"></div>\n    </div>\n</div>\n<div class=\"header-bar\">\n        <div class=\"header-bar__future-tech\">\n            <div class=\"header-bar__future-tech__logo\"></div>\n            <div class=\"header-bar__future-tech__text\"></div>\n        </div>\n        <div class=\"header-bar__option\">\n            <ul>\n                <li>Home</li>\n                <li>News</li>\n                <li>Podcasts</li>\n                <li>Resources</li>\n            </ul>\n        </div>\n        <button class=\"header-bar__contact\">Contact Us</button>\n</div>\n<!--sec2-->\n<div class=\"infor\">\n        <div class=\"infor-section\">\n            <div class=\"infor-section__title\">General Inquiries</div>\n            <div class=\"infor-box\">\n                <div class=\"infor-section__sub\">\n                    <div class=\"infor-section__sub-text\">contact@ai-podcasts.com</div>\n                    <div class=\"infor-section__sub-logo\"></div>\n                </div>\n                <div class=\"infor-section__sub\">\n                    <div class=\"infor-section__sub-text\">+1 (123) 456-7890</div>\n                    <div class=\"infor-section__sub-logo\"></div>\n                </div>\n            </div>\n        </div>\n        <div class=\"divider\"></div>\n        <div class=\"infor-section\">\n            <div class=\"infor-section__title\">Technical Support</div>\n            <div class=\"infor-box\">\n                <div class=\"infor-section__sub\">\n                    <div class=\"infor-section__sub-text\">contact@ai-podcasts.com</div>\n                    <div class=\"infor-section__sub-logo\"></div>\n                </div>\n                <div class=\"infor-section__sub\">\n                    <div class=\"infor-section__sub-text\">+1 (123) 456-7890</div>\n                    <div class=\"infor-section__sub-logo\"></div>\n                </div>\n            </div>\n        </div>\n        <div class=\"divider\"></div>\n        <div class=\"infor-section\">\n            <div class=\"infor-section__title\">Our Office</div>\n            <div class=\"infor-box\">\n                <div class=\"infor-section__sub-text\">Address: 123 AI Tech Avenue, Techville, 54321</div>\n                <div class=\"infor-section__sub\">\n                    <div class=\"infor-section__sub-text\">Get Directions</div>\n                    <div class=\"infor-section__sub-logo\"></div>\n                </div>\n            </div>\n        </div>\n        <div class=\"divider\"></div>\n        <div class=\"infor-section\">\n            <div class=\"infor-section__title\">Connect with Us</div>\n            <div class=\"infor-logo\">\n                <div class=\"infor-icon\">\n                    <div class=\"infor-twitter__image\"></div>\n                </div>\n                <div class=\"infor-icon\">\n                    <div class=\"infor-dot__image\"></div>\n                </div>\n                <div class=\"infor-icon\">\n                    <div class=\"infor-linkedin__image\"></div>\n                </div>\n            </div>\n        </div>\n</div>\n<!--    get in touch with AI-->\n<div class=\"content\">\n        <div class=\"content-text\">\n            <div class=\"content-text__logo\"></div>\n            <div class=\"content-text__big\">\n                Get in Touch with AI Podcasts\n            </div>\n        </div>\n        <div class=\"content-form\">\n            <div class=\"content-form__name\">\n                <div class=\"form-name\">\n                    <div class=\"content-form__name__text\">First Name</div>\n                    <div class=\"content-form__name__text__box\">\n                        <span>Enter First Name</span>\n                    </div>\n                </div>\n                <div class=\"form-name\">\n                    <div class=\"content-form__name__text\">Last Name</div>\n                    <div class=\"content-form__name__text__box\">\n                        <span>Enter Last Name</span>\n                    </div>\n                </div>\n            </div>\n            <div class=\"content-form__infor\">\n                <div class=\"form-name\">\n                    <div class=\"content-form__name__text\">Email</div>\n                    <div class=\"content-form__name__text__box\">\n                        <span>Enter your Email</span>\n                    </div>\n                </div>\n                <div class=\"form-number\">\n                    <div class=\"content-form__name__text\">Phone Number</div>\n                    <div class=\"number\">\n                        <div class=\"number-country\">\n                            <div class=\"image\"></div>\n                            <div class=\"arrow-down\"></div>\n                        </div>\n                        <div class=\"number-fill\">\n                            <span>Enter Phone Number</span>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"content-form-message\">\n                <div class=\"content-form__name__text\">Message</div>\n                <div class=\"content-form__fill\">\n                    <span>Enter your message</span>\n                </div>\n            </div>\n            <div class=\"content-form-policy\">\n                <div class=\"content-policy\">\n                    <input id=\"policy\" type=\"checkbox\">\n                    <label for=\"policy\" class=\"content-policy__text\">\n                        I agree with Terms of Use and Privacy Policy\n                    </label>\n                </div>\n                <button class=\"content-send\">Send</button>\n            </div>\n        </div>\n</div>\n<!--sec3-->\n<div class=\"asked-question\">\n    <div class=\"asked-question__text\">\n        <div class=\"asked-logo\"></div>\n        <div class=\"asked-container\">\n            <div class=\"asked-title\">Asked Question</div>\n            <div class=\"asked-text\">If the question is not available on our FAQ section, Feel free to contact us personally, we will resolve your respective doubts. </div>\n        </div>\n        <div class=\"asked-button\">\n            <div class=\"button-text\">Ask Question</div>\n            <div class=\"button-logo\"></div>\n        </div>\n    </div>\n    <div class=\"body-content__answer\">\n        <div class=\"question\">\n            <input type=\"checkbox\" id=\"question\" hidden>\n            <label for=\"question\" class=\"question-text\">\n                <p>What is AI?</p>\n            </label>\n            <div class=\"answer\">\n                <p>AI stands for Artificial Intelligence, which refers to the simulation of human intelligence in machines. It enables them to perform tasks like problem-solving, learning, and decision-making.</p>\n            </div>\n        </div>\n        <div class=\"question\">\n            <input type=\"checkbox\" id=\"question-1\" hidden>\n            <label for=\"question-1\" class=\"question-text\">\n                <p>How can I listen to your podcasts?</p>\n            </label>\n            <div class=\"answer-1\">\n                <p>AI stands for Artificial Intelligence, which refers to the simulation of human intelligence in machines. It enables them to perform tasks like problem-solving, learning, and decision-making.</p>\n            </div>\n        </div>\n        <div class=\"question\">\n            <input type=\"checkbox\" id=\"question-2\" hidden>\n            <label for=\"question-2\" class=\"question-text\">\n                <p>Are your podcasts free to listen to?</p>\n            </label>\n            <div class=\"answer-2\">\n                <p>AI stands for Artificial Intelligence, which refers to the simulation of human intelligence in machines. It enables them to perform tasks like problem-solving, learning, and decision-making.</p>\n            </div>\n        </div>\n        <div class=\"question\">\n            <input type=\"checkbox\" id=\"question-3\" hidden>\n            <label for=\"question-3\" class=\"question-text\">\n                <p>Can I download episodes to listen offline?</p>\n            </label>\n            <div class=\"answer-3\">\n                <p>AI stands for Artificial Intelligence, which refers to the simulation of human intelligence in machines. It enables them to perform tasks like problem-solving, learning, and decision-making.</p>\n            </div>\n        </div>\n        <div class=\"question\">\n            <input type=\"checkbox\" id=\"question-4\" hidden>\n            <label for=\"question-4\" class=\"question-text\">\n                <p>How often do you release new episodes?</p>\n            </label>\n            <div class=\"answer-4\">\n                <p>AI stands for Artificial Intelligence, which refers to the simulation of human intelligence in machines. It enables them to perform tasks like problem-solving, learning, and decision-making.</p>\n            </div>\n        </div>\n    </div>\n</div>\n<!--sec4-->\n<div class=\"sub-body\">\n    <div class=\"sub-body-head\">\n        <div class=\"logo\">\n            <div class=\"sub-body-head__logo\"></div>\n        </div>\n        <div class=\"sub-body-head__text\">\n            <div class=\"sub-body-head__text-head\">Learn, Connect, and Innovate</div>\n            <div class=\"sub-body-head__text-body\">Be Part of the Future Tech Revolution</div>\n            <div class=\"sub-body-head__text-footer\">Immerse yourself in the world of future technology. Explore our comprehensive resources, connect with fellow tech enthusiasts, and drive innovation in the industry. Join a dynamic community of forward-thinkers.</div>\n        </div>\n    </div>\n    <div class=\"sub-body-foot\">\n        <div class=\"sub-body__card\">\n            <div class=\"card-head\">\n                <div class=\"card-head__title\">\n                    <div class=\"card-head-text\">\n                        Resource Access\n                    </div>\n                    <div class=\"card-logo\">\n                        <div class=\"card-head__logo\"></div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card-text\">\n                Visitors can access a wide range of resources, including ebooks, whitepapers, reports.\n            </div>\n        </div>\n        <div class=\"sub-body__card\">\n            <div class=\"card-head\">\n                <div class=\"card-head__title\">\n                    <div class=\"card-head-text\">\n                        Community Forum\n                    </div>\n                    <div class=\"card-logo\">\n                        <div class=\"card-head__logo\"></div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card-text\">\n                Join our active community forum to discuss industry trends, share insights, and collaborate with peers.\n            </div>\n        </div>\n        <div class=\"sub-body__card\">\n            <div class=\"card-head\">\n                <div class=\"card-head__title\">\n                    <div class=\"card-head-text\">\n                        Tech Events\n                    </div>\n                    <div class=\"card-logo\">\n                        <div class=\"card-head__logo\"></div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card-text\">\n                Stay updated on upcoming tech events, webinars, and conferences to enhance your knowledge.\n            </div>\n        </div>\n    </div>\n</div>\n<!--sec5-->\n<div class=\"footer\">\n    <div class=\"footer-infor\">\n        <div class=\"footer-infor-opt\">\n            <div class=\"opt-title\">Home</div>\n            <div class=\"opt-text\">\n                <div class=\"text-foot\">Features</div>\n                <div class=\"text-foot\">Blogs</div>\n                <div class=\"text-foot\">\n                    Resources\n                    <div class=\"footer-infor-text__sub\">\n                        <div class=\"sub-text-infor\">New</div>\n                    </div>\n                </div>\n                <div class=\"text-foot\">Testimonials</div>\n                <div class=\"text-foot\">Contact Us</div>\n                <div class=\"text-foot\">Newsletter</div>\n            </div>\n        </div>\n        <div class=\"footer-infor-opt\">\n            <div class=\"opt-title\">News</div>\n            <div class=\"opt-text\">\n                <div class=\"text-foot\">Trending Stories</div>\n                <div class=\"text-foot\">Featured Videos</div>\n                <div class=\"text-foot\">Technology</div>\n                <div class=\"text-foot\">Health</div>\n                <div class=\"text-foot\">Politics</div>\n                <div class=\"text-foot\">Environment</div>\n            </div>\n        </div>\n        <div class=\"footer-infor-opt\">\n            <div class=\"opt-title\">Environment</div>\n            <div class=\"opt-text\">\n                <div class=\"text-foot\">Quantum Computing</div>\n                <div class=\"text-foot\">AI Ethics</div>\n                <div class=\"text-foot\">Space Exploration</div>\n                <div class=\"text-foot\">\n                    Biotechnology\n                    <div class=\"footer-infor-text__sub\">\n                        <div class=\"sub-text-infor\">New</div>\n                    </div>\n                </div>\n                <div class=\"text-foot\">Renewable Energy</div>\n                <div class=\"text-foot\">Biohacking</div>\n            </div>\n        </div>\n        <div class=\"footer-infor-opt\">\n            <div class=\"opt-title\">Podcasts</div>\n            <div class=\"opt-text\">\n                <div class=\"text-foot\">AI Revolution</div>\n                <div class=\"text-foot\">\n                    AI Revolution\n                    <div class=\"footer-infor-text__sub\">\n                        <div class=\"sub-text-infor\">New</div>\n                    </div>\n                </div>\n                <div class=\"text-foot\">TechTalk AI</div>\n                <div class=\"text-foot\">AI Conversations</div>\n            </div>\n        </div>\n        <div class=\"footer-infor-opt\">\n            <div class=\"opt-title\">Resources</div>\n            <div class=\"opt-text\">\n                <div class=\"text-foot-box text-foot\">\n                    <div class=\"text-opt\">Whitepapers</div>\n                    <div class=\"icon-opt\"></div>\n                </div>\n            </div>\n            <div class=\"opt-text\">\n                <div class=\"text-foot-box text-foot\">\n                    <div class=\"text-opt\">Ebooks</div>\n                    <div class=\"icon-opt\"></div>\n                </div>\n            </div>\n            <div class=\"opt-text\">\n                <div class=\"text-foot-box text-foot\">\n                    <div class=\"text-opt\">Reports</div>\n                    <div class=\"icon-opt\"></div>\n                </div>\n            </div>\n            <div class=\"opt-text\">\n                <div class=\"text-foot-box text-foot\">\n                    <div class=\"text-opt\">Research Papers</div>\n                    <div class=\"icon-opt\"></div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"footer-policy\">\n        <div class=\"footer-policy-text\">\n            <div class=\"policy-text\">Terms & Conditions</div>\n            <div class=\"divider-2\"></div>\n            <div class=\"policy-text\">Privacy Policy</div>\n        </div>\n        <div class=\"policy-logo\">\n            <div class=\"twitter\"></div>\n            <div class=\"dot\"></div>\n            <div class=\"linkedIn\"></div>\n        </div>\n        <div class=\"policy-text\">© 2024 FutureTech. All rights reserved.</div>\n    </div>\n</div>\n</body>\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/contact-page-2/contact-page.html b/contact-page-2/contact-page.html
+--- a/contact-page-2/contact-page.html	(revision da14b3a002ede88aba1c20234c52469a6306da79)
++++ b/contact-page-2/contact-page.html	(date 1766685060076)
+@@ -39,7 +39,12 @@
+                 <li>Resources</li>
+             </ul>
+         </div>
+-        <button class="header-bar__contact">Contact Us</button>
++        <button class="header-bar__contact">Contact Us
++            <input type="checkbox" id="menu"hidden>
++            <label for="menu" class="menu"></label>
++        </button>
++<!--    <input type="checkbox" id="menu"hidden>-->
++<!--    <label for="menu" class="menu"></label>-->
+ </div>
+ <!--sec2-->
+ <div class="infor">
+@@ -74,7 +79,7 @@
+         <div class="infor-section">
+             <div class="infor-section__title">Our Office</div>
+             <div class="infor-box">
+-                <div class="infor-section__sub-text">Address: 123 AI Tech Avenue, Techville, 54321</div>
++                <div class="infor-section__sub-text sub-infor-text">Address: 123 AI Tech Avenue, Techville, 54321</div>
+                 <div class="infor-section__sub">
+                     <div class="infor-section__sub-text">Get Directions</div>
+                     <div class="infor-section__sub-logo"></div>

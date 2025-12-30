@@ -1,0 +1,39 @@
+<changelist name="Uncommitted_changes_before_Update_at_30_12_25,_20_18_[Changes]" date="1767100702380" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_12_25,_20_18_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 30/12/25, 20:18 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="resource-page/logo/image.png" />
+    <option name="AFTER_PATH" value="resource/logo/image.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_12_25,_20_18_[Changes]/image.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="resource-page/logo/hero-img-1.png" />
+    <option name="AFTER_PATH" value="resource/logo/hero-img-1.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_12_25,_20_18_[Changes]/hero-img-1.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="resource-page/logo/hero-img-2.png" />
+    <option name="AFTER_PATH" value="resource/logo/hero-img-2.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_12_25,_20_18_[Changes]/hero-img-2.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="resource-page/icons/x.png" />
+    <option name="AFTER_PATH" value="resource/icons/x.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_12_25,_20_18_[Changes]/x.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="resource-page/logo/hero-img-3.png" />
+    <option name="AFTER_PATH" value="resource/logo/hero-img-3.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_12_25,_20_18_[Changes]/hero-img-3.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="resource-page/logo/image-2.png" />
+    <option name="AFTER_PATH" value="resource/logo/image-2.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_12_25,_20_18_[Changes]/image-2.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="contact-page-2/icons/x.png" />
+    <option name="AFTER_PATH" value="contact/icons/x.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_12_25,_20_18_[Changes]/x1.png" />
+  </binary>
+</changelist>
