@@ -42,6 +42,7 @@
     /* white-space: nowrap; Removed to allow wrapping if absolutely necessary, though font scaling is preferred */
 }
 
+
 /* Description Text */
 .main__title--des>p:last-child {
     color: #98989A;
