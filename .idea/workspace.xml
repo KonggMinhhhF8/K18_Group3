@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a6add9f-2dbf-4f59-be6b-b9a013e418da" name="Changes" comment="code home page">
+      <change beforePath="$PROJECT_DIR$/home/box_description2.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/box_description2.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature-home-page" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;duyhuong21&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KonggMinhhhF8/K18_Group3.git&quot;,
+    &quot;accountId&quot;: &quot;d2a64716-3139-4ff5-b74f-706c7182afa5&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="37NDkfiJgAoDzQoJlmfmodl48CS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "feature-home-page",
+    "javascript.preferred.runtime.type.id": "node",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-WS-253.28294.253" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a6add9f-2dbf-4f59-be6b-b9a013e418da" name="Changes" comment="" />
+      <created>1766734779945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1766734779945</updated>
+      <workItem from="1766734781068" duration="354000" />
+      <workItem from="1766735154822" duration="49000" />
+      <workItem from="1766735282523" duration="8000" />
+      <workItem from="1766735311030" duration="1726000" />
+      <workItem from="1766766432998" duration="4545000" />
+      <workItem from="1766821201545" duration="5843000" />
+      <workItem from="1766900753317" duration="602000" />
+      <workItem from="1766917427981" duration="1071000" />
+      <workItem from="1766996909992" duration="23000" />
+      <workItem from="1767010270348" duration="179000" />
+      <workItem from="1767010638027" duration="1966000" />
+      <workItem from="1767023327074" duration="5978000" />
+      <workItem from="1767065168407" duration="1152000" />
+      <workItem from="1767095912980" duration="2706000" />
+      <workItem from="1767098723398" duration="1406000" />
+    </task>
+    <task id="LOCAL-00001" summary="code home page">
+      <option name="closed" value="true" />
+      <created>1766734947997</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1766734947997</updated>
+    </task>
+    <task id="LOCAL-00002" summary="code home page">
+      <option name="closed" value="true" />
+      <created>1766764856501</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1766764856501</updated>
+    </task>
+    <task id="LOCAL-00003" summary="code home page">
+      <option name="closed" value="true" />
+      <created>1766765251462</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1766765251462</updated>
+    </task>
+    <task id="LOCAL-00004" summary="code home page">
+      <option name="closed" value="true" />
+      <created>1766766911850</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1766766911850</updated>
+    </task>
+    <task id="LOCAL-00005" summary="code home page">
+      <option name="closed" value="true" />
+      <created>1766822057352</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1766822057352</updated>
+    </task>
+    <task id="LOCAL-00006" summary="code home page">
+      <option name="closed" value="true" />
+      <created>1766840930764</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1766840930764</updated>
+    </task>
+    <task id="LOCAL-00007" summary="code home page">
+      <option name="closed" value="true" />
+      <created>1766843060181</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1766843060181</updated>
+    </task>
+    <task id="LOCAL-00008" summary="code home page">
+      <option name="closed" value="true" />
+      <created>1766901162478</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1766901162478</updated>
+    </task>
+    <task id="LOCAL-00009" summary="code home page">
+      <option name="closed" value="true" />
+      <created>1766917792399</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1766917792399</updated>
+    </task>
+    <task id="LOCAL-00010" summary="code home page">
+      <option name="closed" value="true" />
+      <created>1767065445000</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1767065445000</updated>
+    </task>
+    <task id="LOCAL-00011" summary="code home page">
+      <option name="closed" value="true" />
+      <created>1767098240505</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1767098240505</updated>
+    </task>
+    <task id="LOCAL-00012" summary="code home page">
+      <option name="closed" value="true" />
+      <created>1767098446973</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1767098446973</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="code home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="code home page" />
+  </component>
+</project>
