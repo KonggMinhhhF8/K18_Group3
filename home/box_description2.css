@@ -593,7 +593,7 @@
     display: inline-block;
 }
 }
-@media screen and (max-width: 753px){
+@media screen and (max-width: 767px){
     .box_description-left > div:last-child {
         display: flex;
     }
