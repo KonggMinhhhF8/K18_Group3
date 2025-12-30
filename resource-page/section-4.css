@@ -158,9 +158,13 @@
     .quantum{
         gap: 30px;
     }
+    .quantum-text-2{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
     .quantum-text{
-        padding-top: 207.5px;
-        padding-bottom: 207.5px;
+        padding-top: 60px;
+        padding-bottom: 60px;
         gap: 40px;
     }
     .quantum-logo-2,
