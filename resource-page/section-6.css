@@ -1,7 +1,10 @@
 .sub-body{
     border-top: 1px solid #262626;
     border-bottom: 1px solid #262626;
-    padding: 120px 0;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     gap: 100px;
     background-color: #1A1A1A;
     display: flex;

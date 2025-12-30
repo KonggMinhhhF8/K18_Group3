@@ -80,11 +80,6 @@
     display: none;
     padding: 40px 0;
 }
-.divider-2{
-    width: 1px;
-    height: 23px;
-    background-color: #262626;
-}
 .footer-policy-text{
     display: flex;
     gap: 11px;
