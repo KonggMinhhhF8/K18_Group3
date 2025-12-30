@@ -1,0 +1,235 @@
+.footer-infor{
+    border-bottom: 1px solid #262626;
+    padding: 80px 0;
+    gap: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.opt-title{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: -3%;
+}
+.footer-infor-opt{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    flex: 1;
+}
+.text-foot{
+    color: #666666;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: -3%;
+    display: flex;
+    align-items: center;
+}
+.opt-text{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.footer-infor-text__sub{
+    border-radius: 6px;
+    border: 1px solid transparent;
+    padding: 4px 12px;
+    gap: 10px;
+    background-image: linear-gradient(#1A1A1A, #1A1A1A),
+    linear-gradient(to right, #262626, #FFD119);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    margin-left: 8px;
+}
+.sub-text-infor{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -3%;
+    color: #FFFFFF;
+}
+.icon-opt{
+    background-image: url('icons/arrow-up.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+}
+.text-foot-box{
+    border-radius: 8px;
+    border: 1px solid #262626;
+    padding: 10px 16px;
+    gap: 10px;
+    display: flex;
+    background-color: #141414;
+    width: fit-content;
+}
+.opt-text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+/*footer-policy*/
+.footer-policy{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-policy-mobile{
+    display: none;
+    padding: 40px 0;
+}
+.divider-2{
+    width: 1px;
+    height: 23px;
+    background-color: #262626;
+}
+.footer-policy-text{
+    display: flex;
+    gap: 11px;
+}
+.policy-text{
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: -3%;
+    color: #666666;
+}
+.policy-logo{
+    display: flex;
+    gap:20px;
+}
+.twitter{
+    background-image: url('./logo/twitter.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+}
+.dot{
+    background-image: url('./logo/dot.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+}
+.linkedIn{
+    background-image: url('./logo/linkdle.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 24px;
+}
+/*responsive*/
+/*tablet*/
+@media (min-width : 768px) and (max-width: 991px){
+    .footer{
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .footer-infor{
+        padding: 60px 0;
+        gap: 50px;
+    }
+    .footer-infor-opt{
+        gap: 28px;
+    }
+    .opt-title{
+        font-size: 18px;
+    }
+    .opt-text{
+        gap: 12px;
+    }
+    .text-foot{
+        font-size: 14px;
+    }
+    .footer-infor-text__sub{
+        padding: 2px 10px;
+        gap: 10px;
+    }
+    .sub-text-infor{
+        font-size: 12px;
+    }
+    .text-foot-box{
+        padding: 8px 14px;
+        gap: 4px;
+    }
+    .icon-opt{
+        width: 18px;
+        height: 18px;
+        background-size: contain;
+    }
+    .text-foot{
+        font-size: 14px;
+    }
+    .opt-text-box{
+        gap: 12px;
+    }
+    .footer-policy{
+        padding: 24px 0;
+    }
+    .policy-text{
+        font-size: 14px;
+    }
+    .footer-policy-text{
+        gap: 8px;
+    }
+    .policy-logo{
+        gap: 14px;
+    }
+    .twitter,
+    .dot,
+    .linkedIn{
+        width: 20px;
+        height: 20px;
+        background-size: contain;
+    }
+}
+/*phone*/
+@media screen and (max-width: 767px){
+    .footer{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .opt-title{
+        font-size: 16px;
+    }
+    .text-foot{
+        font-size: 14px;
+    }
+    .footer-infor-text__sub{
+        padding: 2px 10px;
+        gap: 10px;
+    }
+    .sub-text-infor{
+        font-size: 12px;
+    }
+    .text-foot-box{
+        padding: 8px 14px;
+        gap: 4px;
+    }
+    .icon-opt{
+        width: 18px;
+        height: 18px;
+        background-size: contain;
+    }
+    .footer-policy-mobile{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-policy{
+        display:none;
+    }
+    .footer-infor{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}

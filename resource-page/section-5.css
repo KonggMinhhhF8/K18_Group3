@@ -1,0 +1,116 @@
+.hero{
+    border-top: 1px solid #262626;
+    display: flex;
+    justify-content: space-between;
+    gap: 46px;
+}
+.hero-container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: calc((100% - 184px) / 3);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.logo-hero{
+    width: 100%;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.hero-title{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.hero-text{
+    color: #98989A;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+.hero-btn{
+    display: flex;
+    gap: 20px;
+}
+.size{
+    width: calc((100% - 20px) / 2);
+    padding: 18px 24px;
+    border-radius: 12px;
+    border: 1px solid #262626;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+.hero-btn-1{
+    background-color:#141414;
+    color: #98989A;
+}
+.hero-btn-2{
+    background-color: #1A1A1A;
+    color: #98989A;
+}
+.divider-3{
+    width: 1px;
+    height: auto;
+    background-color: #262626;
+}
+/*responsive*/
+/*tablet*/
+@media (min-width : 768px) and (max-width : 991px){
+    .hero{
+        gap: 30px;
+    }
+    .hero-title{
+        font-size: 18px;
+    }
+    .hero-text{
+        font-size: 16px;
+    }
+    .size{
+        padding: 14px 20px;
+        border-radius: 8px;
+        gap: 10px;
+        font-size: 14px;
+    }
+    .hero-container{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+/*phone*/
+@media screen and (max-width: 767px){
+    .hero{
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+    .hero-container{
+        width: 100%;
+    }
+    .hero-btn{
+        gap: 10px;
+    }
+    .hero-title{
+        font-size: 16px;
+    }
+    .hero-text{
+        font-size: 14px;
+    }
+    .size{
+        padding: 14px 20px;
+        border-radius: 8px;
+        gap: 10px;
+        font-size: 14px;
+    }
+    .hero-container{
+        padding-bottom: 40px;
+    }
+    .divider-3{
+        display: none;
+    }
+}

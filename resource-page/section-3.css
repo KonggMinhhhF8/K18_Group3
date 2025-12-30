@@ -1,0 +1,115 @@
+.analysis{
+    border-top: 1px solid #262626;
+    border-bottom: 1px solid #262626;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.analysis-sub-text{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -3%;
+    width: fit-content;
+    border-radius: 4px;
+    padding: 6px 10px;
+    gap: 10px;
+    background-color: #333333;
+}
+.analysis-big-text{
+    font-weight: 500;
+    font-size: 58px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+.analysis-text{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+}
+.analysis-opt{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    background-color: #141414;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.opt-box{
+    border-radius: 10px;
+    border: 1px solid #262626;
+    gap: 10px;
+    padding: 18px 38px;
+    background-color: #1A1A1A;
+    color: #98989A;
+    font-weight: 400;
+    font-size: 18px;
+}
+.special{
+    background-color:#262626;
+    color: #FFFFFF;
+}
+/*responsive*/
+/*tablet*/
+@media (min-width : 768px) and (max-width : 991px) {
+    .analysis-text{
+        gap: 10px;
+    }
+    .analysis {
+        padding-top: 80px;
+        padding-bottom: 80px
+    }
+    .analysis-sub-text{
+        font-size: 16px;
+        padding: 4px 8px;
+        border-radius: 8px;
+    }
+    .analysis-big-text{
+        font-size: 44px;
+        line-height: 130%;
+    }
+    .opt-box{
+        padding: 14px 24px;
+        border-radius: 8px;
+        font-size: 14px;
+    }
+}
+/*phone*/
+@media screen and (max-width: 767px) {
+    .analysis-text{
+        gap: 10px;
+    }
+    .analysis {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+    .analysis-text{
+        width: 100%;
+        gap: 16px;
+        justify-content: flex-start;
+    }
+    .analysis-sub-text{
+        font-size: 14px;
+    }
+    .analysis-big-text{
+        font-size: 28px;
+    }
+    .analysis-opt{
+        width: 100%;
+        margin-top: 0;
+        display: flex;
+        flex: 1;
+    }
+    .opt-box{
+        width: calc((100% - 10px) / 3);
+        text-align: center;
+    }
+}

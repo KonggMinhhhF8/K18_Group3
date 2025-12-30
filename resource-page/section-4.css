@@ -1,0 +1,290 @@
+.quantum{
+    display:flex;
+    gap: 80px;
+    justify-content: space-evenly;
+}
+.quantum-text{
+    padding-top: 233px;
+    padding-bottom: 233px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.quantum-logo{
+    background-image: url('./logo/logo-quantum.svg');
+    width: 64px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.quantum-logo-2{
+    background-image: url('./logo/logo-quantum-2.svg');
+    width: 64px;
+    height: 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.quantum-title{
+    font-weight: 600;
+    font-size: 35px;
+    color: #FFFFFF;
+    line-height: 150%;
+}
+.quantum-sub-text{
+    color:#98989A;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -3%;
+}
+.quantum-infor{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.divider-2{
+    width: 1px;
+    height: auto;
+    background-color: #262626;
+}
+.quantum-description{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.description-title{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.description-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #98989A;
+}
+.quantum-sub-description{
+    display: flex;
+    gap: 14px;
+    flex-direction: column;
+    width: 70%;
+}
+.quantum-sub-infor{
+    display: flex;
+}
+.box-btn{
+    padding: 22px 0 22px 30px;
+    width: 30%;
+}
+.quantum-btn{
+    border-radius: 8px;
+    border: 1px solid #262626;
+    padding: 18px 24px;
+    gap: 10px;
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-text{
+    color: #98989A;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+}
+.btn-logo{
+    background-image: url('./icons/arrow-up.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+.quantum-box{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.quantum-detail{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.sub-box{
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 13px;
+    background-color: #1A1A1A;
+    border: 1px solid #262626;
+    width: calc((100% - 8px) / 3);
+}
+.date-text{
+    color: #98989A;
+    font-weight: 400;
+    font-size: 18px;
+}
+.date-sub{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+}
+.copy{
+    border-top: 1px solid #262626;
+}
+.quantum-sub-logo{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.quantum-image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+/*responsive*/
+/*tablet*/
+@media (min-width : 768px) and (max-width : 991px){
+    .quantum{
+        gap: 60px;
+    }
+    .quantum-text{
+        padding-top: 207.5px;
+        padding-bottom: 207.5px;
+        gap: 40px;
+    }
+    .quantum-logo-2,
+    .quantum-logo{
+        width: 60px;
+        height: 60px;
+        background-size: contain;
+    }
+    .quantum-title{
+        font-size: 30px;
+    }
+    .quantum-sub-text{
+        font-size: 16px;
+    }
+    .quantum-infor{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .quantum-box{
+        gap: 40px;
+    }
+    .quantum-description{
+        gap: 24px;
+    }
+    .quantum-sub-logo{
+        width: 100%;
+        height: auto;
+        object-fit:cover;
+    }
+    .quantum-sub-description{
+        gap: 10px;
+    }
+    .description-title{
+        font-size: 20px;
+    }
+    .description-text{
+        font-size: 16px;
+    }
+    .box-btn{
+        padding: 19.5px 0 19.5px 20px;
+        flex-shrink
+    }
+    .btn-text{
+        font-size: 14px;
+    }
+    .btn-logo{
+        width: 20px;
+        height: 20px;
+        background-size: contain;
+    }
+    .quantum-btn{
+        padding: 14px 20px;
+        width: fit-content;
+    }
+    .quantum-detail{
+        gap: 16px;
+    }
+    .sub-box{
+        padding: 24px;
+        border-radius: 8px;
+        gap: 2px;
+        width: fit-content;
+    }
+    .date-text{
+        font-size: 16px;
+    }
+    .date-sub{
+        font-size: 16px;
+    }
+}
+/*phone*/
+@media screen and (max-width: 767px){
+    .quantum{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .quantum-box{
+        gap: 20px;
+    }
+    .quantum-detail{
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .quantum-text{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        gap: 0;
+    }
+    .quantum-infor{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .quantum-logo{
+        width: 50px;
+        height: 50px;
+    }
+    .quantum-title{
+        font-size: 21px;
+    }
+    .quantum-sub-text{
+        font-size: 14px;
+    }
+    .description-title{
+        font-size: 18px;
+    }
+    .description-text{
+        font-size: 14px;
+    }
+    .quantum-sub-infor{
+        flex-direction: column;
+    }
+    .box-btn{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .sub-box{
+        border-radius: 8px;
+        padding: 20px;
+        width: calc((100% - 10px) / 2);
+        text-align: center;
+    }
+    .date-text{
+        font-size: 14px;
+    }
+    .date-sub{
+        font-size: 14px;
+    }
+    .middle{
+        width: 100%;
+    }
+    .divider-2{
+        display: none;
+    }
+}
