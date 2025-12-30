@@ -1,0 +1,444 @@
+.AI-item {
+    max-width: 1920px;
+    width: 100%;
+    background-color: #141414;
+    padding: 0 162px 0 162px;
+    border-top: 1px solid #262626;
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /*gap: 60px;*/
+}
+
+.AI-item-overview {
+    max-width: 45%;
+    display: flex;
+    /*padding-right: 80px;*/
+    /*margin-right: 80px;*/
+    flex-direction: column;
+    align-items: flex-start;
+    /*justify-content: center;*/
+    gap: 50px;
+    width: 519px;
+}
+
+
+.AI-item-overview .AI-item-heading {
+    display: flex;
+    align-items: center;
+    /* ôm chiều cao nội dung */
+    justify-content: space-between;
+    width: 100%;
+}
+
+.AI-item-overview .AI-item-heading h2 {
+    width: 65%;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: -3%;
+    color: #FFFFFF;
+    /*white-space: nowrap;*/
+}
+
+.AI-item-overview .AI-item-heading span {
+    padding: 10px 16px;
+    border: 1px solid #262626;
+    border-radius: 100px;
+    width: auto;
+    /*display: inline-flex; !*  ôm icon *!*/
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+}
+
+
+.AI-item-overview .AI-item-description {
+    width: 100%;
+    background-color: #1A1A1A;
+    padding: 30px;
+    border: 1px solid #262626;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+}
+
+.AI-item-overview .AI-item-description>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #98989A;
+    background-color: #141414;
+    padding: 18px 24px;
+    border: 1px solid #262626;
+    border-radius: 12px;
+}
+
+.AI-item-overview .AI-item-description>a:hover {
+    color: #FFD11A;
+    text-decoration: underline;
+}
+
+.AI-item-description>div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.AI-item-description>div>span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -3%;
+    color: #FFFFFF;
+}
+
+.AI-item-description>div>span:first-child {
+    color: #98989A;
+}
+
+/*========================AI-item-conten==================*/
+.AI-item-conten {
+    max-width: 55%;
+    padding: 80px 0 80px 80px;
+    border-left: 1px solid #262626;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.AI-item-conten img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.AI-item-conten>div>h3,
+.AI-item-conten>div>p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 150%;
+    letter-spacing: -3%;
+    color: #FFFFFF;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.AI-item-conten>div>p {
+    font-size: 18px;
+    color: #98989A;
+    margin-top: 14px;
+}
+
+.AI-item-conten .AI-item-conten-layout {
+    width: 100%;
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.AI-item-conten-layout .item-layout {
+    max-width: 33%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 4px;
+    /*align-items: center;*/
+    background-color: #1A1A1A;
+    border: 1px solid #262626;
+    border-radius: 13px;
+    padding: 20px;
+
+
+}
+
+
+.AI-item-conten-layout .item-layout>span:first-child {
+    color: #98989A;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: -3%;
+
+}
+
+.AI-item-conten-layout .item-layout>span:last-child {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -3%;
+    color: #FFFFFF;
+
+
+}
+
+
+/* respovive*/
+@media screen and (min-width: 992px) and (max-width: 1560px) {
+
+    .AI-item {
+        padding: 0 60px;
+        gap: 40px;
+    }
+
+    .AI-item-overview {
+        max-width: 45%;
+        gap: 30px;
+    }
+
+    .AI-item-overview .AI-item-heading h2 {
+        font-size: 28px;
+    }
+
+    .AI-item-overview .AI-item-heading span {
+        padding: 8px 12px;
+    }
+
+    .AI-item-conten {
+        padding-left: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .AI-item-conten>div>h3 {
+        font-size: 20px;
+    }
+
+    .AI-item-conten>div>p {
+        font-size: 16px;
+    }
+
+    .AI-item-conten .AI-item-conten-layout {
+        gap: 14px;
+    }
+
+    .AI-item-conten-layout .item-layout {
+        padding: 16px;
+    }
+
+    .AI-item-conten-layout .item-layout>span:last-child {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .AI .AI-item {
+        padding-right: 60px;
+        padding-left: 60px;
+        gap: 50px;
+    }
+
+    .AI-item-overview {
+        gap: 35px;
+        /*width: 390px;*/
+    }
+
+    .AI-item-overview>img {
+        width: 46px;
+        height: 46px;
+    }
+
+    .AI-item-overview .AI-item-heading {
+        gap: 8px;
+    }
+
+    .AI-item-overview .AI-item-heading h2 {
+        font-size: 20px;
+
+    }
+
+    .AI-item-overview .AI-item-heading>span {
+        padding: 6px 10px;
+        gap: 3px;
+        white-space: nowrap;
+    }
+
+    .AI-item-overview .AI-item-heading span>img {
+        width: 14px;
+        height: 16px;
+    }
+
+    .AI-item-overview .AI-item-description {
+        padding: 20px;
+        gap: 4px;
+    }
+
+    .AI-item-overview .AI-item-description div {
+        gap: 2px;
+    }
+
+    .AI-item-overview .AI-item-description div>span {
+        font-size: 14px;
+    }
+
+    .AI-item-overview .AI-item-description>a {
+        gap: 4px;
+        padding: 14px 20px;
+        white-space: nowrap;
+    }
+    .AI-item .AI-item-description >a{
+        white-space: nowrap;
+    }
+
+    .AI-item-overview .AI-item-description>a>img {
+        width: 12px;
+        height: 12px;
+    }
+
+
+    .AI-item-conten {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+    }
+
+    .AI-item-conten div:first-child {
+        gap: 20px;
+    }
+
+    .AI-item-conten div:first-child h3 {
+        font-size: 20px;
+    }
+
+    .AI-item-conten div:first-child p {
+        font-size: 14px;
+    }
+
+    .AI-item-conten .AI-item-conten-layout {
+        gap: 14px;
+
+
+    }
+
+    .AI-item-conten-layout .item-layout {
+        padding: 20px;
+        gap: 2px;
+    }
+
+    .AI-item-conten-layout .item-layout span:first-child {
+        font-size: 14px;
+        /*white-space: nowrap;*/
+    }
+
+    .AI-item-conten-layout .item-layout span:last-child {
+        font-size: 16px;
+    }
+
+
+}
+
+/* ================= MOBILE AI ITEM ================= */
+@media screen and (max-width: 767px) {
+
+    .AI-item {
+        flex-direction: column;
+        padding: 24px 16px;
+        gap: 30px;
+    }
+
+    /* ===== Overview ===== */
+    .AI-item-overview {
+        width: 100%;
+        max-width: 100%;
+        gap: 20px;
+    }
+
+    .AI-item-overview>img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .AI-item-heading {
+        gap: 12px;
+    }
+
+    .AI-item-heading h2 {
+        font-size: 20px;
+        line-height: 150%;
+        width: 100%;
+    }
+
+    .AI-item-heading span {
+        padding: 8px 14px;
+        gap: 4px;
+    }
+
+    .AI-item-heading span img {
+        width: 18px;
+        height: 18px;
+        white-space: nowrap;
+    }
+
+    /* ===== Host + Button ===== */
+    .AI-item-description {
+        /*flex-direction: column;*/
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        gap: 4px;
+    }
+
+    .AI-item-description>a {
+        width: 50%;
+        padding: 14px;
+    }
+
+    /* ===== Content ===== */
+    .AI-item-conten {
+        width: 100%;
+        max-width: 100%;
+        padding: 40px 24px;
+        border-left: none;
+        gap: 24px;
+    }
+
+
+    .AI-item-conten img {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+    }
+
+
+    .AI-item-conten h3 {
+        font-size: 18px;
+    }
+
+    .AI-item-conten p {
+        font-size: 14px;
+    }
+
+
+    .AI-item-conten-layout {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .AI-item-conten-layout .item-layout {
+        max-width: 100%;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .AI-item-conten-layout .item-layout span:first-child {
+        font-size: 14px;
+    }
+
+    .AI-item-conten-layout .item-layout span:last-child {
+        font-size: 16px;
+    }
+}
