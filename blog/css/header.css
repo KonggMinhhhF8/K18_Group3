@@ -695,6 +695,48 @@ nav .menu-bar {
 
 
 
+/* ===== MENU LIST ===== */
+.menu-list {
+    display: flex;
+    align-items: center;
+    gap: 16px; /* nhỏ như cũ */
+    list-style: none;
+}
+
+/* ===== LINK TRẠNG THÁI THƯỜNG (SÁT NHAU) ===== */
+.menu-list li a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 6px 10px;   /* nhỏ → nhìn sát */
+    border-radius: 12px;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+
+    color: #7E7E81;
+    text-decoration: none;
+
+    background-color: transparent;
+    border: 1px solid transparent;
+
+    transition:
+            padding 0.25s ease,
+            background-color 0.25s ease,
+            color 0.25s ease,
+            border-color 0.25s ease;
+}
+
+/* ===== HOVER / ACTIVE (LÚC NÀY MỚI CÁCH RA) ===== */
+.menu-list li a:hover,
+.menu-list li a.active {
+    padding: 12px 20px;          /* tăng padding → tách ra */
+    background-color: #141414;
+    color: #FFFFFF;
+    border-color: #262626;
+}
 
 
 
