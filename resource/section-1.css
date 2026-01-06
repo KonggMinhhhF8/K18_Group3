@@ -72,6 +72,10 @@
     letter-spacing: 0%;
     margin-right: 40px;
 }
+.header-bar__option ul li a {
+    text-decoration: none;
+    color: inherit;
+}
 .header-bar__contact {
     gap: 10px;
     background-color: #FFD11A;
@@ -88,6 +92,10 @@
 }
 .header-bar__contact:hover {
     background-color: #E5BC00;
+}
+.header-bar__contact a {
+    text-decoration: none;
+    color: inherit;
 }
 /*toggle*/
 .btn {
@@ -126,6 +134,10 @@
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0%;
+}
+.menu-content ul li a {
+    text-decoration: none;
+    color: inherit;
 }
 .menu-btn-close img {
     width: 24px;
